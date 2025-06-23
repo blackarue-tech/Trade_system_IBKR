@@ -1,0 +1,692 @@
+{
+  "2025-06-16": {
+    "trades": [
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T10:56:00.634000+00:00",
+        "entry_price": 119.64,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T10:57:00.634000+00:00",
+        "entry_price": 119.64,
+        "confidence": 1.0,
+        "strategies_used": [
+          "Breakout",
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T11:06:00.634000+00:00",
+        "entry_price": 119.64,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T11:17:00.634000+00:00",
+        "entry_price": 119.64,
+        "confidence": 1.0,
+        "strategies_used": [
+          "Breakout",
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T11:56:00.634000+00:00",
+        "entry_price": 119.64,
+        "confidence": 1.0,
+        "strategies_used": [
+          "Breakout",
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T11:57:00.634000+00:00",
+        "entry_price": 119.64,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T11:59:00.634000+00:00",
+        "entry_price": 119.64,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T13:30:00.634000+00:00",
+        "entry_price": 119.64,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T13:31:00.634000+00:00",
+        "entry_price": 119.64,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T13:32:00.634000+00:00",
+        "entry_price": 119.64,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T13:46:00.634000+00:00",
+        "entry_price": 119.64,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "AAPL",
+        "datetime": "2025-06-16T11:57:00.851000+00:00",
+        "entry_price": 197.91,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "AAPL",
+        "datetime": "2025-06-16T12:21:00.851000+00:00",
+        "entry_price": 197.91,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "AAPL",
+        "datetime": "2025-06-16T13:54:00.851000+00:00",
+        "entry_price": 197.91,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T08:16:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T08:24:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T08:27:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T08:29:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T08:30:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T08:36:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 1.0,
+        "strategies_used": [
+          "Breakout",
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T10:35:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 1.0,
+        "strategies_used": [
+          "Breakout",
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T10:48:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T10:51:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T10:53:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T10:56:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 1.0,
+        "strategies_used": [
+          "Breakout",
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T11:29:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T11:30:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 1.0,
+        "strategies_used": [
+          "Breakout",
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T11:37:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 1.0,
+        "strategies_used": [
+          "Breakout",
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T11:45:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T12:18:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T12:19:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T12:22:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 1.0,
+        "strategies_used": [
+          "Breakout",
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T12:39:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T13:26:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T13:29:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 1.0,
+        "strategies_used": [
+          "Breakout",
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T13:30:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T13:31:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T13:32:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T13:48:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "NVDA",
+        "datetime": "2025-06-16T13:54:00.785000+00:00",
+        "entry_price": 144.51,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "TSLA",
+        "datetime": "2025-06-16T11:35:00.546000+00:00",
+        "entry_price": 329.9954,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "TSLA",
+        "datetime": "2025-06-16T11:44:00.546000+00:00",
+        "entry_price": 329.9954,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "TSLA",
+        "datetime": "2025-06-16T11:57:00.546000+00:00",
+        "entry_price": 329.9954,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "TSLA",
+        "datetime": "2025-06-16T12:15:00.546000+00:00",
+        "entry_price": 329.9954,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "TSLA",
+        "datetime": "2025-06-16T12:16:00.546000+00:00",
+        "entry_price": 329.9954,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "TSLA",
+        "datetime": "2025-06-16T12:17:00.546000+00:00",
+        "entry_price": 329.9954,
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "entry_price_source": "fallback",
+        "status": "open"
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T10:56:00.156000+00:00",
+        "entry_price": 120.0621,
+        "entry_price_source": "fallback",
+        "confidence": 0.75,
+        "strategies_used": [
+          "Breakout",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "status": "open",
+        "shares": 7,
+        "capital_used": 840.43
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T10:57:00.156000+00:00",
+        "entry_price": 120.0621,
+        "entry_price_source": "fallback",
+        "confidence": 1.0,
+        "strategies_used": [
+          "Breakout",
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "status": "open",
+        "shares": 10,
+        "capital_used": 1200.62
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T11:06:00.156000+00:00",
+        "entry_price": 120.0621,
+        "entry_price_source": "fallback",
+        "confidence": 0.75,
+        "strategies_used": [
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "status": "open",
+        "shares": 7,
+        "capital_used": 840.43
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T11:17:00.156000+00:00",
+        "entry_price": 120.0621,
+        "entry_price_source": "fallback",
+        "confidence": 1.0,
+        "strategies_used": [
+          "Breakout",
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "status": "open",
+        "shares": 10,
+        "capital_used": 1200.62
+      },
+      {
+        "symbol": "MU",
+        "datetime": "2025-06-16T11:56:00.156000+00:00",
+        "entry_price": 120.0621,
+        "entry_price_source": "fallback",
+        "confidence": 1.0,
+        "strategies_used": [
+          "Breakout",
+          "Momentum",
+          "VWAP_Bounce",
+          "ORB"
+        ],
+        "status": "open",
+        "shares": 7,
+        "capital_used": 840.43
+      }
+    ]
+  }
+}

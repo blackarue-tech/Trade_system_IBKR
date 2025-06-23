@@ -1,0 +1,31 @@
+{
+  "Breakout": {
+    "min_hold_min": 5,
+    "trailing_stop_pct": 0.01,
+    "exit_signals": [
+      "breakout_fail",
+      "target"
+    ]
+  },
+  "Momentum": {
+    "min_hold_min": 2,
+    "trailing_stop_pct": 0.008,
+    "exit_signals": [
+      "rsi_drop"
+    ]
+  },
+  "VWAP_Bounce": {
+    "min_hold_min": 3,
+    "trailing_stop_pct": 0.012,
+    "exit_signals": [
+      "vwap_reversion"
+    ]
+  },
+  "MACD": {
+    "min_hold_min": 5,
+    "trailing_stop_pct": 0.01,
+    "exit_signals": [
+      "macd_bearish"
+    ]
+  }
+}

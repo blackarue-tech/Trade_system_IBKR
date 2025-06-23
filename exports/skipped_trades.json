@@ -1,0 +1,1202 @@
+[
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:13.809567-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:13.821143-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:13.833839-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:13.847559-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:13.859007-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.670812-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.674530-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.685402-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.695822-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.708443-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.721137-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.731441-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.743892-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.754112-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.765515-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.779010-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.790045-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.802248-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.816724-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.829086-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.844341-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.857160-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.867850-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.883107-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.894927-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.905561-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.919744-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.931432-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.948582-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.959394-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.969013-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.983519-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:31:45.994218-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.793430-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.793430-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.809516-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.809516-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.825283-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.825283-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.841034-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.865143-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.865143-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.886894-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.898190-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.917168-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.927964-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.941059-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.948418-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.964424-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.980288-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:17.999776-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:18.015489-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:18.021307-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:18.035019-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:18.048624-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:18.048624-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:18.077278-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:18.086701-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:18.098248-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:18.098248-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:18.114022-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:49.951946-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:49.955107-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:49.964966-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:49.973796-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:49.981994-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:49.991003-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.003422-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.016432-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.027093-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.038936-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.050718-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.060592-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.073196-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.083176-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.097344-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.109313-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.121700-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.135688-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.149915-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.163663-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.177718-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.189069-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.199822-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.208554-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.218604-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.228287-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.238288-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:32:50.252144-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.148766-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.154796-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.171951-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.190256-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.210173-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.230980-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.248098-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.272371-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.290456-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.303529-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.316423-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.341125-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.358637-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.374152-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.391104-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.406328-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.419254-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.433463-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.449339-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.466109-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.480471-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.496460-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.512504-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.528484-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.551563-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.565741-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.589327-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:22.609629-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.591757-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.594843-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.604191-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.614342-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.626416-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.636245-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.645913-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.656082-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.667191-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.679709-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.691108-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.702495-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.713823-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.723452-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.733015-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.748599-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.759220-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.771483-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.781291-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.794720-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.806494-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.819060-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.830236-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.839904-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.849383-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.858430-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.867017-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:33:54.877610-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:26.642105-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:26.645114-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:26.654950-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:26.663499-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:26.671953-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.002788-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.005958-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.018206-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.028483-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.038240-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.048581-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.057959-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.068476-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.078180-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.088045-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.096424-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.107397-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.121129-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.130226-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.140152-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.152245-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.163196-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.175421-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.188043-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.199778-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.213420-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:27.223879-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:58.995858-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:58.999063-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.009034-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.019143-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.027656-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.040029-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.051869-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.064078-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.074546-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.087216-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.099959-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.113003-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.127337-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.139203-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "MU",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.150808-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.163260-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.174108-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.186056-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.195860-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.208710-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.223965-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "AAPL",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.233849-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.244928-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.255947-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "NVDA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.267850-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.279008-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.294069-04:00",
+    "context": {}
+  },
+  {
+    "symbol": "TSLA",
+    "reason": "already_traded",
+    "time": "2025-06-23T10:34:59.305471-04:00",
+    "context": {}
+  }
+]
