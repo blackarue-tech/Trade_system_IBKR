@@ -105,33 +105,50 @@ def refresh_token_request(refresh_token):
     return new_data
 
 # Unified safe request
-def safe_questrade_request(endpoint, token_path=TOKEN_PATH, params=None, max_retries=2):
+
+def safe_questrade_request(endpoint, token_path=TOKEN_PATH, params=None, max_retries=3):
     attempt = 0
+    force_refresh = False
+
     while attempt < max_retries:
         try:
             token_data = get_access_token(token_path)
+
+            if force_refresh:
+                print("🔁 Forcing token refresh...")
+                token_data = refresh_token_request(token_data['refresh_token'])
+                with open(token_path, "w") as f:
+                    json.dump(token_data, f, indent=2)
+
             headers = {"Authorization": f"Bearer {token_data['access_token']}"}
-            url = f"{token_data['api_server']}{endpoint}"
+            url = f"{token_data['api_server'].rstrip('/')}{endpoint}"
+            response = requests.get(url, headers=headers, params=params, timeout=10)
 
-            #logging.info(f"🔎 Request attempt {attempt + 1}: {url}")
-            response = requests.get(url, headers=headers, params=params)
-
+            # Handle 401 (unauthorized)
             if response.status_code == 401:
-                logging.warning("⚠️ Token rejected. Attempting auto-refresh...")
-                token_data = get_access_token(token_path)  # triggers refresh
-                headers = {"Authorization": f"Bearer {token_data['access_token']}"}
-                url = f"{token_data['api_server']}{endpoint}"
-                response = requests.get(url, headers=headers, params=params)
+                logging.warning("⚠️ Token rejected with 401. Will refresh and retry.")
+                force_refresh = True
+                attempt += 1
+                continue
+
+            # Handle 504 (timeout)
+            if response.status_code == 504:
+                logging.warning(f"⚠️ Questrade 504 timeout on attempt {attempt + 1}. Retrying...")
+                time.sleep(1.5)
+                attempt += 1
+                continue
 
             response.raise_for_status()
             return response.json()
+
         except Exception as e:
-            logging.error(f"Attempt {attempt + 1} failed for {endpoint}: {e}")
+            logging.error(f"❌ Attempt {attempt + 1} failed for {endpoint}: {e}")
             attempt += 1
-            time.sleep(1)
+            time.sleep(1.5)
 
     logging.error(f"❌ All {max_retries} attempts failed for endpoint: {endpoint}")
     return None
+
 
 # Quote fetch using safe wrapper
 def get_quote(symbol_id, token_path=TOKEN_PATH):

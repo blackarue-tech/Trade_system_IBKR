@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "AMZN",
+    "symbolId": 7410,
+    "confidence": 0.6,
+    "strategies": [
+      "MACD",
+      "RSI"
+    ],
+    "timestamp": "2025-06-26T14:58:00.418000-04:00"
+  },
+  {
+    "symbol": "AVGO",
+    "symbolId": 21109371,
+    "confidence": 0.6,
+    "strategies": [
+      "MACD",
+      "RSI"
+    ],
+    "timestamp": "2025-06-27T09:16:00.099000-04:00"
+  },
+  {
+    "symbol": "LLY",
+    "symbolId": 25717,
+    "confidence": 0.6,
+    "strategies": [
+      "MACD",
+      "RSI"
+    ],
+    "timestamp": "2025-06-27T10:59:00.352000-04:00"
+  },
+  {
+    "symbol": "NFLX",
+    "symbolId": 28768,
+    "confidence": 0.6,
+    "strategies": [
+      "MACD",
+      "RSI"
+    ],
+    "timestamp": "2025-06-27T13:50:00.384000-04:00"
+  }
+]

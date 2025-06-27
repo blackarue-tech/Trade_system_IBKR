@@ -11,7 +11,7 @@ from sklearn.exceptions import DataConversionWarning
 
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=DataConversionWarning)
-
+EMA_WINDOW = 20
 FEATURE_COLUMNS = [
     "MA20", "STD20", "UpperBB", "LowerBB", "bb_width",
     "EMA12", "EMA26", "MACD", "Signal", "macd_hist",
@@ -37,10 +37,16 @@ def get_recent_daily_data(symbol_id, days=90):
     start = end - timedelta(days=days)
     return get_price_data(symbol_id, days=days, interval="OneDay")
 
+def set_ema_window(value):
+    global EMA_WINDOW
+    EMA_WINDOW = value
 
 def add_technical_indicators(df):
-    if "datetime" not in df.columns and "start" in df.columns:
-        df["datetime"] = pd.to_datetime(df["start"], errors="coerce", utc=True)
+    # Fix timestamp column detection
+    for time_col in ["datetime", "start", "timestamp", "time"]:
+        if time_col in df.columns:
+            df["datetime"] = pd.to_datetime(df[time_col], errors="coerce", utc=True)
+            break
 
     if "datetime" in df.columns:
         df["datetime"] = pd.to_datetime(df["datetime"], errors="coerce", utc=True)
@@ -51,7 +57,7 @@ def add_technical_indicators(df):
             print("⚠️ datetime column exists but is all NaT, skipping index set.")
     else:
         print("⚠️ 'datetime' column missing from DataFrame before technical indicators.")
-
+        
     df["MA_fast"] = df["close"].rolling(window=9).mean()
     df["MA_slow"] = df["close"].rolling(window=21).mean()
     df["high20"] = df["high"].rolling(window=20).max()
@@ -83,6 +89,11 @@ def add_technical_indicators(df):
     df["log_return"] = np.log(df["close"] / df["close"].shift(1))
     df["volatility"] = df["log_return"].rolling(window=14).std()
 
+    ema_window = EMA_WINDOW
+    df[f"ema{ema_window}"] = df["close"].ewm(span=ema_window).mean()
+    # keep the column also accessible as "ema20" for compatibility:
+    if ema_window == 20:
+        df["ema20"] = df[f"ema{ema_window}"]
     return df
 
 def apply_context_penalty(strategy, rsi, volatility, macd_hist, confidence):

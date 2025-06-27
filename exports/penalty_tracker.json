@@ -1,0 +1,80 @@
+{
+  "MSFT": {
+    "under_scrutiny_since": "2025-06-26T23:16:34.334225-04:00",
+    "recent_confidences": [
+      0.61,
+      0.63,
+      0.65
+    ],
+    "recent_signals": [
+      {
+        "timestamp": "2025-06-26T14:01:00-04:00",
+        "confidence": 0.61,
+        "strategies": [
+          "MACD",
+          "RSI"
+        ]
+      },
+      {
+        "timestamp": "2025-06-26T14:06:00-04:00",
+        "confidence": 0.63,
+        "strategies": [
+          "MACD",
+          "RSI"
+        ]
+      },
+      {
+        "timestamp": "2025-06-26T14:11:00-04:00",
+        "confidence": 0.65,
+        "strategies": [
+          "MACD",
+          "Breakout"
+        ]
+      }
+    ],
+    "last_trade_pnls": [
+      -20.1,
+      -10.4,
+      -7.5
+    ],
+    "recovered": false
+  },
+  "ABT": {
+    "under_scrutiny_since": "2025-06-26T23:16:34.334276-04:00",
+    "recent_confidences": [
+      0.55,
+      0.58,
+      0.59
+    ],
+    "recent_signals": [
+      {
+        "timestamp": "2025-06-26T13:45:00-04:00",
+        "confidence": 0.55,
+        "strategies": [
+          "MACD"
+        ]
+      },
+      {
+        "timestamp": "2025-06-26T13:50:00-04:00",
+        "confidence": 0.58,
+        "strategies": [
+          "RSI"
+        ]
+      },
+      {
+        "timestamp": "2025-06-26T13:55:00-04:00",
+        "confidence": 0.59,
+        "strategies": [
+          "MACD",
+          "RSI"
+        ]
+      }
+    ],
+    "last_trade_pnls": [
+      -3.1,
+      1.4,
+      -0.2
+    ],
+    "recovered": false
+  }
+}

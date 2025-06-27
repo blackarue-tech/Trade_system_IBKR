@@ -1,0 +1,41 @@
+{
+  "live_executor": {
+    "timestamp": "2025-06-27T14:37:00.410635",
+    "last_executed": "2025-06-27T14:37:00.393859",
+    "open_trades": 6
+  },
+  "ai_daemon": {
+    "timestamp": "2025-06-27T14:37:17.885882",
+    "top_strategy": "Breakout",
+    "sharpe": -0.01,
+    "drawdown": 97.91
+  },
+  "exit_executor": {
+    "timestamp": "2025-06-27T14:37:44.261464",
+    "trades_closed": 214,
+    "remaining_open": 0
+  },
+  "signal_engine": {
+    "timestamp": "2025-06-26T11:59:47.100900",
+    "top_symbols": [
+      "MSFT",
+      "NFLX",
+      "COST",
+      "HD"
+    ],
+    "count": 4
+  },
+  "signal_engine_monitor": {
+    "timestamp": "2025-06-27T14:37:56.508420",
+    "count": 710
+  },
+  "signal_engine_top": {
+    "timestamp": "2025-06-27T14:35:22.506404",
+    "symbols": [
+      "AMZN",
+      "AVGO",
+      "LLY",
+      "NFLX"
+    ]
+  }
+}

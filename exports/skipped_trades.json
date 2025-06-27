@@ -1,1202 +1,1202 @@
 [
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:13.809567-04:00",
+    "time": "2025-06-27T14:37:22.595842-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:13.821143-04:00",
+    "time": "2025-06-27T14:37:22.763758-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:13.833839-04:00",
+    "time": "2025-06-27T14:37:22.933735-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:13.847559-04:00",
+    "time": "2025-06-27T14:37:23.181702-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:13.859007-04:00",
+    "time": "2025-06-27T14:37:23.344856-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.670812-04:00",
+    "time": "2025-06-27T14:37:23.512616-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.674530-04:00",
+    "time": "2025-06-27T14:37:23.725060-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.685402-04:00",
+    "time": "2025-06-27T14:37:23.910115-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.695822-04:00",
+    "time": "2025-06-27T14:37:24.075137-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.708443-04:00",
+    "time": "2025-06-27T14:37:24.252801-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.721137-04:00",
+    "time": "2025-06-27T14:37:24.407033-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.731441-04:00",
+    "time": "2025-06-27T14:37:24.586654-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.743892-04:00",
+    "time": "2025-06-27T14:37:24.761214-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.754112-04:00",
+    "time": "2025-06-27T14:37:24.964405-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.765515-04:00",
+    "time": "2025-06-27T14:37:25.128120-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.779010-04:00",
+    "time": "2025-06-27T14:37:25.373931-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.790045-04:00",
+    "time": "2025-06-27T14:37:25.614285-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.802248-04:00",
+    "time": "2025-06-27T14:37:25.766273-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.816724-04:00",
+    "time": "2025-06-27T14:37:25.932252-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.829086-04:00",
+    "time": "2025-06-27T14:37:26.101151-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.844341-04:00",
+    "time": "2025-06-27T14:37:26.276439-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.857160-04:00",
+    "time": "2025-06-27T14:37:26.450561-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.867850-04:00",
+    "time": "2025-06-27T14:37:26.623369-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.883107-04:00",
+    "time": "2025-06-27T14:37:26.787774-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.894927-04:00",
+    "time": "2025-06-27T14:37:26.955114-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.905561-04:00",
+    "time": "2025-06-27T14:37:27.169488-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.919744-04:00",
+    "time": "2025-06-27T14:37:27.348590-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.931432-04:00",
+    "time": "2025-06-27T14:37:27.525895-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.948582-04:00",
+    "time": "2025-06-27T14:37:27.709545-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.959394-04:00",
+    "time": "2025-06-27T14:37:27.943899-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.969013-04:00",
+    "time": "2025-06-27T14:37:28.122110-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.983519-04:00",
+    "time": "2025-06-27T14:37:28.329613-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:31:45.994218-04:00",
+    "time": "2025-06-27T14:37:28.485503-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.793430-04:00",
+    "time": "2025-06-27T14:37:28.678989-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.793430-04:00",
+    "time": "2025-06-27T14:37:28.863551-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.809516-04:00",
+    "time": "2025-06-27T14:37:29.027242-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.809516-04:00",
+    "time": "2025-06-27T14:37:29.204264-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.825283-04:00",
+    "time": "2025-06-27T14:37:29.413562-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.825283-04:00",
+    "time": "2025-06-27T14:37:29.588958-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.841034-04:00",
+    "time": "2025-06-27T14:37:29.744908-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.865143-04:00",
+    "time": "2025-06-27T14:37:29.928793-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.865143-04:00",
+    "time": "2025-06-27T14:37:30.095818-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.886894-04:00",
+    "time": "2025-06-27T14:37:30.319511-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.898190-04:00",
+    "time": "2025-06-27T14:37:30.477380-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.917168-04:00",
+    "time": "2025-06-27T14:37:30.660514-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.927964-04:00",
+    "time": "2025-06-27T14:37:30.841981-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.941059-04:00",
+    "time": "2025-06-27T14:37:31.036455-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.948418-04:00",
+    "time": "2025-06-27T14:37:31.289875-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.964424-04:00",
+    "time": "2025-06-27T14:37:31.444696-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.980288-04:00",
+    "time": "2025-06-27T14:37:31.624891-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:17.999776-04:00",
+    "time": "2025-06-27T14:37:31.800999-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:18.015489-04:00",
+    "time": "2025-06-27T14:37:31.978337-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:18.021307-04:00",
+    "time": "2025-06-27T14:37:32.173972-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:18.035019-04:00",
+    "time": "2025-06-27T14:37:32.345449-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:18.048624-04:00",
+    "time": "2025-06-27T14:37:32.527266-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:18.048624-04:00",
+    "time": "2025-06-27T14:37:32.717678-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:18.077278-04:00",
+    "time": "2025-06-27T14:37:32.875544-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:18.086701-04:00",
+    "time": "2025-06-27T14:37:33.065903-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:18.098248-04:00",
+    "time": "2025-06-27T14:37:33.256062-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:18.098248-04:00",
+    "time": "2025-06-27T14:37:33.446519-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:18.114022-04:00",
+    "time": "2025-06-27T14:37:33.612067-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:49.951946-04:00",
+    "time": "2025-06-27T14:37:33.795664-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:49.955107-04:00",
+    "time": "2025-06-27T14:37:33.984010-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:49.964966-04:00",
+    "time": "2025-06-27T14:37:34.159865-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:49.973796-04:00",
+    "time": "2025-06-27T14:37:34.350485-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:49.981994-04:00",
+    "time": "2025-06-27T14:37:34.538903-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:49.991003-04:00",
+    "time": "2025-06-27T14:37:34.718693-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.003422-04:00",
+    "time": "2025-06-27T14:37:34.886549-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.016432-04:00",
+    "time": "2025-06-27T14:37:35.041674-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.027093-04:00",
+    "time": "2025-06-27T14:37:35.231488-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.038936-04:00",
+    "time": "2025-06-27T14:37:35.429211-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.050718-04:00",
+    "time": "2025-06-27T14:37:35.602291-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.060592-04:00",
+    "time": "2025-06-27T14:37:35.786013-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.073196-04:00",
+    "time": "2025-06-27T14:37:35.961156-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.083176-04:00",
+    "time": "2025-06-27T14:37:36.124467-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.097344-04:00",
+    "time": "2025-06-27T14:37:36.340791-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.109313-04:00",
+    "time": "2025-06-27T14:37:36.501496-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.121700-04:00",
+    "time": "2025-06-27T14:37:36.676593-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.135688-04:00",
+    "time": "2025-06-27T14:37:36.856062-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.149915-04:00",
+    "time": "2025-06-27T14:37:37.032061-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.163663-04:00",
+    "time": "2025-06-27T14:37:37.225938-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.177718-04:00",
+    "time": "2025-06-27T14:37:37.389935-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.189069-04:00",
+    "time": "2025-06-27T14:37:37.599329-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.199822-04:00",
+    "time": "2025-06-27T14:37:37.792229-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.208554-04:00",
+    "time": "2025-06-27T14:37:37.970845-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.218604-04:00",
+    "time": "2025-06-27T14:37:38.152380-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.228287-04:00",
+    "time": "2025-06-27T14:37:38.321867-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.238288-04:00",
+    "time": "2025-06-27T14:37:38.547964-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:32:50.252144-04:00",
+    "time": "2025-06-27T14:37:38.737865-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.148766-04:00",
+    "time": "2025-06-27T14:37:38.902004-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.154796-04:00",
+    "time": "2025-06-27T14:37:39.068444-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AMZN",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.171951-04:00",
+    "time": "2025-06-27T14:37:39.240922-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.190256-04:00",
+    "time": "2025-06-27T14:37:39.410866-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.210173-04:00",
+    "time": "2025-06-27T14:37:39.579405-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.230980-04:00",
+    "time": "2025-06-27T14:37:39.736186-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.248098-04:00",
+    "time": "2025-06-27T14:37:39.917490-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.272371-04:00",
+    "time": "2025-06-27T14:37:40.091349-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.290456-04:00",
+    "time": "2025-06-27T14:37:40.302792-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.303529-04:00",
+    "time": "2025-06-27T14:37:40.481238-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.316423-04:00",
+    "time": "2025-06-27T14:37:40.667319-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.341125-04:00",
+    "time": "2025-06-27T14:37:40.858278-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.358637-04:00",
+    "time": "2025-06-27T14:37:41.026672-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.374152-04:00",
+    "time": "2025-06-27T14:37:41.217091-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.391104-04:00",
+    "time": "2025-06-27T14:37:41.401778-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.406328-04:00",
+    "time": "2025-06-27T14:37:41.561073-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.419254-04:00",
+    "time": "2025-06-27T14:37:41.713133-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.433463-04:00",
+    "time": "2025-06-27T14:37:41.910194-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.449339-04:00",
+    "time": "2025-06-27T14:37:42.104537-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.466109-04:00",
+    "time": "2025-06-27T14:37:42.299608-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.480471-04:00",
+    "time": "2025-06-27T14:37:42.477202-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.496460-04:00",
+    "time": "2025-06-27T14:37:42.657977-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.512504-04:00",
+    "time": "2025-06-27T14:37:42.842628-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.528484-04:00",
+    "time": "2025-06-27T14:37:43.045349-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.551563-04:00",
+    "time": "2025-06-27T14:37:43.210265-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.565741-04:00",
+    "time": "2025-06-27T14:37:43.401072-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.589327-04:00",
+    "time": "2025-06-27T14:37:43.564347-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:22.609629-04:00",
+    "time": "2025-06-27T14:37:43.744304-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.591757-04:00",
+    "time": "2025-06-27T14:37:43.907691-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.594843-04:00",
+    "time": "2025-06-27T14:37:44.068163-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.604191-04:00",
+    "time": "2025-06-27T14:37:44.259387-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.614342-04:00",
+    "time": "2025-06-27T14:37:44.415507-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.626416-04:00",
+    "time": "2025-06-27T14:37:44.577138-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.636245-04:00",
+    "time": "2025-06-27T14:37:44.737316-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.645913-04:00",
+    "time": "2025-06-27T14:37:44.935278-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.656082-04:00",
+    "time": "2025-06-27T14:37:45.106268-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.667191-04:00",
+    "time": "2025-06-27T14:37:45.308935-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.679709-04:00",
+    "time": "2025-06-27T14:37:45.476517-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.691108-04:00",
+    "time": "2025-06-27T14:37:45.642694-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.702495-04:00",
+    "time": "2025-06-27T14:37:45.810636-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.713823-04:00",
+    "time": "2025-06-27T14:37:45.984558-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.723452-04:00",
+    "time": "2025-06-27T14:37:46.147239-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.733015-04:00",
+    "time": "2025-06-27T14:37:46.314563-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.748599-04:00",
+    "time": "2025-06-27T14:37:46.505791-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.759220-04:00",
+    "time": "2025-06-27T14:37:46.700332-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.771483-04:00",
+    "time": "2025-06-27T14:37:46.878259-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.781291-04:00",
+    "time": "2025-06-27T14:37:47.060511-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.794720-04:00",
+    "time": "2025-06-27T14:37:47.245270-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.806494-04:00",
+    "time": "2025-06-27T14:37:47.423335-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.819060-04:00",
+    "time": "2025-06-27T14:37:47.594215-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.830236-04:00",
+    "time": "2025-06-27T14:37:47.774467-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.839904-04:00",
+    "time": "2025-06-27T14:37:47.983438-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.849383-04:00",
+    "time": "2025-06-27T14:37:48.172798-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.858430-04:00",
+    "time": "2025-06-27T14:37:48.339238-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.867017-04:00",
+    "time": "2025-06-27T14:37:48.521356-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:33:54.877610-04:00",
+    "time": "2025-06-27T14:37:48.695236-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:26.642105-04:00",
+    "time": "2025-06-27T14:37:48.878547-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:26.645114-04:00",
+    "time": "2025-06-27T14:37:49.060507-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:26.654950-04:00",
+    "time": "2025-06-27T14:37:49.228015-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:26.663499-04:00",
+    "time": "2025-06-27T14:37:49.395102-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:26.671953-04:00",
+    "time": "2025-06-27T14:37:49.566809-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.002788-04:00",
+    "time": "2025-06-27T14:37:49.733543-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.005958-04:00",
+    "time": "2025-06-27T14:37:49.899976-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.018206-04:00",
+    "time": "2025-06-27T14:37:50.075100-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.028483-04:00",
+    "time": "2025-06-27T14:37:50.293290-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.038240-04:00",
+    "time": "2025-06-27T14:37:50.474020-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.048581-04:00",
+    "time": "2025-06-27T14:37:50.672776-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.057959-04:00",
+    "time": "2025-06-27T14:37:50.865957-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.068476-04:00",
+    "time": "2025-06-27T14:37:51.043361-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.078180-04:00",
+    "time": "2025-06-27T14:37:51.227297-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.088045-04:00",
+    "time": "2025-06-27T14:37:51.393679-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.096424-04:00",
+    "time": "2025-06-27T14:37:51.588823-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.107397-04:00",
+    "time": "2025-06-27T14:37:51.852116-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.121129-04:00",
+    "time": "2025-06-27T14:37:52.022413-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.130226-04:00",
+    "time": "2025-06-27T14:37:52.190763-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.140152-04:00",
+    "time": "2025-06-27T14:37:52.373160-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.152245-04:00",
+    "time": "2025-06-27T14:37:52.526771-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.163196-04:00",
+    "time": "2025-06-27T14:37:52.718096-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.175421-04:00",
+    "time": "2025-06-27T14:37:52.877894-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.188043-04:00",
+    "time": "2025-06-27T14:37:53.054356-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.199778-04:00",
+    "time": "2025-06-27T14:37:53.243211-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.213420-04:00",
+    "time": "2025-06-27T14:37:53.441640-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:27.223879-04:00",
+    "time": "2025-06-27T14:37:53.612194-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:58.995858-04:00",
+    "time": "2025-06-27T14:37:53.781508-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:58.999063-04:00",
+    "time": "2025-06-27T14:37:53.965323-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.009034-04:00",
+    "time": "2025-06-27T14:37:54.127480-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.019143-04:00",
+    "time": "2025-06-27T14:37:54.277334-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.027656-04:00",
+    "time": "2025-06-27T14:37:54.460931-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.040029-04:00",
+    "time": "2025-06-27T14:37:54.627493-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.051869-04:00",
+    "time": "2025-06-27T14:37:54.794949-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.064078-04:00",
+    "time": "2025-06-27T14:37:54.961971-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.074546-04:00",
+    "time": "2025-06-27T14:37:55.132514-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.087216-04:00",
+    "time": "2025-06-27T14:37:55.311296-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.099959-04:00",
+    "time": "2025-06-27T14:37:55.476072-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.113003-04:00",
+    "time": "2025-06-27T14:37:55.653288-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.127337-04:00",
+    "time": "2025-06-27T14:37:55.854675-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.139203-04:00",
+    "time": "2025-06-27T14:37:56.017511-04:00",
     "context": {}
   },
   {
-    "symbol": "MU",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.150808-04:00",
+    "time": "2025-06-27T14:37:56.218141-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.163260-04:00",
+    "time": "2025-06-27T14:37:56.389934-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.174108-04:00",
+    "time": "2025-06-27T14:37:56.556519-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.186056-04:00",
+    "time": "2025-06-27T14:37:56.708391-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.195860-04:00",
+    "time": "2025-06-27T14:37:56.898613-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.208710-04:00",
+    "time": "2025-06-27T14:37:57.123941-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.223965-04:00",
+    "time": "2025-06-27T14:37:57.289973-04:00",
     "context": {}
   },
   {
-    "symbol": "AAPL",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.233849-04:00",
+    "time": "2025-06-27T14:37:57.456868-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.244928-04:00",
+    "time": "2025-06-27T14:37:57.619659-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.255947-04:00",
+    "time": "2025-06-27T14:37:57.793871-04:00",
     "context": {}
   },
   {
-    "symbol": "NVDA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.267850-04:00",
+    "time": "2025-06-27T14:37:58.290301-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.279008-04:00",
+    "time": "2025-06-27T14:37:58.449678-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.294069-04:00",
+    "time": "2025-06-27T14:37:58.605158-04:00",
     "context": {}
   },
   {
-    "symbol": "TSLA",
+    "symbol": "AVGO",
     "reason": "already_traded",
-    "time": "2025-06-23T10:34:59.305471-04:00",
+    "time": "2025-06-27T14:37:58.788934-04:00",
     "context": {}
   }
 ]
