@@ -94,7 +94,13 @@ def analyze_trades(trades_by_day):
             s["total_pnl"] += pnl
             s["pnl_list"].append(pnl)
             if pnl > 0:
-                s["wins"] += 1
+                exit_reason = trade.get("exit_reason", "unknown")
+                if "exit_reason_stats" not in s:
+                    s["exit_reason_stats"] = {}
+                if exit_reason not in s["exit_reason_stats"]:
+                    s["exit_reason_stats"][exit_reason] = {"count": 0, "pnl": 0}
+                s["exit_reason_stats"][exit_reason]["count"] += 1
+                s["exit_reason_stats"][exit_reason]["pnl"] += pnl
 
     # Compute metrics
     for s in summary:
@@ -445,33 +451,41 @@ def ai_loop():
         # === DYNAMIC EARLY EXIT TUNING ===
         early_rules = exit_config.get("early_exit_rules", {})
         for strat, perf in stats.items():
+            er_stats = perf.get("exit_reason_stats", {})
+            scl = er_stats.get("smart_cut_loss", {"count": 0, "pnl": 0})
+            epc = er_stats.get("early_profit_capture", {"count": 0, "pnl": 0})
+
             r = early_rules.get(strat, {})
             if not r:
-                continue
+                # fallback defaults if missing
+                r = {
+                    "profit_pct": 0.0025,
+                    "min_secs": 300,
+                    "loss_pct": -0.002,
+                    "loss_wait_secs": 600
+                }
 
-            # Adjust profit threshold
-            old_profit = r.get("profit_pct", 0.002)
-            if perf["avg_pnl"] > 0.2 and perf["win_rate"] > 0.55:
-                r["profit_pct"] = round(min(old_profit + 0.0005, 0.005), 5)
-            elif perf["avg_pnl"] < 0 and perf["win_rate"] < 0.3:
-                r["profit_pct"] = round(max(old_profit - 0.0005, 0.001), 5)
+            # Adjust smart_cut_loss wait time if frequent and losing
+            if scl["count"] >= 5 and scl["pnl"] < 0:
+                old_wait = r.get("loss_wait_secs", 600)
+                new_wait = min(int(old_wait * 1.2), 1800)
+                if new_wait != old_wait:
+                    r["loss_wait_secs"] = new_wait
+                    print(f"🛠️ {strat}: Increased loss_wait_secs {old_wait} ➔ {new_wait}")
 
-            # Adjust loss threshold
-            old_loss = r.get("loss_pct", -0.0015)
-            if perf["drawdown"] > 3:
-                r["loss_pct"] = round(old_loss * 1.1, 5)  # loosen
-            elif perf["sharpe"] > 1.5:
-                r["loss_pct"] = round(old_loss * 0.9, 5)  # tighten
-
-            # Adjust wait times
-            r["min_secs"] = max(180, int(perf["avg_duration"] * 60 * 0.8))
-            r["loss_wait_secs"] = max(300, int(perf["avg_duration"] * 60 * 1.2))
+            # Adjust early_profit_capture min_secs if frequent and profitable
+            if epc["count"] >= 5 and epc["pnl"] > 0:
+                old_min = r.get("min_secs", 300)
+                new_min = max(int(old_min * 0.9), 120)
+                if new_min != old_min:
+                    r["min_secs"] = new_min
+                    print(f"🛠️ {strat}: Reduced min_secs {old_min} ➔ {new_min}")
 
             early_rules[strat] = r
 
         exit_config["early_exit_rules"] = early_rules
         save_config(exit_config, EXIT_CONFIG_PATH)
-        print("🧠 Tuned early exit rules based on recent trade stats.")
+        print("✅ AI Daemon: Tuned early exit rules based on exit_reason performance.")
         
         # Load AI decision log and get last decision for comparison
         log_data = []

@@ -1,18 +1,18 @@
 {
   "live_executor": {
-    "timestamp": "2025-06-27T14:37:00.410635",
-    "last_executed": "2025-06-27T14:37:00.393859",
-    "open_trades": 6
+    "timestamp": "2025-06-27T16:00:10.036371",
+    "last_executed": "2025-06-27T16:00:10.029489",
+    "open_trades": 0
   },
   "ai_daemon": {
-    "timestamp": "2025-06-27T14:37:17.885882",
+    "timestamp": "2025-06-27T19:36:46.749831",
     "top_strategy": "Breakout",
-    "sharpe": -0.01,
-    "drawdown": 97.91
+    "sharpe": -0.0,
+    "drawdown": 102.93
   },
   "exit_executor": {
-    "timestamp": "2025-06-27T14:37:44.261464",
-    "trades_closed": 214,
+    "timestamp": "2025-06-27T19:37:43.079830",
+    "trades_closed": 260,
     "remaining_open": 0
   },
   "signal_engine": {
@@ -26,16 +26,16 @@
     "count": 4
   },
   "signal_engine_monitor": {
-    "timestamp": "2025-06-27T14:37:56.508420",
-    "count": 710
+    "timestamp": "2025-06-27T19:37:09.096728",
+    "count": 115
   },
   "signal_engine_top": {
-    "timestamp": "2025-06-27T14:35:22.506404",
+    "timestamp": "2025-06-27T16:19:21.952706",
     "symbols": [
-      "AMZN",
       "AVGO",
       "LLY",
-      "NFLX"
+      "V",
+      "MA"
     ]
   }
 }

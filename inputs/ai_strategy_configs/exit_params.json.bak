@@ -13,13 +13,13 @@
     "Breakout": {
       "profit_pct": 0.0025,
       "min_secs": 180,
-      "loss_pct": -70.70473,
+      "loss_pct": 0.01223,
       "loss_wait_secs": 300
     },
     "Momentum": {
       "profit_pct": 0.002,
       "min_secs": 180,
-      "loss_pct": -70.70473,
+      "loss_pct": 0.01223,
       "loss_wait_secs": 300
     },
     "VWAP_Bounce": {
@@ -30,9 +30,9 @@
     },
     "MACD": {
       "profit_pct": 0.0015,
-      "min_secs": 205,
-      "loss_pct": -4.86792,
-      "loss_wait_secs": 308
+      "min_secs": 212,
+      "loss_pct": -0.00821,
+      "loss_wait_secs": 318
     }
   },
   "Breakout": {

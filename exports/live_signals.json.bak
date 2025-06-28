@@ -1,15 +1,5 @@
 [
   {
-    "symbol": "AMZN",
-    "symbolId": 7410,
-    "confidence": 0.6,
-    "strategies": [
-      "MACD",
-      "RSI"
-    ],
-    "timestamp": "2025-06-26T14:58:00.416000-04:00"
-  },
-  {
     "symbol": "AVGO",
     "symbolId": 21109371,
     "confidence": 0.6,
@@ -17,7 +7,7 @@
       "MACD",
       "RSI"
     ],
-    "timestamp": "2025-06-27T09:16:00.595000-04:00"
+    "timestamp": "2025-06-27T14:58:00.473000-04:00"
   },
   {
     "symbol": "LLY",
@@ -27,16 +17,26 @@
       "MACD",
       "RSI"
     ],
-    "timestamp": "2025-06-27T10:57:00.529000-04:00"
+    "timestamp": "2025-06-27T10:58:00.995000-04:00"
   },
   {
-    "symbol": "NFLX",
-    "symbolId": 28768,
+    "symbol": "V",
+    "symbolId": 40825,
     "confidence": 0.6,
     "strategies": [
       "MACD",
       "RSI"
     ],
-    "timestamp": "2025-06-27T13:50:00.479000-04:00"
+    "timestamp": "2025-06-27T15:00:00.319000-04:00"
+  },
+  {
+    "symbol": "MA",
+    "symbolId": 26808,
+    "confidence": 0.6,
+    "strategies": [
+      "MACD",
+      "RSI"
+    ],
+    "timestamp": "2025-06-27T14:59:00.738000-04:00"
   }
 ]

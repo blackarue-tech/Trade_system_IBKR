@@ -69,10 +69,10 @@ def append_signal_log(symbol, timestamp, confidence, strategies):
         "strategies": ", ".join(strategies)
     }
     df = pd.DataFrame([row])
-    if not os.path.exists(LOG_PATH):
-        df.to_csv(LOG_PATH, index=False)
-    else:
-        df.to_csv(LOG_PATH, mode='a', header=False, index=False)
+    #if not os.path.exists(LOG_PATH):
+        #df.to_csv(LOG_PATH, index=False)
+    #else:
+        #df.to_csv(LOG_PATH, mode='a', header=False, index=False)
         
 def get_strategy_signals(symbol, df, min_confidence=0.5, debug=False, config=None):
     #print(f"📊 Running signal check for {symbol} - total rows: {len(df)}")
@@ -149,9 +149,9 @@ def get_strategy_signals(symbol, df, min_confidence=0.5, debug=False, config=Non
             strategies.append("MA_Cross")
             debug_info["strategies_fired"].append("MA_Cross")
 
-        debug_info["confidence"] = confidence
-        debug_info["strategies"] = ",".join(strategies)
-        debug_log_rows.append(debug_info)
+        #debug_info["confidence"] = confidence
+        #debug_info["strategies"] = ",".join(strategies)
+        #debug_log_rows.append(debug_info)
 
         if confidence >= min_confidence:
             #print(f"✅ {symbol} @ {timestamp}: conf={confidence:.2f} from {strategies}")
@@ -165,9 +165,9 @@ def get_strategy_signals(symbol, df, min_confidence=0.5, debug=False, config=Non
             })
 
     # ✅ Export debug CSV after loop
-    if debug and debug_log_rows:
-        debug_df = pd.DataFrame(debug_log_rows)
-        timestamp_str = now_local.strftime("%Y%m%d_%H%M%S")
-        debug_df.to_csv(f"exports/debug_signals_{timestamp_str}.csv", index=False)
+   # if debug and debug_log_rows:
+      #  debug_df = pd.DataFrame(debug_log_rows)
+       # timestamp_str = now_local.strftime("%Y%m%d_%H%M%S")
+       # debug_df.to_csv(f"exports/debug_signals_{timestamp_str}.csv", index=False)
 
     return pd.DataFrame(signals)

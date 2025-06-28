@@ -131452,7 +131452,7 @@
           "ask": 269.89,
           "volume": 9737624
         },
-        "status": "open",
+        "status": "closed",
         "shares": 8,
         "capital_used": 2159.04,
         "allocation_log": {
@@ -131463,7 +131463,12 @@
           "wallet_debited": 2159.04,
           "price_source": "quote"
         },
-        "peak_price": 269.88
+        "peak_price": 269.88,
+        "exit_price": 267.7584,
+        "exit_time": "2025-06-27T14:41:47.422612-04:00",
+        "exit_reason": "smart_cut_loss",
+        "pnl": -16.972800000000007,
+        "pnl_pct": -0.7861271676300581
       },
       {
         "symbol": "LLY",
@@ -131993,7 +131998,7 @@
           "ask": 779.99,
           "volume": 1756649
         },
-        "status": "open",
+        "status": "closed",
         "shares": 2,
         "capital_used": 1559.52,
         "allocation_log": {
@@ -132003,7 +132008,12 @@
           "wallet_available_before": 10000.0,
           "wallet_debited": 1559.52,
           "price_source": "quote"
-        }
+        },
+        "exit_price": 776.8696,
+        "exit_time": "2025-06-27T14:41:47.588924-04:00",
+        "exit_reason": "smart_cut_loss",
+        "pnl": -5.780799999999999,
+        "pnl_pct": -0.3706781573817584
       },
       {
         "symbol": "XOM",
@@ -132022,7 +132032,7 @@
           "ask": 109,
           "volume": 7482623
         },
-        "status": "open",
+        "status": "closed",
         "shares": 20,
         "capital_used": 2180,
         "allocation_log": {
@@ -132032,7 +132042,12 @@
           "wallet_available_before": 10000.0,
           "wallet_debited": 2180,
           "price_source": "quote"
-        }
+        },
+        "exit_price": 108.755,
+        "exit_time": "2025-06-27T14:41:47.758723-04:00",
+        "exit_reason": "smart_cut_loss",
+        "pnl": -4.900000000000091,
+        "pnl_pct": -0.224770642201839
       },
       {
         "symbol": "JNJ",
@@ -132051,7 +132066,7 @@
           "ask": 152.42,
           "volume": 3182915
         },
-        "status": "open",
+        "status": "closed",
         "shares": 14,
         "capital_used": 2133.67,
         "allocation_log": {
@@ -132061,7 +132076,13 @@
           "wallet_available_before": 10000.0,
           "wallet_debited": 2133.67,
           "price_source": "quote"
-        }
+        },
+        "peak_price": 152.49,
+        "exit_price": 152.46,
+        "exit_time": "2025-06-27T14:50:26.537615-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.7700000000000955,
+        "pnl_pct": 0.036088054853847855
       },
       {
         "symbol": "AMZN",
@@ -132080,7 +132101,7 @@
           "ask": 218.32,
           "volume": 33101004
         },
-        "status": "open",
+        "status": "closed",
         "shares": 10,
         "capital_used": 2182.85,
         "allocation_log": {
@@ -132090,7 +132111,12 @@
           "wallet_available_before": 10000.0,
           "wallet_debited": 2182.85,
           "price_source": "quote"
-        }
+        },
+        "exit_price": 217.11,
+        "exit_time": "2025-06-27T14:41:48.384562-04:00",
+        "exit_reason": "smart_cut_loss",
+        "pnl": -11.74999999999983,
+        "pnl_pct": -0.5382871017248014
       },
       {
         "symbol": "NFLX",
@@ -132109,7 +132135,7 @@
           "ask": 1324.9,
           "volume": 1901402
         },
-        "status": "open",
+        "status": "closed",
         "shares": 1,
         "capital_used": 1324.45,
         "allocation_log": {
@@ -132119,7 +132145,1578 @@
           "wallet_available_before": 10000.0,
           "wallet_debited": 1324.45,
           "price_source": "quote"
-        }
+        },
+        "exit_price": 1318.7068,
+        "exit_time": "2025-06-27T14:41:48.566275-04:00",
+        "exit_reason": "smart_cut_loss",
+        "pnl": -5.743200000000115,
+        "pnl_pct": -0.43362905356941484
+      },
+      {
+        "symbol": "AMZN",
+        "symbolId": 7410,
+        "datetime": "2025-06-27T14:41:53.139324-04:00",
+        "entry_price": 217.17,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0001,
+        "quote_snapshot": {
+          "bid": 217.15,
+          "ask": 217.18,
+          "volume": 35175752
+        },
+        "status": "closed",
+        "shares": 10,
+        "capital_used": 2171.7,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2171.7,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2171.7,
+          "price_source": "quote"
+        },
+        "exit_price": 217.14,
+        "exit_time": "2025-06-27T14:42:19.901400-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.30000000000001137,
+        "pnl_pct": -0.013814062715845253
+      },
+      {
+        "symbol": "AVGO",
+        "symbolId": 21109371,
+        "datetime": "2025-06-27T14:41:53.486712-04:00",
+        "entry_price": 267.75,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0002,
+        "quote_snapshot": {
+          "bid": 267.74,
+          "ask": 267.8,
+          "volume": 10864819
+        },
+        "status": "closed",
+        "shares": 8,
+        "capital_used": 2142.0,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2142.0,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2142.0,
+          "price_source": "quote"
+        },
+        "peak_price": 267.75,
+        "exit_price": 267.282,
+        "exit_time": "2025-06-27T14:43:25.691730-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -3.744000000000142,
+        "pnl_pct": -0.17478991596639318
+      },
+      {
+        "symbol": "LLY",
+        "symbolId": 25717,
+        "datetime": "2025-06-27T14:41:53.824764-04:00",
+        "entry_price": 776.94,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0009,
+        "quote_snapshot": {
+          "bid": 776.62,
+          "ask": 777.29,
+          "volume": 1891601
+        },
+        "status": "closed",
+        "shares": 2,
+        "capital_used": 1553.88,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1553.88,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1553.88,
+          "price_source": "quote"
+        },
+        "peak_price": 776.94,
+        "exit_price": 776.47,
+        "exit_time": "2025-06-27T14:44:32.170982-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.9400000000000546,
+        "pnl_pct": -0.060493731819706444
+      },
+      {
+        "symbol": "NFLX",
+        "symbolId": 28768,
+        "datetime": "2025-06-27T14:41:54.176671-04:00",
+        "entry_price": 1319.57,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0005,
+        "quote_snapshot": {
+          "bid": 1319.08,
+          "ask": 1319.8,
+          "volume": 2028676
+        },
+        "status": "closed",
+        "shares": 1,
+        "capital_used": 1319.57,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1319.57,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1319.57,
+          "price_source": "quote"
+        },
+        "exit_price": 1319.305,
+        "exit_time": "2025-06-27T14:42:21.288708-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.26499999999987267,
+        "pnl_pct": -0.02008229953696073
+      },
+      {
+        "symbol": "AMZN",
+        "symbolId": 7410,
+        "datetime": "2025-06-27T14:42:23.103374-04:00",
+        "entry_price": 217.15,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0001,
+        "quote_snapshot": {
+          "bid": 217.13,
+          "ask": 217.16,
+          "volume": 35217488
+        },
+        "status": "closed",
+        "shares": 10,
+        "capital_used": 2171.5,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2171.5,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2171.5,
+          "price_source": "quote"
+        },
+        "exit_price": 217.105,
+        "exit_time": "2025-06-27T14:42:53.725327-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.45000000000015916,
+        "pnl_pct": -0.020723002532818748
+      },
+      {
+        "symbol": "NFLX",
+        "symbolId": 28768,
+        "datetime": "2025-06-27T14:42:23.797090-04:00",
+        "entry_price": 1319.305,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0006,
+        "quote_snapshot": {
+          "bid": 1318.93,
+          "ask": 1319.68,
+          "volume": 2032227
+        },
+        "status": "closed",
+        "shares": 1,
+        "capital_used": 1319.31,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1319.31,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1319.31,
+          "price_source": "quote"
+        },
+        "exit_price": 1318.7722,
+        "exit_time": "2025-06-27T14:42:54.169991-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.532799999999952,
+        "pnl_pct": -0.04038489962517779
+      },
+      {
+        "symbol": "AMZN",
+        "symbolId": 7410,
+        "datetime": "2025-06-27T14:43:23.138134-04:00",
+        "entry_price": 217.05,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0001,
+        "quote_snapshot": {
+          "bid": 217.04,
+          "ask": 217.06,
+          "volume": 35318182
+        },
+        "status": "closed",
+        "shares": 10,
+        "capital_used": 2170.5,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2170.5,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2170.5,
+          "price_source": "quote"
+        },
+        "exit_price": 217.08,
+        "exit_time": "2025-06-27T14:43:26.680500-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.30000000000001137,
+        "pnl_pct": 0.013821700069109025
+      },
+      {
+        "symbol": "NFLX",
+        "symbolId": 28768,
+        "datetime": "2025-06-27T14:43:23.861303-04:00",
+        "entry_price": 1318.11,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0004,
+        "quote_snapshot": {
+          "bid": 1318.11,
+          "ask": 1318.63,
+          "volume": 2045614
+        },
+        "status": "closed",
+        "shares": 1,
+        "capital_used": 1318.11,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1318.11,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1318.11,
+          "price_source": "quote"
+        },
+        "exit_price": 1318.11,
+        "exit_time": "2025-06-27T14:43:27.149043-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.0,
+        "pnl_pct": 0.0
+      },
+      {
+        "symbol": "AMZN",
+        "symbolId": 7410,
+        "datetime": "2025-06-27T14:43:53.129434-04:00",
+        "entry_price": 216.97,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0001,
+        "quote_snapshot": {
+          "bid": 216.95,
+          "ask": 216.98,
+          "volume": 35370409
+        },
+        "status": "closed",
+        "shares": 10,
+        "capital_used": 2169.7,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2169.7,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2169.7,
+          "price_source": "quote"
+        },
+        "exit_price": 216.94,
+        "exit_time": "2025-06-27T14:43:59.637281-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.30000000000001137,
+        "pnl_pct": -0.013826796331290565
+      },
+      {
+        "symbol": "AVGO",
+        "symbolId": 21109371,
+        "datetime": "2025-06-27T14:43:53.495055-04:00",
+        "entry_price": 267.195,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0003,
+        "quote_snapshot": {
+          "bid": 267.16,
+          "ask": 267.23,
+          "volume": 11017414
+        },
+        "status": "closed",
+        "shares": 8,
+        "capital_used": 2137.56,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2137.56,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2137.56,
+          "price_source": "quote"
+        },
+        "exit_price": 267.2144,
+        "exit_time": "2025-06-27T14:44:00.163974-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.15520000000014988,
+        "pnl_pct": 0.0072606149067230815
+      },
+      {
+        "symbol": "NFLX",
+        "symbolId": 28768,
+        "datetime": "2025-06-27T14:43:54.040491-04:00",
+        "entry_price": 1317.8576,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0007,
+        "quote_snapshot": {
+          "bid": 1317.44,
+          "ask": 1318.31,
+          "volume": 2052726
+        },
+        "status": "closed",
+        "shares": 1,
+        "capital_used": 1317.86,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1317.86,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1317.86,
+          "price_source": "quote"
+        },
+        "exit_price": 1317.8576,
+        "exit_time": "2025-06-27T14:44:00.640205-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.0,
+        "pnl_pct": 0.0
+      },
+      {
+        "symbol": "AMZN",
+        "symbolId": 7410,
+        "datetime": "2025-06-27T14:44:23.146531-04:00",
+        "entry_price": 217.07,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0002,
+        "quote_snapshot": {
+          "bid": 217.05,
+          "ask": 217.09,
+          "volume": 35448080
+        },
+        "status": "closed",
+        "shares": 10,
+        "capital_used": 2170.7,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2170.7,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2170.7,
+          "price_source": "quote"
+        },
+        "exit_price": 217.08,
+        "exit_time": "2025-06-27T14:44:32.682705-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.10000000000019327,
+        "pnl_pct": 0.004606808863509157
+      },
+      {
+        "symbol": "AVGO",
+        "symbolId": 21109371,
+        "datetime": "2025-06-27T14:44:23.529298-04:00",
+        "entry_price": 267.67,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0001,
+        "quote_snapshot": {
+          "bid": 267.63,
+          "ask": 267.67,
+          "volume": 11061925
+        },
+        "status": "closed",
+        "shares": 8,
+        "capital_used": 2141.36,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2141.36,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2141.36,
+          "price_source": "quote"
+        },
+        "exit_price": 267.69,
+        "exit_time": "2025-06-27T14:44:33.194576-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.15999999999985448,
+        "pnl_pct": 0.007471887025061385
+      },
+      {
+        "symbol": "NFLX",
+        "symbolId": 28768,
+        "datetime": "2025-06-27T14:44:24.090564-04:00",
+        "entry_price": 1318.3,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0002,
+        "quote_snapshot": {
+          "bid": 1318,
+          "ask": 1318.31,
+          "volume": 2059271
+        },
+        "status": "closed",
+        "shares": 1,
+        "capital_used": 1318.3,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1318.3,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1318.3,
+          "price_source": "quote"
+        },
+        "exit_price": 1318.01,
+        "exit_time": "2025-06-27T14:44:33.674294-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.2899999999999636,
+        "pnl_pct": -0.021998027763025386
+      },
+      {
+        "symbol": "AMZN",
+        "symbolId": 7410,
+        "datetime": "2025-06-27T14:44:53.190097-04:00",
+        "entry_price": 217.18,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0001,
+        "quote_snapshot": {
+          "bid": 217.16,
+          "ask": 217.19,
+          "volume": 35486510
+        },
+        "status": "closed",
+        "shares": 10,
+        "capital_used": 2171.8,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2171.8,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2171.8,
+          "price_source": "quote"
+        },
+        "exit_price": 217.195,
+        "exit_time": "2025-06-27T14:45:05.282287-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.14999999999986358,
+        "pnl_pct": 0.006906713325345961
+      },
+      {
+        "symbol": "AVGO",
+        "symbolId": 21109371,
+        "datetime": "2025-06-27T14:44:53.618751-04:00",
+        "entry_price": 267.74,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0003,
+        "quote_snapshot": {
+          "bid": 267.7,
+          "ask": 267.78,
+          "volume": 11086969
+        },
+        "status": "closed",
+        "shares": 8,
+        "capital_used": 2141.92,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2141.92,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2141.92,
+          "price_source": "quote"
+        },
+        "exit_price": 267.85,
+        "exit_time": "2025-06-27T14:45:05.806838-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.8800000000001091,
+        "pnl_pct": 0.04108463434675941
+      },
+      {
+        "symbol": "LLY",
+        "symbolId": 25717,
+        "datetime": "2025-06-27T14:44:53.958525-04:00",
+        "entry_price": 776.1792,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.001,
+        "quote_snapshot": {
+          "bid": 776,
+          "ask": 776.79,
+          "volume": 1918035
+        },
+        "status": "closed",
+        "shares": 2,
+        "capital_used": 1552.36,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1552.36,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1552.36,
+          "price_source": "quote"
+        },
+        "exit_price": 776.7135,
+        "exit_time": "2025-06-27T14:45:06.286040-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 1.068599999999833,
+        "pnl_pct": 0.06883719635876824
+      },
+      {
+        "symbol": "NFLX",
+        "symbolId": 28768,
+        "datetime": "2025-06-27T14:44:54.291202-04:00",
+        "entry_price": 1318.54,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0005,
+        "quote_snapshot": {
+          "bid": 1318.29,
+          "ask": 1318.96,
+          "volume": 2062875
+        },
+        "status": "closed",
+        "shares": 1,
+        "capital_used": 1318.54,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1318.54,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1318.54,
+          "price_source": "quote"
+        },
+        "exit_price": 1318.5821,
+        "exit_time": "2025-06-27T14:45:06.766282-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.0421000000001186,
+        "pnl_pct": 0.0031929255085259905
+      },
+      {
+        "symbol": "AMZN",
+        "symbolId": 7410,
+        "datetime": "2025-06-27T14:45:23.155720-04:00",
+        "entry_price": 217.19,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0002,
+        "quote_snapshot": {
+          "bid": 217.16,
+          "ask": 217.2,
+          "volume": 35524345
+        },
+        "status": "closed",
+        "shares": 10,
+        "capital_used": 2171.9,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2171.9,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2171.9,
+          "price_source": "quote"
+        },
+        "exit_price": 217.31,
+        "exit_time": "2025-06-27T14:45:38.388305-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 1.2000000000000455,
+        "pnl_pct": 0.05525116257654798
+      },
+      {
+        "symbol": "AVGO",
+        "symbolId": 21109371,
+        "datetime": "2025-06-27T14:45:23.490488-04:00",
+        "entry_price": 267.89,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0003,
+        "quote_snapshot": {
+          "bid": 267.87,
+          "ask": 267.94,
+          "volume": 11132123
+        },
+        "status": "closed",
+        "shares": 8,
+        "capital_used": 2143.12,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2143.12,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2143.12,
+          "price_source": "quote"
+        },
+        "exit_price": 268.075,
+        "exit_time": "2025-06-27T14:45:38.916655-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 1.4800000000000182,
+        "pnl_pct": 0.06905819552801609
+      },
+      {
+        "symbol": "LLY",
+        "symbolId": 25717,
+        "datetime": "2025-06-27T14:45:23.826605-04:00",
+        "entry_price": 776.86,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0009,
+        "quote_snapshot": {
+          "bid": 776.33,
+          "ask": 777.01,
+          "volume": 1920298
+        },
+        "status": "closed",
+        "shares": 2,
+        "capital_used": 1553.72,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1553.72,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1553.72,
+          "price_source": "quote"
+        },
+        "exit_price": 777.4202,
+        "exit_time": "2025-06-27T14:45:39.379767-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 1.1204000000000178,
+        "pnl_pct": 0.0721108050356575
+      },
+      {
+        "symbol": "NFLX",
+        "symbolId": 28768,
+        "datetime": "2025-06-27T14:45:24.143803-04:00",
+        "entry_price": 1318.5821,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0006,
+        "quote_snapshot": {
+          "bid": 1318.43,
+          "ask": 1319.18,
+          "volume": 2064602
+        },
+        "status": "closed",
+        "shares": 1,
+        "capital_used": 1318.58,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1318.58,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1318.58,
+          "price_source": "quote"
+        },
+        "exit_price": 1319.25,
+        "exit_time": "2025-06-27T14:45:39.873837-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.6678999999999178,
+        "pnl_pct": 0.05065289449931997
+      },
+      {
+        "symbol": "AMZN",
+        "symbolId": 7410,
+        "datetime": "2025-06-27T14:45:53.187185-04:00",
+        "entry_price": 217.35,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0,
+        "quote_snapshot": {
+          "bid": 217.35,
+          "ask": 217.35,
+          "volume": 35581506
+        },
+        "status": "closed",
+        "shares": 10,
+        "capital_used": 2173.5,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2173.5,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2173.5,
+          "price_source": "quote"
+        },
+        "exit_price": 217.3499,
+        "exit_time": "2025-06-27T14:46:11.466176-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.0010000000000331966,
+        "pnl_pct": -4.600874166244291e-05
+      },
+      {
+        "symbol": "AVGO",
+        "symbolId": 21109371,
+        "datetime": "2025-06-27T14:45:53.552298-04:00",
+        "entry_price": 268.11,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0004,
+        "quote_snapshot": {
+          "bid": 268.05,
+          "ask": 268.15,
+          "volume": 11149774
+        },
+        "status": "closed",
+        "shares": 8,
+        "capital_used": 2144.88,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2144.88,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2144.88,
+          "price_source": "quote"
+        },
+        "exit_price": 268.035,
+        "exit_time": "2025-06-27T14:46:11.956389-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.599999999999909,
+        "pnl_pct": -0.027973592928271465
+      },
+      {
+        "symbol": "LLY",
+        "symbolId": 25717,
+        "datetime": "2025-06-27T14:45:53.922593-04:00",
+        "entry_price": 776.93,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0015,
+        "quote_snapshot": {
+          "bid": 776.33,
+          "ask": 777.53,
+          "volume": 1923257
+        },
+        "status": "closed",
+        "shares": 2,
+        "capital_used": 1553.86,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1553.86,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1553.86,
+          "price_source": "quote"
+        },
+        "exit_price": 776.93,
+        "exit_time": "2025-06-27T14:46:12.406387-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.0,
+        "pnl_pct": 0.0
+      },
+      {
+        "symbol": "NFLX",
+        "symbolId": 28768,
+        "datetime": "2025-06-27T14:45:54.271699-04:00",
+        "entry_price": 1318.5,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0009,
+        "quote_snapshot": {
+          "bid": 1318.27,
+          "ask": 1319.5,
+          "volume": 2067934
+        },
+        "status": "closed",
+        "shares": 1,
+        "capital_used": 1318.5,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1318.5,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1318.5,
+          "price_source": "quote"
+        },
+        "exit_price": 1317.5,
+        "exit_time": "2025-06-27T14:46:12.870565-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -1.0,
+        "pnl_pct": -0.07584376185058779
+      },
+      {
+        "symbol": "AMZN",
+        "symbolId": 7410,
+        "datetime": "2025-06-27T14:46:23.198290-04:00",
+        "entry_price": 217.33,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0001,
+        "quote_snapshot": {
+          "bid": 217.33,
+          "ask": 217.35,
+          "volume": 35622400
+        },
+        "status": "closed",
+        "shares": 10,
+        "capital_used": 2173.3,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2173.3,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2173.3,
+          "price_source": "quote"
+        },
+        "exit_price": 217.455,
+        "exit_time": "2025-06-27T14:46:44.522072-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 1.25,
+        "pnl_pct": 0.05751621957391984
+      },
+      {
+        "symbol": "AVGO",
+        "symbolId": 21109371,
+        "datetime": "2025-06-27T14:46:23.537582-04:00",
+        "entry_price": 267.92,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0003,
+        "quote_snapshot": {
+          "bid": 267.9,
+          "ask": 267.97,
+          "volume": 11174260
+        },
+        "status": "closed",
+        "shares": 8,
+        "capital_used": 2143.36,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2143.36,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2143.36,
+          "price_source": "quote"
+        },
+        "exit_price": 267.99,
+        "exit_time": "2025-06-27T14:46:44.999604-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.5599999999999454,
+        "pnl_pct": 0.026127202149892944
+      },
+      {
+        "symbol": "LLY",
+        "symbolId": 25717,
+        "datetime": "2025-06-27T14:46:23.874034-04:00",
+        "entry_price": 777.01,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0011,
+        "quote_snapshot": {
+          "bid": 776.39,
+          "ask": 777.24,
+          "volume": 1924365
+        },
+        "status": "closed",
+        "shares": 2,
+        "capital_used": 1554.02,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1554.02,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1554.02,
+          "price_source": "quote"
+        },
+        "exit_price": 777.755,
+        "exit_time": "2025-06-27T14:46:45.454073-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 1.490000000000009,
+        "pnl_pct": 0.09588036190010482
+      },
+      {
+        "symbol": "NFLX",
+        "symbolId": 28768,
+        "datetime": "2025-06-27T14:46:24.208200-04:00",
+        "entry_price": 1316.65,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0008,
+        "quote_snapshot": {
+          "bid": 1316.24,
+          "ask": 1317.31,
+          "volume": 2073705
+        },
+        "status": "closed",
+        "shares": 1,
+        "capital_used": 1316.65,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1316.65,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1316.65,
+          "price_source": "quote"
+        },
+        "exit_price": 1317.41,
+        "exit_time": "2025-06-27T14:46:45.918514-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.7599999999999909,
+        "pnl_pct": 0.05772224964872904
+      },
+      {
+        "symbol": "AMZN",
+        "symbolId": 7410,
+        "datetime": "2025-06-27T14:46:53.255032-04:00",
+        "entry_price": 217.4554,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0001,
+        "quote_snapshot": {
+          "bid": 217.45,
+          "ask": 217.48,
+          "volume": 35667419
+        },
+        "status": "closed",
+        "shares": 10,
+        "capital_used": 2174.55,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2174.55,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2174.55,
+          "price_source": "quote"
+        },
+        "exit_price": 217.39,
+        "exit_time": "2025-06-27T14:47:17.438693-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.65400000000011,
+        "pnl_pct": -0.030075132647895155
+      },
+      {
+        "symbol": "AVGO",
+        "symbolId": 21109371,
+        "datetime": "2025-06-27T14:46:53.619913-04:00",
+        "entry_price": 267.96,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0003,
+        "quote_snapshot": {
+          "bid": 267.95,
+          "ask": 268.04,
+          "volume": 11196328
+        },
+        "status": "closed",
+        "shares": 8,
+        "capital_used": 2143.68,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2143.68,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2143.68,
+          "price_source": "quote"
+        },
+        "exit_price": 267.985,
+        "exit_time": "2025-06-27T14:47:17.904879-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.20000000000027285,
+        "pnl_pct": 0.009329750709073782
+      },
+      {
+        "symbol": "LLY",
+        "symbolId": 25717,
+        "datetime": "2025-06-27T14:46:53.937672-04:00",
+        "entry_price": 777.76,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0009,
+        "quote_snapshot": {
+          "bid": 777.41,
+          "ask": 778.11,
+          "volume": 1933482
+        },
+        "status": "closed",
+        "shares": 2,
+        "capital_used": 1555.52,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1555.52,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1555.52,
+          "price_source": "quote"
+        },
+        "exit_price": 777.7,
+        "exit_time": "2025-06-27T14:47:18.339597-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.11999999999989086,
+        "pnl_pct": -0.007714462044839723
+      },
+      {
+        "symbol": "NFLX",
+        "symbolId": 28768,
+        "datetime": "2025-06-27T14:46:54.282067-04:00",
+        "entry_price": 1317.41,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0009,
+        "quote_snapshot": {
+          "bid": 1316.84,
+          "ask": 1318,
+          "volume": 2079222
+        },
+        "status": "closed",
+        "shares": 1,
+        "capital_used": 1317.41,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1317.41,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1317.41,
+          "price_source": "quote"
+        },
+        "exit_price": 1318.2027,
+        "exit_time": "2025-06-27T14:47:18.769930-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.792699999999968,
+        "pnl_pct": 0.06017109328151205
+      },
+      {
+        "symbol": "AMZN",
+        "symbolId": 7410,
+        "datetime": "2025-06-27T14:47:23.116142-04:00",
+        "entry_price": 217.39,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0002,
+        "quote_snapshot": {
+          "bid": 217.36,
+          "ask": 217.4,
+          "volume": 35721308
+        },
+        "status": "closed",
+        "shares": 10,
+        "capital_used": 2173.9,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2173.9,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2173.9,
+          "price_source": "quote"
+        },
+        "exit_price": 217.23,
+        "exit_time": "2025-06-27T14:47:50.105695-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -1.599999999999966,
+        "pnl_pct": -0.07360044160264805
+      },
+      {
+        "symbol": "AVGO",
+        "symbolId": 21109371,
+        "datetime": "2025-06-27T14:47:23.480450-04:00",
+        "entry_price": 268.01,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0004,
+        "quote_snapshot": {
+          "bid": 268.01,
+          "ask": 268.11,
+          "volume": 11233838
+        },
+        "status": "closed",
+        "shares": 8,
+        "capital_used": 2144.08,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2144.08,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2144.08,
+          "price_source": "quote"
+        },
+        "exit_price": 267.79,
+        "exit_time": "2025-06-27T14:47:50.588596-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -1.7599999999997635,
+        "pnl_pct": -0.08208648931008934
+      },
+      {
+        "symbol": "LLY",
+        "symbolId": 25717,
+        "datetime": "2025-06-27T14:47:23.838243-04:00",
+        "entry_price": 777.716,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0004,
+        "quote_snapshot": {
+          "bid": 777.41,
+          "ask": 777.7,
+          "volume": 1938570
+        },
+        "status": "closed",
+        "shares": 2,
+        "capital_used": 1555.43,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1555.43,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1555.43,
+          "price_source": "quote"
+        },
+        "exit_price": 777.405,
+        "exit_time": "2025-06-27T14:47:51.053109-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.6220000000000709,
+        "pnl_pct": -0.03998889054616794
+      },
+      {
+        "symbol": "NFLX",
+        "symbolId": 28768,
+        "datetime": "2025-06-27T14:47:24.171460-04:00",
+        "entry_price": 1318.2027,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0006,
+        "quote_snapshot": {
+          "bid": 1317.8,
+          "ask": 1318.6,
+          "volume": 2080879
+        },
+        "status": "closed",
+        "shares": 1,
+        "capital_used": 1318.2,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1318.2,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1318.2,
+          "price_source": "quote"
+        },
+        "exit_price": 1317.155,
+        "exit_time": "2025-06-27T14:47:51.488993-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -1.0477000000000771,
+        "pnl_pct": -0.07947943059137089
+      },
+      {
+        "symbol": "AMZN",
+        "symbolId": 7410,
+        "datetime": "2025-06-27T14:47:53.151876-04:00",
+        "entry_price": 217.24,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0001,
+        "quote_snapshot": {
+          "bid": 217.23,
+          "ask": 217.25,
+          "volume": 35767571
+        },
+        "status": "closed",
+        "shares": 10,
+        "capital_used": 2172.4,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2172.4,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2172.4,
+          "price_source": "quote"
+        },
+        "exit_price": 217.28,
+        "exit_time": "2025-06-27T14:48:22.750295-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.3999999999999204,
+        "pnl_pct": 0.018412815319458684
+      },
+      {
+        "symbol": "AVGO",
+        "symbolId": 21109371,
+        "datetime": "2025-06-27T14:47:53.527693-04:00",
+        "entry_price": 267.825,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0004,
+        "quote_snapshot": {
+          "bid": 267.77,
+          "ask": 267.89,
+          "volume": 11255030
+        },
+        "status": "closed",
+        "shares": 8,
+        "capital_used": 2142.6,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2142.6,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2142.6,
+          "price_source": "quote"
+        },
+        "exit_price": 267.83,
+        "exit_time": "2025-06-27T14:48:23.243315-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": 0.03999999999996362,
+        "pnl_pct": 0.0018668906935481947
+      },
+      {
+        "symbol": "LLY",
+        "symbolId": 25717,
+        "datetime": "2025-06-27T14:47:53.882329-04:00",
+        "entry_price": 777.405,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0008,
+        "quote_snapshot": {
+          "bid": 777.11,
+          "ask": 777.7,
+          "volume": 1940652
+        },
+        "status": "closed",
+        "shares": 2,
+        "capital_used": 1554.81,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1554.81,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1554.81,
+          "price_source": "quote"
+        },
+        "exit_price": 777.37,
+        "exit_time": "2025-06-27T14:48:23.716237-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.06999999999993634,
+        "pnl_pct": -0.004502157819922456
+      },
+      {
+        "symbol": "NFLX",
+        "symbolId": 28768,
+        "datetime": "2025-06-27T14:47:54.250522-04:00",
+        "entry_price": 1317.31,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0006,
+        "quote_snapshot": {
+          "bid": 1316.86,
+          "ask": 1317.69,
+          "volume": 2086503
+        },
+        "status": "closed",
+        "shares": 1,
+        "capital_used": 1317.31,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1317.31,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1317.31,
+          "price_source": "quote"
+        },
+        "exit_price": 1317.275,
+        "exit_time": "2025-06-27T14:48:24.155644-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -0.03499999999985448,
+        "pnl_pct": -0.0026569296520829937
+      },
+      {
+        "symbol": "AVGO",
+        "symbolId": 21109371,
+        "datetime": "2025-06-27T14:59:53.253228-04:00",
+        "entry_price": 267.21,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0002,
+        "quote_snapshot": {
+          "bid": 267.2,
+          "ask": 267.26,
+          "volume": 11636540
+        },
+        "status": "closed",
+        "shares": 8,
+        "capital_used": 2137.68,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2137.68,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2137.68,
+          "price_source": "quote"
+        },
+        "exit_price": 268.97,
+        "exit_time": "2025-06-27T15:42:07.819966-04:00",
+        "exit_reason": "early_profit_capture",
+        "pnl": 14.080000000000382,
+        "pnl_pct": 0.6586579843568908
+      },
+      {
+        "symbol": "LLY",
+        "symbolId": 25717,
+        "datetime": "2025-06-27T14:59:53.578021-04:00",
+        "entry_price": 775.5,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0006,
+        "quote_snapshot": {
+          "bid": 775.3,
+          "ask": 775.8,
+          "volume": 2000767
+        },
+        "status": "closed",
+        "shares": 2,
+        "capital_used": 1551.0,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1551.0,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1551.0,
+          "price_source": "quote"
+        },
+        "exit_price": 777.6208,
+        "exit_time": "2025-06-27T15:42:07.969626-04:00",
+        "exit_reason": "early_profit_capture",
+        "pnl": 4.241600000000062,
+        "pnl_pct": 0.27347517730496856
+      },
+      {
+        "symbol": "NFLX",
+        "symbolId": 28768,
+        "datetime": "2025-06-27T14:59:55.187768-04:00",
+        "entry_price": 1317.9,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0006,
+        "quote_snapshot": {
+          "bid": 1317.52,
+          "ask": 1318.28,
+          "volume": 2186466
+        },
+        "status": "closed",
+        "shares": 1,
+        "capital_used": 1317.9,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 1317.9,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 1317.9,
+          "price_source": "quote"
+        },
+        "exit_price": 1320.88,
+        "exit_time": "2025-06-27T15:42:08.154619-04:00",
+        "exit_reason": "early_profit_capture",
+        "pnl": 2.980000000000018,
+        "pnl_pct": 0.22611730783822886
+      },
+      {
+        "symbol": "XOM",
+        "symbolId": 18079,
+        "datetime": "2025-06-27T14:59:55.578100-04:00",
+        "entry_price": 108.96,
+        "entry_price_source": "quote",
+        "confidence": 0.6,
+        "strategies_used": [
+          "MACD",
+          "RSI"
+        ],
+        "spread_pct": 0.0002,
+        "quote_snapshot": {
+          "bid": 108.94,
+          "ask": 108.96,
+          "volume": 8437193
+        },
+        "status": "closed",
+        "shares": 20,
+        "capital_used": 2179.2,
+        "allocation_log": {
+          "confidence": 0.6,
+          "allocation_pct": 0.22,
+          "capital_allocated": 2179.2,
+          "wallet_available_before": 10000.0,
+          "wallet_debited": 2179.2,
+          "price_source": "quote"
+        },
+        "exit_price": 108.8535,
+        "exit_time": "2025-06-27T15:42:08.613118-04:00",
+        "exit_reason": "macd_bearish",
+        "pnl": -2.1299999999999386,
+        "pnl_pct": -0.09774229074889587
       }
     ]
   }

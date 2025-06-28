@@ -91,9 +91,9 @@ def check_exit_conditions(trade, current_price):
     early_rules = CONFIG.get("early_exit_rules", {}).get(strategy, {})
 
     if early_rules:
-        if pnl_pct >= early_rules.get("profit_pct", 0.002) and time_held_sec >= early_rules.get("min_secs", 300):
+        if pnl_pct >= early_rules.get("profit_pct", 0.0025) and time_held_sec >= early_rules.get("min_secs", 300):
             return "early_profit_capture", current_price
-        if pnl_pct <= early_rules.get("loss_pct", -0.0015) and time_held_sec >= early_rules.get("loss_wait_secs", 600):
+        if pnl_pct <= early_rules.get("loss_pct", -0.002) and time_held_sec >= early_rules.get("loss_wait_secs", 600):
             return "smart_cut_loss", current_price
 
     strat_reason, strat_exit = strategy_exit_check(trade, current_price)

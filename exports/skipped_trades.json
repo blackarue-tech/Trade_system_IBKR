@@ -1,1202 +1,1602 @@
 [
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:22.595842-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:26.846037-04:00",
+    "context": {
+      "current_time": "15:59:26.846037"
+    }
+  },
+  {
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:27.041601-04:00",
+    "context": {
+      "current_time": "15:59:27.041601"
+    }
+  },
+  {
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:27.219044-04:00",
+    "context": {
+      "current_time": "15:59:27.219044"
+    }
+  },
+  {
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:27.398870-04:00",
+    "context": {
+      "current_time": "15:59:27.398870"
+    }
+  },
+  {
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:27.656293-04:00",
+    "context": {
+      "current_time": "15:59:27.656293"
+    }
+  },
+  {
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:27.884919-04:00",
+    "context": {
+      "current_time": "15:59:27.883810"
+    }
+  },
+  {
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:28.103302-04:00",
+    "context": {
+      "current_time": "15:59:28.103302"
+    }
+  },
+  {
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:28.337297-04:00",
+    "context": {
+      "current_time": "15:59:28.337297"
+    }
+  },
+  {
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:28.554523-04:00",
+    "context": {
+      "current_time": "15:59:28.554523"
+    }
+  },
+  {
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:28.744839-04:00",
+    "context": {
+      "current_time": "15:59:28.744839"
+    }
+  },
+  {
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:28.950680-04:00",
+    "context": {
+      "current_time": "15:59:28.950680"
+    }
+  },
+  {
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:29.133214-04:00",
+    "context": {
+      "current_time": "15:59:29.133214"
+    }
+  },
+  {
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:29.315334-04:00",
+    "context": {
+      "current_time": "15:59:29.315334"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:22.763758-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:29.504470-04:00",
+    "context": {
+      "current_time": "15:59:29.504470"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:22.933735-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:29.716367-04:00",
+    "context": {
+      "current_time": "15:59:29.716367"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:23.181702-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:29.982986-04:00",
+    "context": {
+      "current_time": "15:59:29.982986"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:23.344856-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:30.225842-04:00",
+    "context": {
+      "current_time": "15:59:30.225842"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:23.512616-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:30.439597-04:00",
+    "context": {
+      "current_time": "15:59:30.439597"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:23.725060-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:30.640507-04:00",
+    "context": {
+      "current_time": "15:59:30.640507"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:23.910115-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:30.848079-04:00",
+    "context": {
+      "current_time": "15:59:30.848079"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:24.075137-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:31.041367-04:00",
+    "context": {
+      "current_time": "15:59:31.041367"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:24.252801-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:31.206617-04:00",
+    "context": {
+      "current_time": "15:59:31.206617"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:24.407033-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:31.411758-04:00",
+    "context": {
+      "current_time": "15:59:31.411758"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:24.586654-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:31.587948-04:00",
+    "context": {
+      "current_time": "15:59:31.587948"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:24.761214-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:31.761404-04:00",
+    "context": {
+      "current_time": "15:59:31.761404"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:24.964405-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:31.937516-04:00",
+    "context": {
+      "current_time": "15:59:31.937516"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:25.128120-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:32.122775-04:00",
+    "context": {
+      "current_time": "15:59:32.122775"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:25.373931-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:32.336142-04:00",
+    "context": {
+      "current_time": "15:59:32.336142"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:25.614285-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:32.585976-04:00",
+    "context": {
+      "current_time": "15:59:32.585976"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:25.766273-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:32.793312-04:00",
+    "context": {
+      "current_time": "15:59:32.793312"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:25.932252-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:33.010145-04:00",
+    "context": {
+      "current_time": "15:59:33.010145"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:26.101151-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:33.193335-04:00",
+    "context": {
+      "current_time": "15:59:33.193335"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:26.276439-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:33.395757-04:00",
+    "context": {
+      "current_time": "15:59:33.395757"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:26.450561-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:33.625366-04:00",
+    "context": {
+      "current_time": "15:59:33.625366"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:26.623369-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:33.815201-04:00",
+    "context": {
+      "current_time": "15:59:33.815201"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:26.787774-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:34.033262-04:00",
+    "context": {
+      "current_time": "15:59:34.033262"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:26.955114-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:34.229862-04:00",
+    "context": {
+      "current_time": "15:59:34.229862"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:27.169488-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:34.495977-04:00",
+    "context": {
+      "current_time": "15:59:34.495977"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:27.348590-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:34.772799-04:00",
+    "context": {
+      "current_time": "15:59:34.772799"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:27.525895-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:34.983462-04:00",
+    "context": {
+      "current_time": "15:59:34.982323"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:27.709545-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:35.244674-04:00",
+    "context": {
+      "current_time": "15:59:35.244674"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:27.943899-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:35.456517-04:00",
+    "context": {
+      "current_time": "15:59:35.456517"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:28.122110-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:35.665975-04:00",
+    "context": {
+      "current_time": "15:59:35.665975"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:28.329613-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:35.940330-04:00",
+    "context": {
+      "current_time": "15:59:35.940330"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:28.485503-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:36.173431-04:00",
+    "context": {
+      "current_time": "15:59:36.173431"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:28.678989-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:36.384704-04:00",
+    "context": {
+      "current_time": "15:59:36.383687"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:28.863551-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:36.608791-04:00",
+    "context": {
+      "current_time": "15:59:36.608791"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:29.027242-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:36.793060-04:00",
+    "context": {
+      "current_time": "15:59:36.793060"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:29.204264-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:37.046308-04:00",
+    "context": {
+      "current_time": "15:59:37.046308"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:29.413562-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:37.282348-04:00",
+    "context": {
+      "current_time": "15:59:37.282348"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:29.588958-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:37.526333-04:00",
+    "context": {
+      "current_time": "15:59:37.526333"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:29.744908-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:37.942488-04:00",
+    "context": {
+      "current_time": "15:59:37.942488"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:29.928793-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:38.183846-04:00",
+    "context": {
+      "current_time": "15:59:38.183846"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:30.095818-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:38.398998-04:00",
+    "context": {
+      "current_time": "15:59:38.398998"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:30.319511-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:38.701838-04:00",
+    "context": {
+      "current_time": "15:59:38.701838"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:30.477380-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:38.931297-04:00",
+    "context": {
+      "current_time": "15:59:38.931297"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:30.660514-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:39.169527-04:00",
+    "context": {
+      "current_time": "15:59:39.169527"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:30.841981-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:39.387277-04:00",
+    "context": {
+      "current_time": "15:59:39.387277"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:31.036455-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:39.594270-04:00",
+    "context": {
+      "current_time": "15:59:39.594270"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:31.289875-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:39.793070-04:00",
+    "context": {
+      "current_time": "15:59:39.793070"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:31.444696-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:40.023744-04:00",
+    "context": {
+      "current_time": "15:59:40.023744"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:31.624891-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:40.246046-04:00",
+    "context": {
+      "current_time": "15:59:40.246046"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:31.800999-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:40.440158-04:00",
+    "context": {
+      "current_time": "15:59:40.440158"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:31.978337-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:40.642620-04:00",
+    "context": {
+      "current_time": "15:59:40.642620"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:32.173972-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:40.831348-04:00",
+    "context": {
+      "current_time": "15:59:40.831348"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:32.345449-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:41.041362-04:00",
+    "context": {
+      "current_time": "15:59:41.041362"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:32.527266-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:41.225141-04:00",
+    "context": {
+      "current_time": "15:59:41.225141"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:32.717678-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:41.416885-04:00",
+    "context": {
+      "current_time": "15:59:41.416885"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:32.875544-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:41.613865-04:00",
+    "context": {
+      "current_time": "15:59:41.613865"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:33.065903-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:41.795337-04:00",
+    "context": {
+      "current_time": "15:59:41.795337"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:33.256062-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:41.976316-04:00",
+    "context": {
+      "current_time": "15:59:41.975217"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:33.446519-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:42.184328-04:00",
+    "context": {
+      "current_time": "15:59:42.184328"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:33.612067-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:42.399643-04:00",
+    "context": {
+      "current_time": "15:59:42.399643"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:33.795664-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:42.573112-04:00",
+    "context": {
+      "current_time": "15:59:42.573112"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:33.984010-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:42.766521-04:00",
+    "context": {
+      "current_time": "15:59:42.766521"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:34.159865-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:42.960395-04:00",
+    "context": {
+      "current_time": "15:59:42.960395"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:34.350485-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:43.150039-04:00",
+    "context": {
+      "current_time": "15:59:43.150039"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:34.538903-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:43.345372-04:00",
+    "context": {
+      "current_time": "15:59:43.345372"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:34.718693-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:43.556829-04:00",
+    "context": {
+      "current_time": "15:59:43.556829"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:34.886549-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:43.825373-04:00",
+    "context": {
+      "current_time": "15:59:43.825373"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:35.041674-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:44.105470-04:00",
+    "context": {
+      "current_time": "15:59:44.105470"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:35.231488-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:44.324527-04:00",
+    "context": {
+      "current_time": "15:59:44.324527"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:35.429211-04:00",
-    "context": {}
+    "symbol": "V",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:44.540205-04:00",
+    "context": {
+      "current_time": "15:59:44.540205"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:35.602291-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:44.763326-04:00",
+    "context": {
+      "current_time": "15:59:44.763326"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:35.786013-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:44.974004-04:00",
+    "context": {
+      "current_time": "15:59:44.974004"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:35.961156-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:45.161289-04:00",
+    "context": {
+      "current_time": "15:59:45.160194"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:36.124467-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:45.355319-04:00",
+    "context": {
+      "current_time": "15:59:45.355319"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:36.340791-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:45.534620-04:00",
+    "context": {
+      "current_time": "15:59:45.534620"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:36.501496-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:45.761049-04:00",
+    "context": {
+      "current_time": "15:59:45.761049"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:36.676593-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:45.942891-04:00",
+    "context": {
+      "current_time": "15:59:45.942891"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:36.856062-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:46.183576-04:00",
+    "context": {
+      "current_time": "15:59:46.183576"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:37.032061-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:46.453800-04:00",
+    "context": {
+      "current_time": "15:59:46.453800"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:37.225938-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:46.664607-04:00",
+    "context": {
+      "current_time": "15:59:46.664607"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:37.389935-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:46.918054-04:00",
+    "context": {
+      "current_time": "15:59:46.918054"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:37.599329-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:47.178285-04:00",
+    "context": {
+      "current_time": "15:59:47.178285"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:37.792229-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:47.478568-04:00",
+    "context": {
+      "current_time": "15:59:47.478568"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:37.970845-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:47.692027-04:00",
+    "context": {
+      "current_time": "15:59:47.692027"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:38.152380-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:47.898735-04:00",
+    "context": {
+      "current_time": "15:59:47.898735"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:38.321867-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:48.131231-04:00",
+    "context": {
+      "current_time": "15:59:48.131231"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:38.547964-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:48.322587-04:00",
+    "context": {
+      "current_time": "15:59:48.322587"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:38.737865-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:48.507694-04:00",
+    "context": {
+      "current_time": "15:59:48.507694"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:38.902004-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:48.726344-04:00",
+    "context": {
+      "current_time": "15:59:48.726344"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:39.068444-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:48.887218-04:00",
+    "context": {
+      "current_time": "15:59:48.887218"
+    }
   },
   {
-    "symbol": "AMZN",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:39.240922-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:49.104107-04:00",
+    "context": {
+      "current_time": "15:59:49.104107"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:39.410866-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:49.285288-04:00",
+    "context": {
+      "current_time": "15:59:49.285288"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:39.579405-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:49.490686-04:00",
+    "context": {
+      "current_time": "15:59:49.490686"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:39.736186-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:49.703126-04:00",
+    "context": {
+      "current_time": "15:59:49.703126"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:39.917490-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:49.868879-04:00",
+    "context": {
+      "current_time": "15:59:49.868879"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:40.091349-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:50.103328-04:00",
+    "context": {
+      "current_time": "15:59:50.103328"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:40.302792-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:50.344548-04:00",
+    "context": {
+      "current_time": "15:59:50.344548"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:40.481238-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:50.672801-04:00",
+    "context": {
+      "current_time": "15:59:50.672801"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:40.667319-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:50.867884-04:00",
+    "context": {
+      "current_time": "15:59:50.867884"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:40.858278-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:51.071269-04:00",
+    "context": {
+      "current_time": "15:59:51.070274"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:41.026672-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:51.305152-04:00",
+    "context": {
+      "current_time": "15:59:51.305152"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:41.217091-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:51.535530-04:00",
+    "context": {
+      "current_time": "15:59:51.535530"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:41.401778-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:51.742652-04:00",
+    "context": {
+      "current_time": "15:59:51.742652"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:41.561073-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:51.913077-04:00",
+    "context": {
+      "current_time": "15:59:51.913077"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:41.713133-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:52.089455-04:00",
+    "context": {
+      "current_time": "15:59:52.089455"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:41.910194-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:52.331057-04:00",
+    "context": {
+      "current_time": "15:59:52.330522"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:42.104537-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:52.553601-04:00",
+    "context": {
+      "current_time": "15:59:52.553601"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:42.299608-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:52.762513-04:00",
+    "context": {
+      "current_time": "15:59:52.761397"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:42.477202-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:52.951268-04:00",
+    "context": {
+      "current_time": "15:59:52.951268"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:42.657977-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:53.149320-04:00",
+    "context": {
+      "current_time": "15:59:53.149320"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:42.842628-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:53.371582-04:00",
+    "context": {
+      "current_time": "15:59:53.371582"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:43.045349-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:53.599935-04:00",
+    "context": {
+      "current_time": "15:59:53.599935"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:43.210265-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:53.832893-04:00",
+    "context": {
+      "current_time": "15:59:53.832893"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:43.401072-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:54.048712-04:00",
+    "context": {
+      "current_time": "15:59:54.048712"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:43.564347-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:54.257657-04:00",
+    "context": {
+      "current_time": "15:59:54.257657"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:43.744304-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:54.535784-04:00",
+    "context": {
+      "current_time": "15:59:54.535784"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:43.907691-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:54.779964-04:00",
+    "context": {
+      "current_time": "15:59:54.779964"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:44.068163-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:55.011692-04:00",
+    "context": {
+      "current_time": "15:59:55.011692"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:44.259387-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:55.265482-04:00",
+    "context": {
+      "current_time": "15:59:55.265482"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:44.415507-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:55.486112-04:00",
+    "context": {
+      "current_time": "15:59:55.486112"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:44.577138-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:55.767738-04:00",
+    "context": {
+      "current_time": "15:59:55.767346"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:44.737316-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:55.940482-04:00",
+    "context": {
+      "current_time": "15:59:55.940482"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:44.935278-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:56.171264-04:00",
+    "context": {
+      "current_time": "15:59:56.171264"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:45.106268-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:56.378542-04:00",
+    "context": {
+      "current_time": "15:59:56.378542"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:45.308935-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:56.606946-04:00",
+    "context": {
+      "current_time": "15:59:56.606946"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:45.476517-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:56.844792-04:00",
+    "context": {
+      "current_time": "15:59:56.844792"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:45.642694-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:57.100379-04:00",
+    "context": {
+      "current_time": "15:59:57.100379"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:45.810636-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:57.309477-04:00",
+    "context": {
+      "current_time": "15:59:57.309477"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:45.984558-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:57.523021-04:00",
+    "context": {
+      "current_time": "15:59:57.523021"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:46.147239-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:57.736673-04:00",
+    "context": {
+      "current_time": "15:59:57.736673"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:46.314563-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:57.978275-04:00",
+    "context": {
+      "current_time": "15:59:57.978275"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:46.505791-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:58.238806-04:00",
+    "context": {
+      "current_time": "15:59:58.238806"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:46.700332-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:58.424068-04:00",
+    "context": {
+      "current_time": "15:59:58.424068"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:46.878259-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:58.684664-04:00",
+    "context": {
+      "current_time": "15:59:58.684664"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:47.060511-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:58.908578-04:00",
+    "context": {
+      "current_time": "15:59:58.908578"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:47.245270-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:59.113965-04:00",
+    "context": {
+      "current_time": "15:59:59.113965"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:47.423335-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:59.332949-04:00",
+    "context": {
+      "current_time": "15:59:59.332949"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:47.594215-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:59.544390-04:00",
+    "context": {
+      "current_time": "15:59:59.544390"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:47.774467-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:59.764563-04:00",
+    "context": {
+      "current_time": "15:59:59.764563"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:47.983438-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T15:59:59.974733-04:00",
+    "context": {
+      "current_time": "15:59:59.974733"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:48.172798-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:00.191465-04:00",
+    "context": {
+      "current_time": "16:00:00.191465"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:48.339238-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:00.384141-04:00",
+    "context": {
+      "current_time": "16:00:00.384141"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:48.521356-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:00.553682-04:00",
+    "context": {
+      "current_time": "16:00:00.553682"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:48.695236-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:00.734786-04:00",
+    "context": {
+      "current_time": "16:00:00.734786"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:48.878547-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:00.915371-04:00",
+    "context": {
+      "current_time": "16:00:00.915371"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:49.060507-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:01.138393-04:00",
+    "context": {
+      "current_time": "16:00:01.138393"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:49.228015-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:01.358838-04:00",
+    "context": {
+      "current_time": "16:00:01.358838"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:49.395102-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:01.519929-04:00",
+    "context": {
+      "current_time": "16:00:01.519929"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:49.566809-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:01.705056-04:00",
+    "context": {
+      "current_time": "16:00:01.705056"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:49.733543-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:01.890858-04:00",
+    "context": {
+      "current_time": "16:00:01.890858"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:49.899976-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:02.077251-04:00",
+    "context": {
+      "current_time": "16:00:02.077251"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:50.075100-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:02.273691-04:00",
+    "context": {
+      "current_time": "16:00:02.273691"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:50.293290-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:02.446554-04:00",
+    "context": {
+      "current_time": "16:00:02.446554"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:50.474020-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:02.660707-04:00",
+    "context": {
+      "current_time": "16:00:02.660707"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:50.672776-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:02.874935-04:00",
+    "context": {
+      "current_time": "16:00:02.874935"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:50.865957-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:03.092874-04:00",
+    "context": {
+      "current_time": "16:00:03.092874"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:51.043361-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:03.288557-04:00",
+    "context": {
+      "current_time": "16:00:03.288557"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:51.227297-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:03.532500-04:00",
+    "context": {
+      "current_time": "16:00:03.532500"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:51.393679-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:03.794145-04:00",
+    "context": {
+      "current_time": "16:00:03.794145"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:51.588823-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:04.049005-04:00",
+    "context": {
+      "current_time": "16:00:04.049005"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:51.852116-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:04.289471-04:00",
+    "context": {
+      "current_time": "16:00:04.289471"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:52.022413-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:04.511152-04:00",
+    "context": {
+      "current_time": "16:00:04.511152"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:52.190763-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:04.739597-04:00",
+    "context": {
+      "current_time": "16:00:04.739597"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:52.373160-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:04.966685-04:00",
+    "context": {
+      "current_time": "16:00:04.966685"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:52.526771-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:05.193152-04:00",
+    "context": {
+      "current_time": "16:00:05.193152"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:52.718096-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:05.397445-04:00",
+    "context": {
+      "current_time": "16:00:05.397445"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:52.877894-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:05.567465-04:00",
+    "context": {
+      "current_time": "16:00:05.567465"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:53.054356-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:05.762319-04:00",
+    "context": {
+      "current_time": "16:00:05.762319"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:53.243211-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:05.929751-04:00",
+    "context": {
+      "current_time": "16:00:05.929751"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:53.441640-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:06.136965-04:00",
+    "context": {
+      "current_time": "16:00:06.136965"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:53.612194-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:06.438019-04:00",
+    "context": {
+      "current_time": "16:00:06.438019"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:53.781508-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:06.674557-04:00",
+    "context": {
+      "current_time": "16:00:06.674557"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:53.965323-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:06.864343-04:00",
+    "context": {
+      "current_time": "16:00:06.864343"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:54.127480-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:07.078634-04:00",
+    "context": {
+      "current_time": "16:00:07.078634"
+    }
   },
   {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:54.277334-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:54.460931-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:54.627493-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:54.794949-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:54.961971-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:55.132514-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:55.311296-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:55.476072-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:55.653288-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:55.854675-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:56.017511-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:56.218141-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:56.389934-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:56.556519-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:56.708391-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:56.898613-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:57.123941-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:57.289973-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:57.456868-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:57.619659-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:57.793871-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:58.290301-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:58.449678-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:58.605158-04:00",
-    "context": {}
-  },
-  {
-    "symbol": "AVGO",
-    "reason": "already_traded",
-    "time": "2025-06-27T14:37:58.788934-04:00",
-    "context": {}
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:07.297507-04:00",
+    "context": {
+      "current_time": "16:00:07.297507"
+    }
+  },
+  {
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:07.493772-04:00",
+    "context": {
+      "current_time": "16:00:07.493772"
+    }
+  },
+  {
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:07.708439-04:00",
+    "context": {
+      "current_time": "16:00:07.708439"
+    }
+  },
+  {
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:07.910715-04:00",
+    "context": {
+      "current_time": "16:00:07.910715"
+    }
+  },
+  {
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:08.127032-04:00",
+    "context": {
+      "current_time": "16:00:08.127032"
+    }
+  },
+  {
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:08.306756-04:00",
+    "context": {
+      "current_time": "16:00:08.306756"
+    }
+  },
+  {
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:08.504862-04:00",
+    "context": {
+      "current_time": "16:00:08.504862"
+    }
+  },
+  {
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:08.676225-04:00",
+    "context": {
+      "current_time": "16:00:08.676225"
+    }
+  },
+  {
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:08.908665-04:00",
+    "context": {
+      "current_time": "16:00:08.908665"
+    }
+  },
+  {
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:09.081347-04:00",
+    "context": {
+      "current_time": "16:00:09.081347"
+    }
+  },
+  {
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:09.283169-04:00",
+    "context": {
+      "current_time": "16:00:09.283169"
+    }
+  },
+  {
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:09.496088-04:00",
+    "context": {
+      "current_time": "16:00:09.496088"
+    }
+  },
+  {
+    "symbol": "MA",
+    "reason": "late_entry",
+    "time": "2025-06-27T16:00:09.747777-04:00",
+    "context": {
+      "current_time": "16:00:09.747387"
+    }
   }
 ]
