@@ -13,13 +13,13 @@
     "Breakout": {
       "profit_pct": 0.0025,
       "min_secs": 180,
-      "loss_pct": 0.01223,
+      "loss_pct": 0.01345,
       "loss_wait_secs": 300
     },
     "Momentum": {
       "profit_pct": 0.002,
-      "min_secs": 180,
-      "loss_pct": 0.01223,
+      "min_secs": 120,
+      "loss_pct": 0.01345,
       "loss_wait_secs": 300
     },
     "VWAP_Bounce": {
@@ -30,8 +30,8 @@
     },
     "MACD": {
       "profit_pct": 0.0015,
-      "min_secs": 212,
-      "loss_pct": -0.00821,
+      "min_secs": 120,
+      "loss_pct": -0.00903,
       "loss_wait_secs": 318
     }
   },
@@ -41,7 +41,7 @@
       "macd_bearish",
       "ma_breakdown"
     ],
-    "trailing_pct": 0.012,
+    "trailing_pct": 0.005,
     "adaptive_hold_minutes": 180,
     "target_gain": 0.02,
     "stop_loss": -0.01
@@ -52,10 +52,11 @@
       "rsi_drop",
       "breakout_fail"
     ],
-    "trailing_pct": 0.01,
+    "trailing_pct": 0.005,
     "adaptive_hold_minutes": 90,
     "target_gain": 0.015,
-    "stop_loss": -0.015
+    "stop_loss": -0.015,
+    "min_hold_secs": 216
   },
   "VWAP_Bounce": {
     "exit_signals": [
@@ -73,11 +74,11 @@
       "ma_breakdown",
       "vwap_reversion"
     ],
-    "trailing_pct": 0.009,
+    "trailing_pct": 0.005,
     "adaptive_hold_minutes": 108,
     "target_gain": 0.01,
     "stop_loss": -0.01,
-    "min_hold_secs": 145
+    "min_hold_secs": 298
   },
   "ORB": {
     "exit_signals": [

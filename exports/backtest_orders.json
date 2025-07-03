@@ -1,0 +1,15 @@
+[
+  {
+    "symbol": "GITS",
+    "action": "SELL",
+    "price": 4.0233,
+    "pnl": 0,
+    "timestamp": "2025-07-03T10:43:56.741814-04:00",
+    "exit_reasons": [
+      "vwap_reversion",
+      "macd_bearish",
+      "ma_breakdown"
+    ],
+    "allocation_notes": "Auto exit"
+  }
+]

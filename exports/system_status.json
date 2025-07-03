@@ -1,19 +1,17 @@
 {
   "live_executor": {
-    "timestamp": "2025-06-27T16:00:10.036371",
-    "last_executed": "2025-06-27T16:00:10.029489",
-    "open_trades": 0
+    "timestamp": "2025-07-03T10:43:15.201764",
+    "last_execution": "2025-07-03T10:43:14.855416-04:00"
   },
   "ai_daemon": {
-    "timestamp": "2025-06-27T19:36:46.749831",
+    "timestamp": "2025-06-30T10:00:44.881059",
     "top_strategy": "Breakout",
-    "sharpe": -0.0,
-    "drawdown": 102.93
+    "sharpe": -0.01,
+    "drawdown": 105.13
   },
   "exit_executor": {
-    "timestamp": "2025-06-27T19:37:43.079830",
-    "trades_closed": 260,
-    "remaining_open": 0
+    "timestamp": "2025-07-03T10:44:01.246446",
+    "last_exit": "2025-07-03T10:44:01.212341-04:00"
   },
   "signal_engine": {
     "timestamp": "2025-06-26T11:59:47.100900",
@@ -26,16 +24,18 @@
     "count": 4
   },
   "signal_engine_monitor": {
-    "timestamp": "2025-06-27T19:37:09.096728",
-    "count": 115
+    "timestamp": "2025-06-30T10:00:54.605926",
+    "count": 155
   },
   "signal_engine_top": {
-    "timestamp": "2025-06-27T16:19:21.952706",
+    "timestamp": "2025-06-30T09:52:53.446991",
     "symbols": [
-      "AVGO",
-      "LLY",
-      "V",
-      "MA"
+      "AMZN",
+      "NVDA"
     ]
+  },
+  "backtest_engine": {
+    "timestamp": "2025-07-03T10:48:59.459673-04:00",
+    "orders_generated": 0
   }
 }

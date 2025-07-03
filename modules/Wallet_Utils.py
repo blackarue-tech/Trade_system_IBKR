@@ -4,11 +4,25 @@ import os
 import json
 import pytz
 from datetime import datetime
+from pytz import timezone
 
 #STARTING_CAPITAL = 10000.0
 MAX_DEPLOYABLE_CAPITAL = 10000.0
 LOCK_FILE = "exports/wallet.lock"
+WALLET_PATH = "exports/wallet.json"
+TRADE_LOG_PATH = "exports/live_trades.json"
 SUMMARY_FILE = os.path.expanduser("C:/Users/ricar/OneDrive/Documents/Python/test_env/exports/wallet_summary.json")
+LOCAL_TZ = timezone("America/Toronto")
+
+def load_json(path):
+    if os.path.exists(path):
+        with open(path) as f:
+            return json.load(f)
+    return {}
+
+def save_json(data, path):
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2)
 
 # === Load/Save Wallet Balance ===
 def load_wallet_balance(wallet_path):
@@ -70,61 +84,50 @@ def log_wallet_summary(wallet_path, log_path=SUMMARY_FILE):
 
 # === Audit Tool ===
 def infer_starting_balance_from_today(trades_data):
-    today = datetime.now(pytz.timezone("America/Toronto")).strftime("%Y-%m-%d")
-    if today not in trades_data:
-        print("⚠️ No trades found for today.")
-        return 0.0
+    today = datetime.now(LOCAL_TZ).strftime("%Y-%m-%d")
+    if today in trades_data:
+        day_trades = trades_data[today].get("trades", [])
+        if day_trades:
+            first_trade = day_trades[0]
+            return first_trade.get("wallet_balance_at_entry", 10000.0)
+    return 10000.0  # fallback if no data
 
-    trades = trades_data[today].get("trades", [])
-    if not trades:
-        return 0.0
+def audit_wallet():
+    wallet_data = load_json(WALLET_PATH)
+    current_balance = wallet_data.get("balance", 10000.0) if isinstance(wallet_data, dict) else wallet_data
+    trades = load_json(TRADE_LOG_PATH)
 
-    # Sort by entry time
-    trades_sorted = sorted(trades, key=lambda t: t.get("datetime", ""))
-    capital_total = sum(t.get("capital_used", 0.0) for t in trades_sorted if "capital_used" in t)
+    initial_balance = infer_starting_balance_from_today(trades)
+    realized_pnl = 0
+    locked_capital = 0
 
-    print(f"📈 Inferred capital used at start of {today}: ${capital_total:.2f}")
-    return capital_total
-
-def audit_wallet(trades_file, wallet_file):
-    with open(trades_file) as f:
-        trades_data = json.load(f)
-    pnl_total = 0
-    ## The `initial_balance` variable in the `audit_wallet` function is being used to infer the
-    # starting balance for the current day based on the trades data provided. It calls the
-    # `infer_starting_balance_from_today` function to calculate the total capital used at the start
-    # of the day by summing up the `capital_used` values from the trades data for the current day.
-    # This inferred initial balance is then used in the calculation of the expected wallet balance
-    # for auditing purposes.
-    initial_balance = infer_starting_balance_from_today(trades_data)
-    initial_balance = 10000
-    capital_locked = 0
-    for day_trades in trades_data.values():
-        for trade in day_trades.get("trades", []):
+    for day, data in trades.items():
+        for trade in data.get("trades", []):
             if trade.get("status") == "closed":
-                pnl_total += trade.get("pnl", 0)
+                realized_pnl += trade.get("pnl", 0)
             elif trade.get("status") == "open":
-                capital_locked += trade.get("capital_used", 0)
+                locked_capital += trade.get("capital_used", 0)
 
-    expected_balance = initial_balance + pnl_total - capital_locked
+    expected_balance = initial_balance + realized_pnl
+    drift = expected_balance - current_balance
 
-    try:
-        with open(wallet_file) as f:
-            current_balance = json.load(f).get("balance", 0.0)
-    except FileNotFoundError:
-        current_balance = 0.0
+    now_str = datetime.now(LOCAL_TZ).strftime("%Y-%m-%d %H:%M:%S %Z")
+    print(f"[{now_str}] 🧮 WALLET AUDIT")
+    print(f"Inferred Starting Balance: ${initial_balance:.2f}")
+    print(f"Realized PnL: ${realized_pnl:.2f}")
+    print(f"Expected Balance: ${expected_balance:.2f}")
+    print(f"Current Wallet Balance: ${current_balance:.2f}")
+    print(f"Locked Capital (Open Trades): ${locked_capital:.2f}")
+    print(f"Calculated Drift: ${drift:.2f}")
 
-    print("\n📊 WALLET AUDIT REPORT")
-    print("-------------------------")
-    print(f"Inferred starting balance today: ${initial_balance:.2f}")
-    print(f"PnL from closed trades:           ${pnl_total:.2f}")
-    print(f"Capital in open trades:           ${capital_locked:.2f}")
-    print(f"📈 Expected wallet balance:       ${expected_balance:.2f}")
-    print(f"📘 Actual wallet.json balance:    ${current_balance:.2f}")
-    print(f"🔎 Drift:                         ${current_balance - expected_balance:.2f}\n")
+    if abs(drift) > 0.01:
+        print(f"✅ Wallet adjusted by ${drift:.2f} to preserve capital integrity.")
+        save_json({"balance": round(expected_balance, 2)}, WALLET_PATH)
+    else:
+        print(f"✅ Wallet is consistent. No adjustment needed.")
 
 if __name__ == "__main__":
     os.makedirs("exports", exist_ok=True)
     wallet_path = os.path.expanduser("C:/Users/ricar/OneDrive/Documents/Python/test_env/exports/wallet.json")
     trade_path = os.path.expanduser("C:/Users/ricar/OneDrive/Documents/Python/test_env/exports/live_trades.json")
-    audit_wallet(trade_path, wallet_path)
+    audit_wallet()

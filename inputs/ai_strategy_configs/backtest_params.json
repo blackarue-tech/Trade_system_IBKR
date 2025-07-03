@@ -1,0 +1,5 @@
+{
+  "min_confidence": 0.47,
+  "sharpe_threshold": 0.05,
+  "max_volatility": 0.014999999999999996
+}

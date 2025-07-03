@@ -1,6012 +1,1552 @@
 [
   {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.6,
     "strategies": [
       "MACD",
       "RSI"
     ],
-    "timestamp": "2025-06-27T09:16:00.502000-04:00"
+    "timestamp": "2025-06-30T08:48:00.061000-04:00"
   },
   {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.6,
     "strategies": [
       "MACD",
       "RSI"
     ],
-    "timestamp": "2025-06-27T14:58:00.502000-04:00"
+    "timestamp": "2025-06-30T08:49:00.061000-04:00"
   },
   {
-    "symbol": "LLY",
-    "symbolId": 25717,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.6,
     "strategies": [
       "MACD",
       "RSI"
     ],
-    "timestamp": "2025-06-27T10:52:00.924000-04:00"
+    "timestamp": "2025-06-30T08:50:00.061000-04:00"
   },
   {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.6,
-    "strategies": [
-      "MACD",
-      "RSI"
-    ],
-    "timestamp": "2025-06-27T10:53:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.6,
-    "strategies": [
-      "MACD",
-      "RSI"
-    ],
-    "timestamp": "2025-06-27T10:54:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.6,
-    "strategies": [
-      "MACD",
-      "RSI"
-    ],
-    "timestamp": "2025-06-27T10:56:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.6,
-    "strategies": [
-      "MACD",
-      "RSI"
-    ],
-    "timestamp": "2025-06-27T10:57:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.6,
-    "strategies": [
-      "MACD",
-      "RSI"
-    ],
-    "timestamp": "2025-06-27T10:58:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.6,
-    "strategies": [
-      "MACD",
-      "RSI"
-    ],
-    "timestamp": "2025-06-27T10:59:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.6,
-    "strategies": [
-      "MACD",
-      "RSI"
-    ],
-    "timestamp": "2025-06-27T14:02:00.924000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.6,
-    "strategies": [
-      "MACD",
-      "RSI"
-    ],
-    "timestamp": "2025-06-27T14:58:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.6,
-    "strategies": [
-      "MACD",
-      "RSI"
-    ],
-    "timestamp": "2025-06-27T14:59:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.6,
-    "strategies": [
-      "MACD",
-      "RSI"
-    ],
-    "timestamp": "2025-06-27T15:00:00.266000-04:00"
-  },
-  {
-    "symbol": "MA",
-    "symbolId": 26808,
-    "confidence": 0.6,
-    "strategies": [
-      "MACD",
-      "RSI"
-    ],
-    "timestamp": "2025-06-27T14:59:00.623000-04:00"
-  },
-  {
-    "symbol": "MA",
-    "symbolId": 26808,
-    "confidence": 0.6,
-    "strategies": [
-      "MACD",
-      "RSI"
-    ],
-    "timestamp": "2025-06-27T15:00:00.623000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T17:07:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T17:10:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T17:11:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T17:12:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T18:12:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T18:13:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T18:20:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T18:25:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T18:31:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T19:52:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T19:54:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T19:56:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T19:57:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T19:58:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:00:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:01:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:02:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:03:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:04:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:05:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:06:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:08:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:10:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:12:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:13:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:15:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:32:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:36:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:39:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:40:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:41:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:02:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:03:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:05:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:06:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:09:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:10:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:12:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:13:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:17:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:20:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:27:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:28:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:29:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:31:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:51:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:52:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:55:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:58:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:24:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:25:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:26:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:32:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:33:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:38:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:45:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:58:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:59:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:00:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:01:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:05:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:06:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:07:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:08:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:09:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:10:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:11:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:12:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:13:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:14:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:15:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:16:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:17:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:18:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:19:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:20:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:36:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:37:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:38:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:39:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:40:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:41:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:42:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:03:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:04:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:05:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:06:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:07:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:08:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:09:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:10:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:11:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:12:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:13:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:14:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:15:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:16:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:17:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:18:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:19:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:20:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:21:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:22:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:23:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:24:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:25:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:26:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:27:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:28:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:29:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:30:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:31:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:32:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:33:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:34:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:35:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:07:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:08:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:11:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:12:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:13:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:24:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:25:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:49:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:50:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:51:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:52:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:53:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:54:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:55:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:56:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:57:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:58:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:00:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:02:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:03:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:04:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:05:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:06:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:07:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:08:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:09:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:10:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:11:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:12:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:13:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:32:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:38:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:39:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:40:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:41:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:42:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:58:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T14:01:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T14:02:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T14:04:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T14:05:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T14:10:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:01:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:03:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:05:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:06:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:07:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:08:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:09:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:10:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:11:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:12:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:13:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:14:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:15:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:16:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:17:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:18:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:19:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:20:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:21:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:22:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:23:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:24:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:25:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:26:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:31:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:32:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:33:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:34:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:35:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:36:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:37:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:38:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:39:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:42:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:43:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:44:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:45:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:46:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:47:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:48:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:49:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:52:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:53:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T16:09:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T16:10:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T16:11:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T16:12:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T16:13:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T16:14:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T16:15:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T16:16:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T16:17:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T16:18:00.502000-04:00"
-  },
-  {
-    "symbol": "AVGO",
-    "symbolId": 21109371,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T16:19:00.502000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T19:07:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T19:17:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T06:26:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T06:38:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:10:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:59:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T08:25:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:19:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:20:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:37:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:38:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:39:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:40:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:42:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:43:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:47:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:48:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:49:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:50:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:51:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:52:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:56:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:57:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:58:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:59:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:00:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:01:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:02:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:03:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:04:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:05:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:06:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:07:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:08:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:09:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:10:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:11:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:12:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:13:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:42:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:43:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:10:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:11:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:20:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:21:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:23:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:24:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:25:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:26:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:27:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:28:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:29:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:31:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:32:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:33:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:34:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:35:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:36:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:39:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:40:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:41:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:52:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:53:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:54:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:55:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:56:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:57:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:58:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:59:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:04:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:05:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:06:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:09:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:10:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:11:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:13:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:17:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:18:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:19:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:20:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:21:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:22:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:23:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:45:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:46:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:47:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:48:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:49:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:50:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:51:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:52:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:53:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:54:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:55:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:56:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:31:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:32:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:33:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:34:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:35:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:37:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:38:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:39:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:40:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T14:09:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T14:10:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T14:45:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:05:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:06:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:07:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:09:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:10:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:11:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:12:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:13:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:14:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:15:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:16:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:17:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:19:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:21:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:22:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:23:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:24:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:25:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:26:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:27:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:28:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:29:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:30:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:31:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:32:00.924000-04:00"
-  },
-  {
-    "symbol": "LLY",
-    "symbolId": 25717,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T15:56:00.924000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-26T19:00:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:19:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T04:48:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T06:15:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:01:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:29:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T07:59:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T08:03:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:29:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:30:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:31:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:35:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:37:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:38:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:39:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:40:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:41:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:42:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:43:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:44:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:45:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:46:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:47:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:48:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:49:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:50:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:51:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:52:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:53:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:54:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:55:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T09:56:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:22:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:23:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:24:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:25:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:26:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:27:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:28:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:43:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:44:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:45:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:46:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:47:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:48:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:49:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T10:50:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:11:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:12:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:13:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:14:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:15:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:16:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:30:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:31:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:32:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:33:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:34:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:35:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:36:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:37:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:38:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:39:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:40:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:41:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:42:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T11:43:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:11:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:12:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:25:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:26:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:27:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:28:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:29:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:30:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:31:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:32:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:33:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:34:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:35:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:36:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T12:37:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:30:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:35:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:38:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T13:40:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T14:21:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T14:22:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
-    "confidence": 0.4,
-    "strategies": [
-      "MACD",
-      "MA_Cross"
-    ],
-    "timestamp": "2025-06-27T14:23:00.266000-04:00"
-  },
-  {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:24:00.266000-04:00"
+    "timestamp": "2025-06-30T04:03:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:25:00.266000-04:00"
+    "timestamp": "2025-06-30T04:04:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:33:00.266000-04:00"
+    "timestamp": "2025-06-30T04:05:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:44:00.266000-04:00"
+    "timestamp": "2025-06-30T04:06:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:45:00.266000-04:00"
+    "timestamp": "2025-06-30T04:08:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:04:00.266000-04:00"
+    "timestamp": "2025-06-30T04:10:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:05:00.266000-04:00"
+    "timestamp": "2025-06-30T04:11:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:06:00.266000-04:00"
+    "timestamp": "2025-06-30T04:12:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:24:00.266000-04:00"
+    "timestamp": "2025-06-30T05:19:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:25:00.266000-04:00"
+    "timestamp": "2025-06-30T05:24:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:26:00.266000-04:00"
+    "timestamp": "2025-06-30T05:29:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:27:00.266000-04:00"
+    "timestamp": "2025-06-30T05:30:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:28:00.266000-04:00"
+    "timestamp": "2025-06-30T05:32:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:29:00.266000-04:00"
+    "timestamp": "2025-06-30T05:35:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:30:00.266000-04:00"
+    "timestamp": "2025-06-30T05:37:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:31:00.266000-04:00"
+    "timestamp": "2025-06-30T05:40:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:35:00.266000-04:00"
+    "timestamp": "2025-06-30T05:41:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:37:00.266000-04:00"
+    "timestamp": "2025-06-30T06:18:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:38:00.266000-04:00"
+    "timestamp": "2025-06-30T06:19:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:39:00.266000-04:00"
+    "timestamp": "2025-06-30T06:21:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:40:00.266000-04:00"
+    "timestamp": "2025-06-30T06:22:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:41:00.266000-04:00"
+    "timestamp": "2025-06-30T06:24:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:42:00.266000-04:00"
+    "timestamp": "2025-06-30T06:25:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:54:00.266000-04:00"
+    "timestamp": "2025-06-30T06:26:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:55:00.266000-04:00"
+    "timestamp": "2025-06-30T07:06:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:56:00.266000-04:00"
+    "timestamp": "2025-06-30T07:08:00.061000-04:00"
   },
   {
-    "symbol": "V",
-    "symbolId": 40825,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:57:00.266000-04:00"
+    "timestamp": "2025-06-30T07:10:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T08:09:00.623000-04:00"
+    "timestamp": "2025-06-30T07:11:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:30:00.623000-04:00"
+    "timestamp": "2025-06-30T07:13:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:31:00.623000-04:00"
+    "timestamp": "2025-06-30T07:14:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:33:00.623000-04:00"
+    "timestamp": "2025-06-30T07:15:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:34:00.623000-04:00"
+    "timestamp": "2025-06-30T07:17:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:35:00.623000-04:00"
+    "timestamp": "2025-06-30T07:18:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:36:00.623000-04:00"
+    "timestamp": "2025-06-30T07:20:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:37:00.623000-04:00"
+    "timestamp": "2025-06-30T07:23:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:38:00.623000-04:00"
+    "timestamp": "2025-06-30T07:24:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:39:00.623000-04:00"
+    "timestamp": "2025-06-30T07:25:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:40:00.623000-04:00"
+    "timestamp": "2025-06-30T07:26:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:41:00.623000-04:00"
+    "timestamp": "2025-06-30T07:27:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:42:00.623000-04:00"
+    "timestamp": "2025-06-30T07:57:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:43:00.623000-04:00"
+    "timestamp": "2025-06-30T07:58:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:44:00.623000-04:00"
+    "timestamp": "2025-06-30T07:59:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:45:00.623000-04:00"
+    "timestamp": "2025-06-30T08:00:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:46:00.623000-04:00"
+    "timestamp": "2025-06-30T08:14:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:47:00.623000-04:00"
+    "timestamp": "2025-06-30T08:15:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:48:00.623000-04:00"
+    "timestamp": "2025-06-30T08:55:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:49:00.623000-04:00"
+    "timestamp": "2025-06-30T08:56:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:50:00.623000-04:00"
+    "timestamp": "2025-06-30T08:57:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:56:00.623000-04:00"
+    "timestamp": "2025-06-30T08:58:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:57:00.623000-04:00"
+    "timestamp": "2025-06-30T08:59:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:58:00.623000-04:00"
+    "timestamp": "2025-06-30T09:00:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T09:59:00.623000-04:00"
+    "timestamp": "2025-06-30T09:01:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T10:00:00.623000-04:00"
+    "timestamp": "2025-06-30T09:02:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T10:26:00.623000-04:00"
+    "timestamp": "2025-06-30T09:03:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T10:27:00.623000-04:00"
+    "timestamp": "2025-06-30T09:04:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T10:28:00.623000-04:00"
+    "timestamp": "2025-06-30T09:05:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T10:38:00.623000-04:00"
+    "timestamp": "2025-06-30T09:06:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:00:00.623000-04:00"
+    "timestamp": "2025-06-30T09:07:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:06:00.623000-04:00"
+    "timestamp": "2025-06-30T09:08:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:08:00.623000-04:00"
+    "timestamp": "2025-06-30T09:09:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:09:00.623000-04:00"
+    "timestamp": "2025-06-30T09:25:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:10:00.623000-04:00"
+    "timestamp": "2025-06-30T09:27:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:11:00.623000-04:00"
+    "timestamp": "2025-06-30T09:28:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:12:00.623000-04:00"
+    "timestamp": "2025-06-30T09:36:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:13:00.623000-04:00"
+    "timestamp": "2025-06-30T09:37:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:14:00.623000-04:00"
+    "timestamp": "2025-06-30T09:38:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:15:00.623000-04:00"
+    "timestamp": "2025-06-30T09:39:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "AMZN",
+    "symbolId": 7410,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:16:00.623000-04:00"
+    "timestamp": "2025-06-30T09:41:00.061000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:17:00.623000-04:00"
+    "timestamp": "2025-06-30T04:02:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:30:00.623000-04:00"
+    "timestamp": "2025-06-30T04:03:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:31:00.623000-04:00"
+    "timestamp": "2025-06-30T04:04:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:32:00.623000-04:00"
+    "timestamp": "2025-06-30T04:05:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:33:00.623000-04:00"
+    "timestamp": "2025-06-30T04:06:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:34:00.623000-04:00"
+    "timestamp": "2025-06-30T04:07:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:35:00.623000-04:00"
+    "timestamp": "2025-06-30T04:08:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:36:00.623000-04:00"
+    "timestamp": "2025-06-30T04:09:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:37:00.623000-04:00"
+    "timestamp": "2025-06-30T04:10:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:38:00.623000-04:00"
+    "timestamp": "2025-06-30T04:11:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:39:00.623000-04:00"
+    "timestamp": "2025-06-30T04:12:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:40:00.623000-04:00"
+    "timestamp": "2025-06-30T04:13:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:41:00.623000-04:00"
+    "timestamp": "2025-06-30T04:14:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:42:00.623000-04:00"
+    "timestamp": "2025-06-30T04:15:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:43:00.623000-04:00"
+    "timestamp": "2025-06-30T04:44:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:44:00.623000-04:00"
+    "timestamp": "2025-06-30T04:46:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:45:00.623000-04:00"
+    "timestamp": "2025-06-30T04:47:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:51:00.623000-04:00"
+    "timestamp": "2025-06-30T04:48:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:52:00.623000-04:00"
+    "timestamp": "2025-06-30T04:49:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:53:00.623000-04:00"
+    "timestamp": "2025-06-30T04:50:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:56:00.623000-04:00"
+    "timestamp": "2025-06-30T04:51:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T11:57:00.623000-04:00"
+    "timestamp": "2025-06-30T04:52:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:08:00.623000-04:00"
+    "timestamp": "2025-06-30T04:53:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:09:00.623000-04:00"
+    "timestamp": "2025-06-30T04:54:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:10:00.623000-04:00"
+    "timestamp": "2025-06-30T04:55:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:11:00.623000-04:00"
+    "timestamp": "2025-06-30T04:56:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:12:00.623000-04:00"
+    "timestamp": "2025-06-30T04:57:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:13:00.623000-04:00"
+    "timestamp": "2025-06-30T04:58:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:22:00.623000-04:00"
+    "timestamp": "2025-06-30T05:08:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:23:00.623000-04:00"
+    "timestamp": "2025-06-30T05:09:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:24:00.623000-04:00"
+    "timestamp": "2025-06-30T05:10:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:25:00.623000-04:00"
+    "timestamp": "2025-06-30T05:11:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:26:00.623000-04:00"
+    "timestamp": "2025-06-30T05:12:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:27:00.623000-04:00"
+    "timestamp": "2025-06-30T05:13:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:28:00.623000-04:00"
+    "timestamp": "2025-06-30T05:14:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:29:00.623000-04:00"
+    "timestamp": "2025-06-30T06:07:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:30:00.623000-04:00"
+    "timestamp": "2025-06-30T06:28:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:31:00.623000-04:00"
+    "timestamp": "2025-06-30T06:29:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:32:00.623000-04:00"
+    "timestamp": "2025-06-30T06:30:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T12:33:00.623000-04:00"
+    "timestamp": "2025-06-30T06:31:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T13:03:00.623000-04:00"
+    "timestamp": "2025-06-30T06:32:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T13:04:00.623000-04:00"
+    "timestamp": "2025-06-30T07:08:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T13:05:00.623000-04:00"
+    "timestamp": "2025-06-30T07:09:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T13:06:00.623000-04:00"
+    "timestamp": "2025-06-30T07:10:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T13:10:00.623000-04:00"
+    "timestamp": "2025-06-30T07:12:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T13:11:00.623000-04:00"
+    "timestamp": "2025-06-30T07:13:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T13:13:00.623000-04:00"
+    "timestamp": "2025-06-30T07:15:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T13:30:00.623000-04:00"
+    "timestamp": "2025-06-30T07:16:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T13:40:00.623000-04:00"
+    "timestamp": "2025-06-30T07:17:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T13:41:00.623000-04:00"
+    "timestamp": "2025-06-30T07:18:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:08:00.623000-04:00"
+    "timestamp": "2025-06-30T07:19:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:09:00.623000-04:00"
+    "timestamp": "2025-06-30T07:46:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:10:00.623000-04:00"
+    "timestamp": "2025-06-30T07:50:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:11:00.623000-04:00"
+    "timestamp": "2025-06-30T07:51:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:12:00.623000-04:00"
+    "timestamp": "2025-06-30T08:08:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:13:00.623000-04:00"
+    "timestamp": "2025-06-30T08:09:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:16:00.623000-04:00"
+    "timestamp": "2025-06-30T08:10:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:44:00.623000-04:00"
+    "timestamp": "2025-06-30T08:11:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T14:45:00.623000-04:00"
+    "timestamp": "2025-06-30T08:12:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:03:00.623000-04:00"
+    "timestamp": "2025-06-30T08:13:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:04:00.623000-04:00"
+    "timestamp": "2025-06-30T08:14:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:25:00.623000-04:00"
+    "timestamp": "2025-06-30T08:15:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:26:00.623000-04:00"
+    "timestamp": "2025-06-30T08:16:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:27:00.623000-04:00"
+    "timestamp": "2025-06-30T08:17:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:29:00.623000-04:00"
+    "timestamp": "2025-06-30T08:18:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:30:00.623000-04:00"
+    "timestamp": "2025-06-30T08:19:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:31:00.623000-04:00"
+    "timestamp": "2025-06-30T09:02:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:32:00.623000-04:00"
+    "timestamp": "2025-06-30T09:03:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:33:00.623000-04:00"
+    "timestamp": "2025-06-30T09:04:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:34:00.623000-04:00"
+    "timestamp": "2025-06-30T09:05:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:35:00.623000-04:00"
+    "timestamp": "2025-06-30T09:06:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:37:00.623000-04:00"
+    "timestamp": "2025-06-30T09:07:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:38:00.623000-04:00"
+    "timestamp": "2025-06-30T09:08:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:39:00.623000-04:00"
+    "timestamp": "2025-06-30T09:09:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:40:00.623000-04:00"
+    "timestamp": "2025-06-30T09:10:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:41:00.623000-04:00"
+    "timestamp": "2025-06-30T09:11:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:42:00.623000-04:00"
+    "timestamp": "2025-06-30T09:12:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:46:00.623000-04:00"
+    "timestamp": "2025-06-30T09:13:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:47:00.623000-04:00"
+    "timestamp": "2025-06-30T09:14:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:48:00.623000-04:00"
+    "timestamp": "2025-06-30T09:15:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:49:00.623000-04:00"
+    "timestamp": "2025-06-30T09:16:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:55:00.623000-04:00"
+    "timestamp": "2025-06-30T09:17:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:56:00.623000-04:00"
+    "timestamp": "2025-06-30T09:18:00.375000-04:00"
   },
   {
-    "symbol": "MA",
-    "symbolId": 26808,
+    "symbol": "NVDA",
+    "symbolId": 29814,
     "confidence": 0.4,
     "strategies": [
       "MACD",
       "MA_Cross"
     ],
-    "timestamp": "2025-06-27T15:57:00.623000-04:00"
+    "timestamp": "2025-06-30T09:19:00.375000-04:00"
   }
 ]
