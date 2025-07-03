@@ -13,7 +13,7 @@ from utils import atomic_save_json, update_system_status
 ORDERS_PATH = "exports/backtest_orders.json"
 LIVE_TRADES_PATH = "exports/live_trades.json"
 WALLET_PATH = "exports/wallet.json"
-LOOP_INTERVAL = 10
+LOOP_INTERVAL = 1
 LOCAL_TZ = timezone("America/Toronto")
 us_holidays = holidays.US()
 

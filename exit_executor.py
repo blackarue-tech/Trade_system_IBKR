@@ -14,7 +14,7 @@ ORDERS_PATH = "exports/backtest_orders.json"
 LIVE_TRADES_PATH = "exports/live_trades.json"
 WALLET_PATH = "exports/wallet.json"
 LAST_EXIT_TRACKER_PATH = "exports/last_exit_tracker.json"
-LOOP_INTERVAL = 10
+LOOP_INTERVAL = 1
 LOCAL_TZ = timezone("America/Toronto")
 us_holidays = holidays.US()
 

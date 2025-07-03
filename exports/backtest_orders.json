@@ -1,15 +1,13 @@
 [
   {
-    "symbol": "GITS",
+    "symbol": "RGC",
     "action": "SELL",
-    "price": 4.0233,
-    "pnl": 0,
-    "timestamp": "2025-07-03T10:43:56.741814-04:00",
+    "price": 21.56,
+    "pnl": 2.4,
+    "timestamp": "2025-07-03T13:33:39.019400-04:00",
     "exit_reasons": [
-      "vwap_reversion",
-      "macd_bearish",
-      "ma_breakdown"
+      "ema20_breakdown"
     ],
-    "allocation_notes": "Auto exit"
+    "allocation_notes": "Auto exit momentum"
   }
 ]

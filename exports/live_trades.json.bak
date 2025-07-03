@@ -5712,9 +5712,16 @@
         "entry_price": 46.29,
         "shares": 9,
         "capital_used": 416.61,
-        "status": "open",
+        "status": "closed",
         "confidence": 0.517,
-        "allocation_notes": "Weak"
+        "allocation_notes": "Weak",
+        "exit_price": 45.93,
+        "exit_time": "2025-07-03T10:53:11.682944-04:00",
+        "pnl": -3.24,
+        "pnl_pct": -0.78,
+        "exit_reasons": [
+          "macd_bearish"
+        ]
       },
       {
         "symbol": "GITS",
@@ -5723,8 +5730,1303 @@
         "entry_price": 4.26,
         "shares": 8,
         "capital_used": 34.08,
-        "status": "open",
+        "status": "closed",
         "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 4.0233,
+        "exit_time": "2025-07-03T10:44:01.212341-04:00",
+        "pnl": -1.89,
+        "pnl_pct": -5.56,
+        "exit_reasons": [
+          "vwap_reversion",
+          "macd_bearish",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "DDOG",
+        "symbolId": 27221329,
+        "datetime": "2025-07-03T10:51:05.451348-04:00",
+        "entry_price": 152.62,
+        "shares": 9,
+        "capital_used": 1373.58,
+        "status": "closed",
+        "confidence": 0.591,
+        "allocation_notes": "Weak",
+        "exit_price": 151.1332,
+        "exit_time": "2025-07-03T10:51:51.558817-04:00",
+        "pnl": -13.38,
+        "pnl_pct": -0.97,
+        "exit_reasons": [
+          "macd_bearish",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T10:52:35.950781-04:00",
+        "entry_price": 4.01,
+        "shares": 10,
+        "capital_used": 40.1,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 4.1508,
+        "exit_time": "2025-07-03T10:53:11.682944-04:00",
+        "pnl": 1.41,
+        "pnl_pct": 3.51,
+        "exit_reasons": [
+          "vwap_reversion"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T10:53:46.436009-04:00",
+        "entry_price": 4.06,
+        "shares": 10,
+        "capital_used": 40.6,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 4.2052,
+        "exit_time": "2025-07-03T10:54:01.828559-04:00",
+        "pnl": 1.45,
+        "pnl_pct": 3.58,
+        "exit_reasons": [
+          "vwap_reversion"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T10:54:46.846007-04:00",
+        "entry_price": 4.014,
+        "shares": 9,
+        "capital_used": 36.13,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 4.2052,
+        "exit_time": "2025-07-03T10:55:21.946383-04:00",
+        "pnl": 1.72,
+        "pnl_pct": 4.76,
+        "exit_reasons": [
+          "vwap_reversion"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T10:55:57.345722-04:00",
+        "entry_price": 4.0899,
+        "shares": 9,
+        "capital_used": 36.81,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 4.18,
+        "exit_time": "2025-07-03T10:56:32.084880-04:00",
+        "pnl": 0.81,
+        "pnl_pct": 2.2,
+        "exit_reasons": [
+          "vwap_reversion"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T10:58:17.825860-04:00",
+        "entry_price": 46.2943,
+        "shares": 9,
+        "capital_used": 416.65,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 45.995,
+        "exit_time": "2025-07-03T11:00:22.297329-04:00",
+        "pnl": -2.69,
+        "pnl_pct": -0.65,
+        "exit_reasons": [
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:02:28.344173-04:00",
+        "entry_price": 46.9,
+        "shares": 9,
+        "capital_used": 422.1,
+        "status": "closed",
+        "confidence": 0.519,
+        "allocation_notes": "Weak",
+        "exit_price": 46.559,
+        "exit_time": "2025-07-03T11:13:23.123774-04:00",
+        "pnl": -3.07,
+        "pnl_pct": -0.73,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T11:08:28.921946-04:00",
+        "entry_price": 3.985,
+        "shares": 9,
+        "capital_used": 35.87,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 4.0301,
+        "exit_time": "2025-07-03T11:09:12.726556-04:00",
+        "pnl": 0.41,
+        "pnl_pct": 1.13,
+        "exit_reasons": [
+          "vwap_reversion",
+          "macd_bearish",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T11:09:59.308561-04:00",
+        "entry_price": 3.9688,
+        "shares": 10,
+        "capital_used": 39.69,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 4.1,
+        "exit_time": "2025-07-03T11:10:42.875870-04:00",
+        "pnl": 1.31,
+        "pnl_pct": 3.31,
+        "exit_reasons": [
+          "vwap_reversion"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T11:11:19.789366-04:00",
+        "entry_price": 4,
+        "shares": 9,
+        "capital_used": 36,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 4.0752,
+        "exit_time": "2025-07-03T11:12:03.022185-04:00",
+        "pnl": 0.68,
+        "pnl_pct": 1.88,
+        "exit_reasons": [
+          "vwap_reversion"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:14:10.410730-04:00",
+        "entry_price": 47.1,
+        "shares": 8,
+        "capital_used": 376.8,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 46.945,
+        "exit_time": "2025-07-03T11:14:43.224308-04:00",
+        "pnl": -1.24,
+        "pnl_pct": -0.33,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:15:30.839800-04:00",
+        "entry_price": 47.09,
+        "shares": 8,
+        "capital_used": 376.72,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 46.89,
+        "exit_time": "2025-07-03T11:16:03.328738-04:00",
+        "pnl": -1.6,
+        "pnl_pct": -0.42,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:16:41.302862-04:00",
+        "entry_price": 47.33,
+        "shares": 8,
+        "capital_used": 378.64,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 46.8084,
+        "exit_time": "2025-07-03T11:20:33.601508-04:00",
+        "pnl": -4.17,
+        "pnl_pct": -1.1,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T11:19:21.758935-04:00",
+        "entry_price": 3.97,
+        "shares": 10,
+        "capital_used": 39.7,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 4.05,
+        "exit_time": "2025-07-03T11:20:03.544318-04:00",
+        "pnl": 0.8,
+        "pnl_pct": 2.02,
+        "exit_reasons": [
+          "vwap_reversion",
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:21:22.265560-04:00",
+        "entry_price": 47.17,
+        "shares": 9,
+        "capital_used": 424.53,
+        "status": "closed",
+        "confidence": 0.518,
+        "allocation_notes": "Weak",
+        "exit_price": 46.8,
+        "exit_time": "2025-07-03T11:22:03.753477-04:00",
+        "pnl": -3.33,
+        "pnl_pct": -0.78,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T11:21:22.265560-04:00",
+        "entry_price": 3.9301,
+        "shares": 9,
+        "capital_used": 35.37,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.985,
+        "exit_time": "2025-07-03T11:22:03.753477-04:00",
+        "pnl": 0.49,
+        "pnl_pct": 1.4,
+        "exit_reasons": [
+          "vwap_reversion",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T11:22:43.131861-04:00",
+        "entry_price": 3.93,
+        "shares": 10,
+        "capital_used": 39.3,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.9888,
+        "exit_time": "2025-07-03T11:26:24.014239-04:00",
+        "pnl": 0.59,
+        "pnl_pct": 1.5,
+        "exit_reasons": [
+          "vwap_reversion",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T11:26:53.718206-04:00",
+        "entry_price": 3.91,
+        "shares": 9,
+        "capital_used": 35.19,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.9904,
+        "exit_time": "2025-07-03T11:31:14.346525-04:00",
+        "pnl": 0.72,
+        "pnl_pct": 2.06,
+        "exit_reasons": [
+          "vwap_reversion"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:27:34.176415-04:00",
+        "entry_price": 47.3,
+        "shares": 9,
+        "capital_used": 425.7,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.14,
+        "exit_time": "2025-07-03T11:34:14.523384-04:00",
+        "pnl": -1.44,
+        "pnl_pct": -0.34,
+        "exit_reasons": [
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T11:31:54.658311-04:00",
+        "entry_price": 3.75,
+        "shares": 10,
+        "capital_used": 37.5,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.9701,
+        "exit_time": "2025-07-03T11:34:24.577683-04:00",
+        "pnl": 2.2,
+        "pnl_pct": 5.87,
+        "exit_reasons": [
+          "vwap_reversion",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T11:35:05.185014-04:00",
+        "entry_price": 3.6499,
+        "shares": 10,
+        "capital_used": 36.5,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.9601,
+        "exit_time": "2025-07-03T11:38:14.950704-04:00",
+        "pnl": 3.1,
+        "pnl_pct": 8.5,
+        "exit_reasons": [
+          "vwap_reversion",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:35:35.583407-04:00",
+        "entry_price": 47.34,
+        "shares": 8,
+        "capital_used": 378.72,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.29,
+        "exit_time": "2025-07-03T11:36:14.755337-04:00",
+        "pnl": -0.4,
+        "pnl_pct": -0.11,
+        "exit_reasons": [
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:36:56.022397-04:00",
+        "entry_price": 47.21,
+        "shares": 9,
+        "capital_used": 424.89,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.4,
+        "exit_time": "2025-07-03T11:37:34.874996-04:00",
+        "pnl": 1.71,
+        "pnl_pct": 0.4,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T11:38:56.481456-04:00",
+        "entry_price": 3.7246,
+        "shares": 9,
+        "capital_used": 33.52,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.7091,
+        "exit_time": "2025-07-03T11:51:35.719338-04:00",
+        "pnl": -0.14,
+        "pnl_pct": -0.42,
+        "exit_reasons": [
+          "vwap_reversion",
+          "macd_bearish",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:39:36.878982-04:00",
+        "entry_price": 47.195,
+        "shares": 9,
+        "capital_used": 424.75,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.41,
+        "exit_time": "2025-07-03T11:43:25.219723-04:00",
+        "pnl": 1.93,
+        "pnl_pct": 0.46,
+        "exit_reasons": [
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:44:07.457765-04:00",
+        "entry_price": 47.4026,
+        "shares": 9,
+        "capital_used": 426.62,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.28,
+        "exit_time": "2025-07-03T11:44:45.335952-04:00",
+        "pnl": -1.1,
+        "pnl_pct": -0.26,
+        "exit_reasons": [
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:45:27.835867-04:00",
+        "entry_price": 47.395,
+        "shares": 9,
+        "capital_used": 426.56,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.2501,
+        "exit_time": "2025-07-03T11:46:05.464999-04:00",
+        "pnl": -1.3,
+        "pnl_pct": -0.31,
+        "exit_reasons": [
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:54:28.489785-04:00",
+        "entry_price": 47.065,
+        "shares": 10,
+        "capital_used": 470.65,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.265,
+        "exit_time": "2025-07-03T11:55:05.937847-04:00",
+        "pnl": 2.0,
+        "pnl_pct": 0.42,
+        "exit_reasons": [
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:55:48.946265-04:00",
+        "entry_price": 47,
+        "shares": 9,
+        "capital_used": 423,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.52,
+        "exit_time": "2025-07-03T11:56:26.069113-04:00",
+        "pnl": 4.68,
+        "pnl_pct": 1.11,
+        "exit_reasons": [
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:56:59.388495-04:00",
+        "entry_price": 46.94,
+        "shares": 10,
+        "capital_used": 469.4,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.4076,
+        "exit_time": "2025-07-03T11:57:36.223204-04:00",
+        "pnl": 4.68,
+        "pnl_pct": 1.0,
+        "exit_reasons": [
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T11:57:09.761649-04:00",
+        "entry_price": 3.4801,
+        "shares": 10,
+        "capital_used": 34.8,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.66,
+        "exit_time": "2025-07-03T11:57:46.265396-04:00",
+        "pnl": 1.8,
+        "pnl_pct": 5.17,
+        "exit_reasons": [
+          "vwap_reversion",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T11:58:20.215647-04:00",
+        "entry_price": 46.97,
+        "shares": 10,
+        "capital_used": 469.7,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 46.9896,
+        "exit_time": "2025-07-03T12:12:37.259042-04:00",
+        "pnl": 0.2,
+        "pnl_pct": 0.04,
+        "exit_reasons": [
+          "macd_bearish",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T11:59:40.602776-04:00",
+        "entry_price": 3.4301,
+        "shares": 9,
+        "capital_used": 30.87,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.5603,
+        "exit_time": "2025-07-03T12:05:56.690113-04:00",
+        "pnl": 1.17,
+        "pnl_pct": 3.8,
+        "exit_reasons": [
+          "vwap_reversion",
+          "macd_bearish",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "RGC",
+        "symbolId": 36960281,
+        "datetime": "2025-07-03T12:03:31.119922-04:00",
+        "entry_price": 22.6,
+        "shares": 9,
+        "capital_used": 203.4,
+        "status": "closed",
+        "confidence": 0.64,
+        "allocation_notes": "Weak",
+        "exit_price": 22.78,
+        "exit_time": "2025-07-03T12:08:26.923342-04:00",
+        "pnl": 1.62,
+        "pnl_pct": 0.8,
+        "exit_reasons": [
+          "macd_bearish",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "BMNR",
+        "symbolId": 62166792,
+        "datetime": "2025-07-03T12:05:21.544091-04:00",
+        "entry_price": 113.815,
+        "shares": 8,
+        "capital_used": 910.52,
+        "status": "closed",
+        "confidence": 0.571,
+        "allocation_notes": "Weak",
+        "exit_price": 105.61,
+        "exit_time": "2025-07-03T12:05:56.690113-04:00",
+        "pnl": -65.64,
+        "pnl_pct": -7.21,
+        "exit_reasons": [
+          "macd_bearish",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T12:06:31.984477-04:00",
+        "entry_price": 3.48,
+        "shares": 9,
+        "capital_used": 31.32,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.555,
+        "exit_time": "2025-07-03T12:07:06.811767-04:00",
+        "pnl": 0.68,
+        "pnl_pct": 2.16,
+        "exit_reasons": [
+          "vwap_reversion",
+          "macd_bearish",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T12:07:52.397612-04:00",
+        "entry_price": 3.47,
+        "shares": 10,
+        "capital_used": 34.7,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.5587,
+        "exit_time": "2025-07-03T12:08:26.923342-04:00",
+        "pnl": 0.89,
+        "pnl_pct": 2.56,
+        "exit_reasons": [
+          "vwap_reversion",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T12:09:02.882214-04:00",
+        "entry_price": 3.48,
+        "shares": 10,
+        "capital_used": 34.8,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.5962,
+        "exit_time": "2025-07-03T12:11:27.149215-04:00",
+        "pnl": 1.16,
+        "pnl_pct": 3.34,
+        "exit_reasons": [
+          "vwap_reversion",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "RGC",
+        "symbolId": 36960281,
+        "datetime": "2025-07-03T12:09:43.270171-04:00",
+        "entry_price": 22.3,
+        "shares": 9,
+        "capital_used": 200.7,
+        "status": "closed",
+        "confidence": 0.64,
+        "allocation_notes": "Weak",
+        "exit_price": 23.2874,
+        "exit_time": "2025-07-03T12:13:27.345578-04:00",
+        "pnl": 8.89,
+        "pnl_pct": 4.43,
+        "exit_reasons": [
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "BMNR",
+        "symbolId": 62166792,
+        "datetime": "2025-07-03T12:12:40.717349-04:00",
+        "entry_price": 112.28,
+        "shares": 8,
+        "capital_used": 898.24,
+        "status": "closed",
+        "confidence": 0.571,
+        "allocation_notes": "Weak",
+        "exit_price": 112.2301,
+        "exit_time": "2025-07-03T12:15:17.456418-04:00",
+        "pnl": -0.4,
+        "pnl_pct": -0.04,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "RGC",
+        "symbolId": 36960281,
+        "datetime": "2025-07-03T12:14:00.510974-04:00",
+        "entry_price": 22.7037,
+        "shares": 9,
+        "capital_used": 204.33,
+        "status": "closed",
+        "confidence": 0.64,
+        "allocation_notes": "Weak",
+        "exit_price": 23.16,
+        "exit_time": "2025-07-03T12:15:27.515566-04:00",
+        "pnl": 4.11,
+        "pnl_pct": 2.01,
+        "exit_reasons": [
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T12:14:35.090868-04:00",
+        "entry_price": 47.39,
+        "shares": 9,
+        "capital_used": 426.51,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 46.97,
+        "exit_time": "2025-07-03T12:15:17.456418-04:00",
+        "pnl": -3.78,
+        "pnl_pct": -0.89,
+        "exit_reasons": [
+          "macd_bearish",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T12:15:17.679725-04:00",
+        "entry_price": 3.42,
+        "shares": 10,
+        "capital_used": 34.2,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.505,
+        "exit_time": "2025-07-03T12:16:37.590057-04:00",
+        "pnl": 0.85,
+        "pnl_pct": 2.49,
+        "exit_reasons": [
+          "vwap_reversion",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T12:15:54.283219-04:00",
+        "entry_price": 47.275,
+        "shares": 9,
+        "capital_used": 425.47,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 46.95,
+        "exit_time": "2025-07-03T12:16:37.590057-04:00",
+        "pnl": -2.92,
+        "pnl_pct": -0.69,
+        "exit_reasons": [
+          "macd_bearish",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T12:17:18.116725-04:00",
+        "entry_price": 3.43,
+        "shares": 9,
+        "capital_used": 30.87,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.53,
+        "exit_time": "2025-07-03T12:17:57.704550-04:00",
+        "pnl": 0.9,
+        "pnl_pct": 2.92,
+        "exit_reasons": [
+          "vwap_reversion",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T12:18:36.866829-04:00",
+        "entry_price": 3.4,
+        "shares": 9,
+        "capital_used": 30.6,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.5497,
+        "exit_time": "2025-07-03T12:19:17.819887-04:00",
+        "pnl": 1.35,
+        "pnl_pct": 4.4,
+        "exit_reasons": [
+          "vwap_reversion",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T12:19:55.715291-04:00",
+        "entry_price": 3.39,
+        "shares": 9,
+        "capital_used": 30.51,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.4399,
+        "exit_time": "2025-07-03T12:30:08.377514-04:00",
+        "pnl": 0.45,
+        "pnl_pct": 1.47,
+        "exit_reasons": [
+          "vwap_reversion",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "RGC",
+        "symbolId": 36960281,
+        "datetime": "2025-07-03T12:20:38.318377-04:00",
+        "entry_price": 25.32,
+        "shares": 9,
+        "capital_used": 227.88,
+        "status": "closed",
+        "confidence": 0.64,
+        "allocation_notes": "Weak",
+        "exit_price": 22.8,
+        "exit_time": "2025-07-03T12:25:18.091446-04:00",
+        "pnl": -22.68,
+        "pnl_pct": -9.95,
+        "exit_reasons": [
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T12:22:29.299032-04:00",
+        "entry_price": 47.35,
+        "shares": 9,
+        "capital_used": 426.15,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.4,
+        "exit_time": "2025-07-03T12:28:08.254569-04:00",
+        "pnl": 0.45,
+        "pnl_pct": 0.11,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T12:28:44.686960-04:00",
+        "entry_price": 47.64,
+        "shares": 9,
+        "capital_used": 428.76,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.7,
+        "exit_time": "2025-07-03T12:41:08.802463-04:00",
+        "pnl": 0.54,
+        "pnl_pct": 0.13,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T12:40:25.715942-04:00",
+        "entry_price": 3.6197,
+        "shares": 9,
+        "capital_used": 32.58,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.535,
+        "exit_time": "2025-07-03T12:41:08.802463-04:00",
+        "pnl": -0.76,
+        "pnl_pct": -2.34,
+        "exit_reasons": [
+          "vwap_reversion"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T12:41:41.622439-04:00",
+        "entry_price": 47.45,
+        "shares": 9,
+        "capital_used": 427.05,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.74,
+        "exit_time": "2025-07-03T12:42:18.910973-04:00",
+        "pnl": 2.61,
+        "pnl_pct": 0.61,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T12:42:57.498914-04:00",
+        "entry_price": 47.345,
+        "shares": 10,
+        "capital_used": 473.45,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.675,
+        "exit_time": "2025-07-03T12:43:39.002916-04:00",
+        "pnl": 3.3,
+        "pnl_pct": 0.7,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T12:46:38.199308-04:00",
+        "entry_price": 47.175,
+        "shares": 9,
+        "capital_used": 424.57,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.77,
+        "exit_time": "2025-07-03T12:47:19.219655-04:00",
+        "pnl": 5.36,
+        "pnl_pct": 1.26,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T12:47:56.978583-04:00",
+        "entry_price": 47.0213,
+        "shares": 10,
+        "capital_used": 470.21,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.71,
+        "exit_time": "2025-07-03T12:48:39.303480-04:00",
+        "pnl": 6.89,
+        "pnl_pct": 1.46,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T12:49:18.830686-04:00",
+        "entry_price": 3.78,
+        "shares": 9,
+        "capital_used": 34.02,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.61,
+        "exit_time": "2025-07-03T12:49:59.453931-04:00",
+        "pnl": -1.53,
+        "pnl_pct": -4.5,
+        "exit_reasons": [
+          "vwap_reversion",
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "RGC",
+        "symbolId": 36960281,
+        "datetime": "2025-07-03T13:01:49.334088-04:00",
+        "entry_price": 21.72,
+        "shares": 11,
+        "capital_used": 238.92,
+        "status": "closed",
+        "confidence": 0.64,
+        "allocation_notes": "Weak",
+        "exit_price": 22.99,
+        "exit_time": "2025-07-03T13:14:20.598752-04:00",
+        "pnl": 13.97,
+        "pnl_pct": 5.85,
+        "exit_reasons": [
+          "macd_bearish",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T13:02:25.923568-04:00",
+        "entry_price": 3.64,
+        "shares": 9,
+        "capital_used": 32.76,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.77,
+        "exit_time": "2025-07-03T13:03:09.982995-04:00",
+        "pnl": 1.17,
+        "pnl_pct": 3.57,
+        "exit_reasons": [
+          "vwap_reversion"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T13:03:41.796708-04:00",
+        "entry_price": 3.66,
+        "shares": 10,
+        "capital_used": 36.6,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.74,
+        "exit_time": "2025-07-03T13:13:30.504226-04:00",
+        "pnl": 0.8,
+        "pnl_pct": 2.19,
+        "exit_reasons": [
+          "vwap_reversion",
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T13:04:18.408480-04:00",
+        "entry_price": 47.9793,
+        "shares": 9,
+        "capital_used": 431.81,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.22,
+        "exit_time": "2025-07-03T13:05:00.089438-04:00",
+        "pnl": -6.83,
+        "pnl_pct": -1.58,
+        "exit_reasons": [
+          "macd_bearish",
+          "ma_breakdown"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T13:11:36.512344-04:00",
+        "entry_price": 47.946,
+        "shares": 9,
+        "capital_used": 431.51,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.94,
+        "exit_time": "2025-07-03T13:13:30.504226-04:00",
+        "pnl": -0.05,
+        "pnl_pct": -0.01,
+        "exit_reasons": [
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T13:14:08.832735-04:00",
+        "entry_price": 3.7,
+        "shares": 10,
+        "capital_used": 37.0,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.84,
+        "exit_time": "2025-07-03T13:15:32.020837-04:00",
+        "pnl": 1.4,
+        "pnl_pct": 3.78,
+        "exit_reasons": [
+          "vwap_reversion",
+          "rsi_overbought"
+        ]
+      },
+      {
+        "symbol": "RGC",
+        "symbolId": 36960281,
+        "datetime": "2025-07-03T13:14:48.571012-04:00",
+        "entry_price": 20.3399,
+        "shares": 10,
+        "capital_used": 203.4,
+        "status": "closed",
+        "confidence": 0.64,
+        "allocation_notes": "Weak",
+        "exit_price": 21.49,
+        "exit_time": "2025-07-03T13:29:32.673369-04:00",
+        "pnl": 11.5,
+        "pnl_pct": 5.65,
+        "exit_reasons": [
+          "macd_bearish",
+          "ema20_breakdown"
+        ]
+      },
+      {
+        "symbol": "SYM",
+        "symbolId": 42513468,
+        "datetime": "2025-07-03T13:23:26.119928-04:00",
+        "entry_price": 47.2703,
+        "shares": 10,
+        "capital_used": 472.7,
+        "status": "closed",
+        "confidence": 0.517,
+        "allocation_notes": "Weak",
+        "exit_price": 47.78,
+        "exit_time": "2025-07-03T13:24:02.378925-04:00",
+        "pnl": 5.1,
+        "pnl_pct": 1.08,
+        "exit_reasons": [
+          "momentum_reversal"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T13:27:37.819882-04:00",
+        "entry_price": 3.65,
+        "shares": 10,
+        "capital_used": 36.5,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.68,
+        "exit_time": "2025-07-03T13:28:22.576201-04:00",
+        "pnl": 0.3,
+        "pnl_pct": 0.82,
+        "exit_reasons": [
+          "vwap_reversion",
+          "macd_bearish"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T13:28:49.573942-04:00",
+        "entry_price": 3.74,
+        "shares": 9,
+        "capital_used": 33.66,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.75,
+        "exit_time": "2025-07-03T13:29:32.673369-04:00",
+        "pnl": 0.09,
+        "pnl_pct": 0.27,
+        "exit_reasons": [
+          "vwap_reversion"
+        ]
+      },
+      {
+        "symbol": "GITS",
+        "symbolId": 59481079,
+        "datetime": "2025-07-03T13:30:02.387899-04:00",
+        "entry_price": 3.72,
+        "shares": 10,
+        "capital_used": 37.2,
+        "status": "closed",
+        "confidence": 0.526,
+        "allocation_notes": "Weak",
+        "exit_price": 3.74,
+        "exit_time": "2025-07-03T13:30:42.823839-04:00",
+        "pnl": 0.2,
+        "pnl_pct": 0.54,
+        "exit_reasons": [
+          "vwap_reversion"
+        ]
+      },
+      {
+        "symbol": "RGC",
+        "symbolId": 36960281,
+        "datetime": "2025-07-03T13:30:05.913223-04:00",
+        "entry_price": 21.03,
+        "shares": 10,
+        "capital_used": 210.3,
+        "status": "closed",
+        "confidence": 0.64,
+        "allocation_notes": "Weak",
+        "exit_price": 21.28,
+        "exit_time": "2025-07-03T13:30:42.823839-04:00",
+        "pnl": 2.5,
+        "pnl_pct": 1.19,
+        "exit_reasons": [
+          "ema20_breakdown"
+        ]
+      },
+      {
+        "symbol": "RGC",
+        "symbolId": 36960281,
+        "datetime": "2025-07-03T13:31:18.771427-04:00",
+        "entry_price": 21.1,
+        "shares": 10,
+        "capital_used": 211.0,
+        "status": "closed",
+        "confidence": 0.64,
+        "allocation_notes": "Weak",
+        "exit_price": 21.3,
+        "exit_time": "2025-07-03T13:32:32.960240-04:00",
+        "pnl": 2.0,
+        "pnl_pct": 0.95,
+        "exit_reasons": [
+          "ema20_breakdown"
+        ]
+      },
+      {
+        "symbol": "RGC",
+        "symbolId": 36960281,
+        "datetime": "2025-07-03T13:33:04.813080-04:00",
+        "entry_price": 21.32,
+        "shares": 10,
+        "capital_used": 213.2,
+        "status": "open",
+        "confidence": 0.64,
         "allocation_notes": "Weak"
       }
     ]

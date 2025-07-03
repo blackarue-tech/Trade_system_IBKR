@@ -16,7 +16,7 @@ from utils import atomic_save_json, update_system_status
 # === CONFIG ===
 LOCAL_TZ = timezone("America/Toronto")
 us_holidays = holidays.US()
-SYMBOLS = ["SYM", "FSLR", "DDOG" ,"GITS","RGC"]
+SYMBOLS = ["CJT", "TCS", "GITS", "RGC"]
 ORDERS_PATH = "exports/backtest_orders.json"
 CONTROL_PATH = "inputs/ai_strategy_configs/control_params.json"
 LIVE_TRADES_PATH = "exports/live_trades.json"
@@ -64,21 +64,18 @@ def simulate_sandbox(symbol, passes=2):
         if len(closes) < 20:
             continue
 
-        # Basic PnL check
         pnl_pct = (closes.iloc[-1] - closes.iloc[0]) / closes.iloc[0] * 100
-
-        # Uptrend check: last close > last 5-period mean
-        last_close = closes.iloc[-1]
         ma5 = closes.tail(5).mean()
-
-        # Volatility check: std deviation of last 10 closes
+        last_close = closes.iloc[-1]
+        slope = (closes.iloc[-1] - closes.iloc[-5]) / closes.iloc[-5]
+        rolling_return = closes.pct_change(5).iloc[-1]
         volatility = closes.tail(10).std() / closes.tail(10).mean()
 
-        # Pass criteria
-        if pnl_pct > 0.1 and last_close > ma5 and volatility < 0.02:
+        # Require positive slope and rolling return as momentum filter
+        if pnl_pct > 0.1 and last_close > ma5 and slope > 0.002 and rolling_return > 0.002 and volatility < 0.03:
             success_count += 1
 
-        time.sleep(0.5)
+        time.sleep(0.3)
 
     return success_count >= (passes // 2 + 1)
 
@@ -93,7 +90,6 @@ def calculate_allocation_shares(symbol, price, confidence, available_capital):
     capital_allocated = round(shares * price, 2)
     return shares, capital_allocated
 
-# === MAIN LOOP ===
 def generate_orders():
     if not market_is_open():
         print(f"[{datetime.now(LOCAL_TZ)}] 🛑 Market closed.")
@@ -119,13 +115,13 @@ def generate_orders():
     total_pending_allocation = 0
 
     orders = []
+    sold_symbols = set()
 
     for symbol in SYMBOLS:
         if symbol in pending_symbols:
             print(f"⏳ Skipping {symbol}, pending BUY in orders.json.")
             continue
 
-        # Cooldown after negative exit
         last_exit_record = last_exit_tracker.get(symbol, {})
         last_exit_time = last_exit_record.get("time")
         last_exit_pnl = last_exit_record.get("pnl", 0)
@@ -134,17 +130,16 @@ def generate_orders():
             last_exit_dt = datetime.fromisoformat(last_exit_time)
             cooldown_elapsed = (datetime.now(LOCAL_TZ) - last_exit_dt).total_seconds()
             if last_exit_pnl < 0 and cooldown_elapsed < MIN_REBUY_DELAY:
-                print(f"⏳ Cooldown: Skipping {symbol} after recent negative exit (PnL {last_exit_pnl}).")
+                print(f"⏳ Cooldown: Skipping {symbol} after negative exit PnL {last_exit_pnl}.")
                 continue
-            elif last_exit_pnl >= 0:
-                if not simulate_sandbox(symbol, passes=2):
-                    print(f"🚫 Sandbox fail post-positive exit: {symbol}.")
-                    continue
+            elif last_exit_pnl >= 0 and not simulate_sandbox(symbol):
+                print(f"🚫 Sandbox fail post-positive exit: {symbol}.")
+                continue
 
         if symbol in suspended:
             if simulate_sandbox(symbol):
                 recovery[symbol] = recovery.get(symbol, 0) + 1
-                print(f"🩺 Sandbox recovery {symbol}: {recovery[symbol]}/{RECOVERY_SIMULATIONS_REQUIRED}")
+                print(f"🩺 Recovery {symbol}: {recovery[symbol]}/{RECOVERY_SIMULATIONS_REQUIRED}")
                 if recovery[symbol] >= RECOVERY_SIMULATIONS_REQUIRED:
                     suspended.remove(symbol)
                     recovery.pop(symbol, None)
@@ -158,27 +153,45 @@ def generate_orders():
             for day in live_trades.values()
             for trade in day.get("trades", [])
         )
-        if in_trade:
+        if in_trade and symbol not in sold_symbols:
             df = get_price_data(get_symbol_id(symbol, TOKEN_PATH), days=2, interval="OneMinute")
             if df is None or df.empty:
                 continue
             latest = add_technical_indicators(df).iloc[-1]
+            closes = df["close"]
+
             price = latest.get("close")
+            vwap = latest.get("vwap", price)
+            rsi = latest.get("rsi", 50)
+            macd_hist = latest.get("macd_hist", 0)
+            ema20 = latest.get("ema20", price)
+
+            slope = (closes.iloc[-1] - closes.iloc[-5]) / closes.iloc[-5]
+            rolling_return = closes.pct_change(5).iloc[-1]
+
             exit_reasons = []
-            if price < latest.get("vwap", price): exit_reasons.append("vwap_reversion")
-            if latest.get("rsi", 50) > 70: exit_reasons.append("rsi_overbought")
-            if latest.get("macd_hist", 0) < 0: exit_reasons.append("macd_bearish")
-            if price < latest.get("ema20", price): exit_reasons.append("ma_breakdown")
+            if slope < -0.002 or rolling_return < -0.002:
+                exit_reasons.append("momentum_reversal")
+            if price < vwap:
+                exit_reasons.append("vwap_reversion")
+            if rsi > 70:
+                exit_reasons.append("rsi_overbought")
+            if macd_hist < 0:
+                exit_reasons.append("macd_bearish")
+            if price < ema20:
+                exit_reasons.append("ema20_breakdown")
+
             if exit_reasons:
                 entry_price, shares = None, None
                 for day in live_trades.values():
                     for trade in day.get("trades", []):
                         if trade.get("status") == "open" and trade.get("symbol") == symbol:
-                            entry_price = trade.get("price")
+                            entry_price = trade.get("entry_price", trade.get("price"))
                             shares = trade.get("shares")
                             break
                     if entry_price and shares:
                         break
+
                 pnl_value = (price - entry_price) * shares if entry_price and shares else 0
                 sell_order = {
                     "symbol": symbol,
@@ -187,7 +200,7 @@ def generate_orders():
                     "pnl": round(pnl_value, 2),
                     "timestamp": datetime.now(LOCAL_TZ).isoformat(),
                     "exit_reasons": exit_reasons,
-                    "allocation_notes": "Auto exit"
+                    "allocation_notes": "Auto exit momentum"
                 }
                 orders.append(sell_order)
                 atomic_save_json(orders, ORDERS_PATH)
@@ -195,7 +208,11 @@ def generate_orders():
                     "time": datetime.now(LOCAL_TZ).isoformat(),
                     "pnl": round(pnl_value, 2)
                 }
-                print(f"✅ SELL Order: {symbol} @ {price} | {exit_reasons}")
+                sold_symbols.add(symbol)
+                print(f"✅ SELL {symbol} @ {price:.2f} | PnL: {round(pnl_value,2)} | Reasons: {exit_reasons}")
+            else:
+                print(f"🔄 Holding {symbol}: Momentum intact. Slope {slope:.4f}, Rolling Return {rolling_return:.4f}")
+
             continue
 
         if not simulate_sandbox(symbol):
