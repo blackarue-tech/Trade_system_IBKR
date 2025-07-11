@@ -1,10 +1,12 @@
-# ai_daemon.py - Advanced Suspension/Recovery AI Daemon
+# ai_daemon.py - Structured logging + fail-safe upgraded AI Daemon
 
 import os
 import json
 import time
 from datetime import datetime
 from pytz import timezone
+
+from modules.log_utils import log, fail_safe
 
 # === CONFIG ===
 LOCAL_TZ = timezone("America/Toronto")
@@ -18,15 +20,21 @@ RECOVERY_SIMULATIONS_REQUIRED = 3
 
 # === UTILITIES ===
 def load_json(path):
-    if os.path.exists(path):
-        with open(path) as f:
-            return json.load(f)
+    try:
+        if os.path.exists(path):
+            with open(path) as f:
+                return json.load(f)
+    except Exception as e:
+        log(f"Error loading JSON from {path}: {e}", "ERROR", "AIDaemon")
     return {}
 
 def save_json(data, path):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
+    try:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w") as f:
+            json.dump(data, f, indent=2)
+    except Exception as e:
+        log(f"Error saving JSON to {path}: {e}", "ERROR", "AIDaemon")
 
 def compute_symbol_pnl(trades, tracker):
     symbol_pnl = {}
@@ -39,16 +47,20 @@ def compute_symbol_pnl(trades, tracker):
                 continue
             reactivation_ts = tracker.get("reactivated", {}).get(symbol)
             if reactivation_ts:
-                trade_dt = datetime.fromisoformat(trade.get("datetime"))
-                react_dt = datetime.fromisoformat(reactivation_ts)
-                if trade_dt < react_dt:
-                    continue  # ignore trades before reactivation
+                try:
+                    trade_dt = datetime.fromisoformat(trade.get("datetime"))
+                    react_dt = datetime.fromisoformat(reactivation_ts)
+                    if trade_dt < react_dt:
+                        continue  # ignore trades before reactivation
+                except Exception as e:
+                    log(f"Date parsing error for {symbol}: {e}", "ERROR", "AIDaemon")
             if trade.get("status") == "closed":
                 pnl = trade.get("pnl", 0)
                 symbol_pnl[symbol] = symbol_pnl.get(symbol, 0) + pnl
     return symbol_pnl
 
 # === MAIN LOGIC ===
+@fail_safe(module="AIDaemon", critical=True)
 def tune_symbols():
     trades = load_json(TRADES_PATH)
     control = load_json(CONTROL_PATH)
@@ -64,19 +76,18 @@ def tune_symbols():
     symbol_pnl = compute_symbol_pnl(trades, tracker)
 
     for symbol, pnl in symbol_pnl.items():
-        # If already suspended
         if symbol in suspended:
             if pnl >= PNL_REACTIVATE_THRESHOLD:
                 tracker["recovery_counter"][symbol] = tracker["recovery_counter"].get(symbol, 0) + 1
-                print(f"🩺 {symbol} recovery progress: {tracker['recovery_counter'][symbol]}/{RECOVERY_SIMULATIONS_REQUIRED}")
+                log(f"🩺 {symbol} recovery progress: {tracker['recovery_counter'][symbol]}/{RECOVERY_SIMULATIONS_REQUIRED}", "INFO", "AIDaemon")
                 if tracker["recovery_counter"][symbol] >= RECOVERY_SIMULATIONS_REQUIRED:
                     suspended.remove(symbol)
                     tracker["reactivated"][symbol] = datetime.now(LOCAL_TZ).isoformat()
                     tracker["suspended"].pop(symbol, None)
                     tracker["recovery_counter"].pop(symbol, None)
-                    print(f"✅ {symbol} reactivated for trading.")
+                    log(f"✅ {symbol} reactivated for trading.", "INFO", "AIDaemon")
             else:
-                tracker["recovery_counter"][symbol] = 0  # reset recovery counter if test fails
+                tracker["recovery_counter"][symbol] = 0
         else:
             if pnl <= PNL_SUSPEND_THRESHOLD:
                 suspended.add(symbol)
@@ -84,7 +95,7 @@ def tune_symbols():
                 tracker["reactivated"].pop(symbol, None)
                 tracker["recovery_counter"][symbol] = 0
                 prioritized.discard(symbol)
-                print(f"🚫 {symbol} suspended due to consistent low PnL.")
+                log(f"🚫 {symbol} suspended due to consistent low PnL.", "WARNING", "AIDaemon")
             elif pnl >= PNL_REACTIVATE_THRESHOLD:
                 prioritized.add(symbol)
 
@@ -97,14 +108,14 @@ def tune_symbols():
     save_json(tracker, TRACKER_PATH)
 
     now_str = datetime.now(LOCAL_TZ).strftime("%Y-%m-%d %H:%M:%S %Z")
-    print(f"[{now_str}] 🤖 AI Daemon updated symbol control:")
-    print(json.dumps(updated_control, indent=2))
+    log(f"🤖 AI Daemon updated symbol control at {now_str}", "INFO", "AIDaemon")
+    log(json.dumps(updated_control, indent=2), "INFO", "AIDaemon")
 
 # === LOOP ===
 def run_loop():
     while True:
         tune_symbols()
-        print(f"[{datetime.now(LOCAL_TZ).strftime('%Y-%m-%d %H:%M:%S %Z')}] ⏱️ Sleeping {TUNE_INTERVAL}s before next tuning cycle.")
+        log(f"⏱️ Sleeping {TUNE_INTERVAL}s before next tuning cycle.", "INFO", "AIDaemon")
         time.sleep(TUNE_INTERVAL)
 
 if __name__ == "__main__":

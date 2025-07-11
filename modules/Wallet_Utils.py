@@ -1,4 +1,4 @@
-# Wallet_Utils.py – Final Guarded Version with Lock + Summary
+# Wallet_Utils.py – Structured logging + fail-safe version
 
 import os
 import json
@@ -6,7 +6,8 @@ import pytz
 from datetime import datetime
 from pytz import timezone
 
-#STARTING_CAPITAL = 10000.0
+from modules.log_utils import log, fail_safe
+
 MAX_DEPLOYABLE_CAPITAL = 10000.0
 LOCK_FILE = "exports/wallet.lock"
 WALLET_PATH = "exports/wallet.json"
@@ -15,62 +16,79 @@ SUMMARY_FILE = os.path.expanduser("C:/Users/ricar/OneDrive/Documents/Python/test
 LOCAL_TZ = timezone("America/Toronto")
 
 def load_json(path):
-    if os.path.exists(path):
-        with open(path) as f:
-            return json.load(f)
+    try:
+        if os.path.exists(path):
+            with open(path) as f:
+                return json.load(f)
+    except Exception as e:
+        log(f"Error loading JSON from {path}: {e}", "ERROR", "WalletUtils")
     return {}
 
 def save_json(data, path):
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
+    try:
+        with open(path, "w") as f:
+            json.dump(data, f, indent=2)
+    except Exception as e:
+        log(f"Error saving JSON to {path}: {e}", "ERROR", "WalletUtils")
 
 # === Load/Save Wallet Balance ===
+@fail_safe(module="WalletUtils")
 def load_wallet_balance(wallet_path):
     if not os.path.exists(wallet_path):
-        raise FileNotFoundError(f"❌ Wallet file not found at {wallet_path}. Aborting to prevent capital reset.")        
-    #print(f"🧾 Wallet Failed")
+        raise FileNotFoundError(f"Wallet file not found at {wallet_path}. Aborting to prevent capital reset.")
     with open(wallet_path, "r") as f:
-        return json.load(f).get("balance", 0.0)
+        balance = json.load(f).get("balance", 0.0)
+    log(f"Wallet balance loaded: ${balance:.2f}", "INFO", "WalletUtils")
+    return balance
 
+@fail_safe(module="WalletUtils")
 def save_wallet_balance(wallet_path, balance):
-    with open(wallet_path, "w") as f:
-        json.dump({"balance": round(balance, 2)}, f, indent=2)
+    save_json({"balance": round(balance, 2)}, wallet_path)
+    log(f"Wallet balance saved: ${balance:.2f}", "INFO", "WalletUtils")
 
 # === Capital Access Control ===
 def get_wallet_available_capital(wallet_path):
     balance = load_wallet_balance(wallet_path)
     return min(balance, MAX_DEPLOYABLE_CAPITAL)
 
+@fail_safe(module="WalletUtils")
 def debit_wallet_balance(wallet_path, amount):
     balance = load_wallet_balance(wallet_path)
     if balance >= amount:
         new_balance = balance - amount
         save_wallet_balance(wallet_path, new_balance)
-        print(f"💸 Debited ${amount:.2f} from wallet. New balance: ${new_balance:.2f}")
+        log(f"Debited ${amount:.2f} from wallet. New balance: ${new_balance:.2f}", "INFO", "WalletUtils")
         return True
     else:
-        print(f"❌ Insufficient funds. Wallet has ${balance:.2f}, tried to debit ${amount:.2f}")
+        log(f"Insufficient funds. Wallet has ${balance:.2f}, tried to debit ${amount:.2f}", "WARNING", "WalletUtils")
         return False
 
+@fail_safe(module="WalletUtils")
 def credit_wallet_balance(wallet_path, amount):
     balance = load_wallet_balance(wallet_path)
     new_balance = balance + amount
     save_wallet_balance(wallet_path, new_balance)
-    print(f"💰 Credited ${amount:.2f} to wallet. New balance: ${new_balance:.2f}")
+    log(f"Credited ${amount:.2f} to wallet. New balance: ${new_balance:.2f}", "INFO", "WalletUtils")
 
 # === Wallet Lock Guard ===
 def is_wallet_locked():
     return os.path.exists(LOCK_FILE)
 
 def lock_wallet():
-    with open(LOCK_FILE, "w") as f:
-        f.write(datetime.now().isoformat())
+    try:
+        with open(LOCK_FILE, "w") as f:
+            f.write(datetime.now().isoformat())
+        log("Wallet locked.", "INFO", "WalletUtils")
+    except Exception as e:
+        log(f"Error locking wallet: {e}", "ERROR", "WalletUtils")
 
 def reset_wallet_lock():
     if os.path.exists(LOCK_FILE):
         os.remove(LOCK_FILE)
+        log("Wallet lock reset.", "INFO", "WalletUtils")
 
 # === Summary Logging ===
+@fail_safe(module="WalletUtils")
 def log_wallet_summary(wallet_path, log_path=SUMMARY_FILE):
     today = datetime.now().strftime("%Y-%m-%d")
     balance = load_wallet_balance(wallet_path)
@@ -79,8 +97,8 @@ def log_wallet_summary(wallet_path, log_path=SUMMARY_FILE):
         with open(log_path) as f:
             log_data = json.load(f)
     log_data[today] = {"balance": balance}
-    with open(log_path, "w") as f:
-        json.dump(log_data, f, indent=2)
+    save_json(log_data, log_path)
+    log(f"Wallet summary logged for {today}.", "INFO", "WalletUtils")
 
 # === Audit Tool ===
 def infer_starting_balance_from_today(trades_data):
@@ -90,8 +108,9 @@ def infer_starting_balance_from_today(trades_data):
         if day_trades:
             first_trade = day_trades[0]
             return first_trade.get("wallet_balance_at_entry", 10000.0)
-    return 10000.0  # fallback if no data
+    return 10000.0
 
+@fail_safe(module="WalletUtils")
 def audit_wallet():
     wallet_data = load_json(WALLET_PATH)
     current_balance = wallet_data.get("balance", 10000.0) if isinstance(wallet_data, dict) else wallet_data
@@ -112,22 +131,20 @@ def audit_wallet():
     drift = expected_balance - current_balance
 
     now_str = datetime.now(LOCAL_TZ).strftime("%Y-%m-%d %H:%M:%S %Z")
-    print(f"[{now_str}] 🧮 WALLET AUDIT")
-    print(f"Inferred Starting Balance: ${initial_balance:.2f}")
-    print(f"Realized PnL: ${realized_pnl:.2f}")
-    print(f"Expected Balance: ${expected_balance:.2f}")
-    print(f"Current Wallet Balance: ${current_balance:.2f}")
-    print(f"Locked Capital (Open Trades): ${locked_capital:.2f}")
-    print(f"Calculated Drift: ${drift:.2f}")
+    log(f"[{now_str}] WALLET AUDIT", "INFO", "WalletUtils")
+    log(f"Inferred Starting Balance: ${initial_balance:.2f}", "INFO", "WalletUtils")
+    log(f"Realized PnL: ${realized_pnl:.2f}", "INFO", "WalletUtils")
+    log(f"Expected Balance: ${expected_balance:.2f}", "INFO", "WalletUtils")
+    log(f"Current Wallet Balance: ${current_balance:.2f}", "INFO", "WalletUtils")
+    log(f"Locked Capital (Open Trades): ${locked_capital:.2f}", "INFO", "WalletUtils")
+    log(f"Calculated Drift: ${drift:.2f}", "INFO", "WalletUtils")
 
     if abs(drift) > 0.01:
-        print(f"✅ Wallet adjusted by ${drift:.2f} to preserve capital integrity.")
+        log(f"Wallet adjusted by ${drift:.2f} to preserve capital integrity.", "INFO", "WalletUtils")
         save_json({"balance": round(expected_balance, 2)}, WALLET_PATH)
     else:
-        print(f"✅ Wallet is consistent. No adjustment needed.")
+        log("Wallet is consistent. No adjustment needed.", "INFO", "WalletUtils")
 
 if __name__ == "__main__":
     os.makedirs("exports", exist_ok=True)
-    wallet_path = os.path.expanduser("C:/Users/ricar/OneDrive/Documents/Python/test_env/exports/wallet.json")
-    trade_path = os.path.expanduser("C:/Users/ricar/OneDrive/Documents/Python/test_env/exports/live_trades.json")
     audit_wallet()

@@ -47,19 +47,29 @@ def is_orb(df, open_range_minutes=15):
     return breakout
 
 def score_signals(df):
+    """
+    Unified scoring function for selection pipeline using:
+    Breakout, Momentum, VWAP_Bounce, ORB, MACD, RSI, MA_Cross
+    """
     signals = pd.DataFrame(index=df.index)
-    signals["Breakout"] = is_breakout(df)
-    signals["Momentum"] = is_momentum(df)
-    signals["VWAP_Bounce"] = is_vwap_reversion(df)
-    signals["ORB"] = is_orb(df)
+    
+    # Ensure technical indicators
+    df = add_technical_indicators(df)
 
-    signals["confidence"] = (
-        signals[["Breakout", "Momentum", "VWAP_Bounce", "ORB"]].sum(axis=1) / 4.0
-    )
-    signals["strategies"] = signals[["Breakout", "Momentum", "VWAP_Bounce", "ORB"]].apply(
-        lambda row: [s for s, v in row.items() if v], axis=1
-    )
+    # Strategy conditions
+    signals["Breakout"] = (df["close"] > df["high20"]) & (df["close"] > df["vwap"])
+    signals["Momentum"] = (df["macd_hist"] > 0) & (df["rsi"] > 60) & (df["close"] > df["vwap"])
+    signals["VWAP_Bounce"] = (abs(df["close"] - df["vwap"]) / df["vwap"] < 0.005) & (df["macd_hist"].diff() > 0)
+    signals["ORB"] = (df["close"] > df["high20"]) | (df["close"] < df["low20"])
+    signals["MACD"] = df["macd_hist"] > 0.01
+    signals["RSI"] = df["rsi"] < 30
+    signals["MA_Cross"] = df["close"] > df["ema20"]
+    
+    strat_cols = ["Breakout", "Momentum", "VWAP_Bounce", "ORB", "MACD", "RSI", "MA_Cross"]
+    signals["confidence"] = signals[strat_cols].sum(axis=1) / len(strat_cols)
+    signals["strategies"] = signals[strat_cols].apply(lambda row: [s for s, v in row.items() if v], axis=1)
     signals["signal"] = signals["confidence"] > 0.5
+    
     return signals
 def append_signal_log(symbol, timestamp, confidence, strategies):
     row = {
@@ -75,99 +85,62 @@ def append_signal_log(symbol, timestamp, confidence, strategies):
         #df.to_csv(LOG_PATH, mode='a', header=False, index=False)
         
 def get_strategy_signals(symbol, df, min_confidence=0.5, debug=False, config=None):
-    #print(f"📊 Running signal check for {symbol} - total rows: {len(df)}")
+    """
+    Unified execution signal generation using the same strategies as score_signals
+    """
     config = config or {}
-    rsi_threshold = config.get("rsi_threshold", 30)
-    breakout_pct = config.get("breakout_pct", 0.02)
-    macd_hist_min = config.get("macd_hist_min", 0.01)
     ema_window = config.get("ema_window", 20)
     set_ema_window(ema_window)
-    TORONTO = pytz.timezone("America/Toronto")
-    now_local = datetime.now(TORONTO)
     df = add_technical_indicators(df)
-        
     
-    # ✅ Ensure datetime is a column
+    # Ensure datetime
     if isinstance(df.index, pd.DatetimeIndex) and "datetime" not in df.columns:
         df = df.copy()
         df["datetime"] = df.index
-
-   
+    
     signals = []
-    debug_log_rows = []
-
     for i in range(len(df)):
         row = df.iloc[i]
-
-        # Prevent failure from missing datetime early
-        if "datetime" not in row:
-            print(f"⚠️ Missing 'datetime' in signals DataFrame for {symbol}. Columns: {df.columns.tolist()}")
-            continue
-
-        timestamp = pd.Timestamp(row["datetime"])
-        if not timestamp.tzinfo:
-            timestamp = timestamp.tz_localize("UTC").tz_convert(TORONTO)
-        else:
-            timestamp = timestamp.tz_convert(TORONTO)
+        timestamp = pd.Timestamp(row["datetime"]).tz_localize("UTC").tz_convert(TORONTO) if not pd.Timestamp(row["datetime"]).tzinfo else pd.Timestamp(row["datetime"]).tz_convert(TORONTO)
 
         confidence = 0.0
         strategies = []
-        debug_info = {
-            "datetime": row["datetime"],
-            "close": row.get("close"),
-            "vwap": row.get("vwap"),
-            "rsi": row.get("rsi"),
-            "macd_hist": row.get("macd_hist"),
-            "ema20": row.get("ema20"),
-            "strategies_fired": [],
-        }
 
-        # Strategy: MACD
-        if not pd.isna(row.get("macd_hist")) and row["macd_hist"] > macd_hist_min:
-            confidence += 0.3
+        if row.get("macd_hist", 0) > 0.01:
+            confidence += 0.15
             strategies.append("MACD")
-            debug_info["strategies_fired"].append("MACD")
 
-        # Strategy: RSI
-        if not pd.isna(row.get("rsi")) and row["rsi"] < rsi_threshold:
-            confidence += 0.3
+        if row.get("rsi", 50) < 30:
+            confidence += 0.15
             strategies.append("RSI")
-            debug_info["strategies_fired"].append("RSI")
 
-        # Strategy: Breakout
-        if i >= 20:
-            recent_high = df["high"].iloc[i - 20:i + 1].max()
-            if row["close"] > recent_high * (1 + breakout_pct):
-                confidence += 0.3
-                strategies.append("Breakout")
-                debug_info["strategies_fired"].append("Breakout")
+        if row.get("close", 0) > row.get("high20", 0):
+            confidence += 0.15
+            strategies.append("Breakout")
 
-        # Strategy: MA Crossover
-        ema_col = f"ema{ema_window}"
-        if not pd.isna(row.get(ema_col)) and row["close"] > row[ema_col]:
+        if row.get("macd_hist", 0) > 0 and row.get("rsi", 50) > 60 and row.get("close", 0) > row.get("vwap", 0):
+            confidence += 0.15
+            strategies.append("Momentum")
+
+        if abs(row.get("close", 0) - row.get("vwap", 0)) / row.get("vwap", 1) < 0.005 and (df["macd_hist"].iloc[i] - df["macd_hist"].iloc[i-1] if i > 0 else 0) > 0:
+            confidence += 0.15
+            strategies.append("VWAP_Bounce")
+
+        if row.get("close", 0) > row.get(f"ema{ema_window}", 0):
             confidence += 0.1
             strategies.append("MA_Cross")
-            debug_info["strategies_fired"].append("MA_Cross")
 
-        #debug_info["confidence"] = confidence
-        #debug_info["strategies"] = ",".join(strategies)
-        #debug_log_rows.append(debug_info)
+        if (row.get("close", 0) > row.get("high20", 0)) or (row.get("close", 0) < row.get("low20", 0)):
+            confidence += 0.05
+            strategies.append("ORB")
 
         if confidence >= min_confidence:
-            #print(f"✅ {symbol} @ {timestamp}: conf={confidence:.2f} from {strategies}")
-            append_signal_log(symbol, timestamp.isoformat(), confidence, strategies)
             signals.append({
                 "symbol": symbol,
-                "confidence": confidence,
+                "confidence": round(confidence, 3),
                 "strategies": strategies,
                 "index": i,
                 "datetime": timestamp.isoformat()
             })
-
-    # ✅ Export debug CSV after loop
-   # if debug and debug_log_rows:
-      #  debug_df = pd.DataFrame(debug_log_rows)
-       # timestamp_str = now_local.strftime("%Y%m%d_%H%M%S")
-       # debug_df.to_csv(f"exports/debug_signals_{timestamp_str}.csv", index=False)
-
+    
     return pd.DataFrame(signals)

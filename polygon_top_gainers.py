@@ -5,8 +5,16 @@ import time
 import json
 import requests
 from datetime import datetime, timedelta, timezone
+from dotenv import load_dotenv
+from modules.log_utils import log, fail_safe
+load_dotenv()
 
-API_KEY = os.getenv("xce9rViA5Xn7aVBaFpJoJ95EtDeSOnQc", "xce9rViA5Xn7aVBaFpJoJ95EtDeSOnQc")
+API_KEY = os.getenv("POLYGON_API_KEY")
+if not API_KEY:
+    log("⚠️ POLYGON_API_KEY not set. Check your .env file.", "WARNING", "PolygonUtils")
+else:
+    log("✅ POLYGON_API_KEY loaded successfully.", "INFO", "PolygonUtils")
+    
 LOG_PATH = "exports/polygon_top_gainers_log.json"
 MOMENTUM_THRESHOLD = 5  # percent change
 PRICE_THRESHOLD = 50

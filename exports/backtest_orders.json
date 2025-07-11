@@ -1,13 +1,1 @@
-[
-  {
-    "symbol": "RGC",
-    "action": "SELL",
-    "price": 21.56,
-    "pnl": 2.4,
-    "timestamp": "2025-07-03T13:33:39.019400-04:00",
-    "exit_reasons": [
-      "ema20_breakdown"
-    ],
-    "allocation_notes": "Auto exit momentum"
-  }
-]
+[]

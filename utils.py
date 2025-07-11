@@ -1,42 +1,55 @@
+# utils.py - Structured logging + fail-safe atomic utilities
 
 import json
 import os
 import time
 import shutil
 from datetime import datetime
+from filelock import FileLock, Timeout
+from modules.log_utils import log
 
-def atomic_save_json(data, path, retries=3, delay=1):
+def atomic_save_json(data, path, retries=5, delay=1):
+    lock_path = path + ".lock"
     tmp_path = path + ".tmp"
-    bak_path = path + ".bak"
 
-    try:
-        # Write to tmp
-        with open(tmp_path, "w") as f:
-            json.dump(data, f, indent=2)
+    for attempt in range(1, retries + 1):
+        try:
+            with FileLock(lock_path, timeout=10):
+                # Cleanup stale tmp if exists
+                if os.path.exists(tmp_path):
+                    try:
+                        os.remove(tmp_path)
+                        log(f"Removed stale tmp file {tmp_path}", "DEBUG", "Utils")
+                    except Exception as e:
+                        log(f"Failed to remove stale tmp file {tmp_path}: {e}", "WARNING", "Utils")
 
-        # Backup current file
-        if os.path.exists(path):
-            shutil.copy2(path, bak_path)
+                # Write data to tmp safely
+                with open(tmp_path, "w") as f:
+                    json.dump(data, f, indent=2)
+                    f.flush()
+                    os.fsync(f.fileno())
 
-        # Retry renaming
-        for attempt in range(retries):
-            try:
+                # Replace atomically
                 os.replace(tmp_path, path)
+                log(f"Atomic save successful: {path}", "DEBUG", "Utils")
+
+                # Short wait to stabilize under Windows
+                time.sleep(0.05)
                 return
-            except PermissionError as e:
-                print(f"⚠️ Attempt {attempt+1}: Failed to replace {path} — {e}")
-                time.sleep(delay)
 
-        # All attempts failed, restore backup
-        print(f"❌ atomic_save_json failed: restoring backup from {bak_path}")
-        if os.path.exists(bak_path):
-            shutil.copy2(bak_path, path)
-        if os.path.exists(tmp_path):
-            os.remove(tmp_path)
-        print("⚠️ Save atomic.")
-    except Exception as e:
-        print(f"❌ atomic_save_json error: {e}")
+        except Timeout:
+            log(f"[Attempt {attempt}] Timeout acquiring lock for {path}, retrying...", "WARNING", "Utils")
+        except PermissionError as e:
+            log(f"[Attempt {attempt}] PermissionError on {path}: {e}. Retrying...", "WARNING", "Utils")
+        except FileNotFoundError as e:
+            log(f"[Attempt {attempt}] FileNotFoundError during atomic save of {path}: {e}. Retrying...", "WARNING", "Utils")
+        except Exception as e:
+            log(f"[Attempt {attempt}] atomic_save_json failed for {path}: {e}", "ERROR", "Utils")
 
+        time.sleep(delay)
+
+    log(f"❌ atomic_save_json ultimately failed for {path} after {retries} retries.", "ERROR", "Utils")
+    
 def update_system_status(engine_name, info, path="exports/system_status.json"):
     try:
         if os.path.exists(path):
@@ -54,5 +67,17 @@ def update_system_status(engine_name, info, path="exports/system_status.json"):
         with open(tmp_path, "w") as f:
             json.dump(status, f, indent=2)
         os.replace(tmp_path, path)
+
+        #log(f"System status updated for {engine_name}.", "INFO", "Utils")
+
     except Exception as e:
-        print(f"⚠️ Failed to update system status for {engine_name}: {e}")
+        log(f"Failed to update system status for {engine_name}: {e}", "ERROR", "Utils")
+
+def load_json(path):
+    try:
+        if os.path.exists(path):
+            with open(path) as f:
+                return json.load(f)
+    except Exception as e:
+        log(f"Error loading JSON from {path}: {e}", "ERROR", "IO")
+    return {}

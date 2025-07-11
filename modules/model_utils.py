@@ -1,4 +1,4 @@
-# model_utils.py
+# model_utils.py - Upgraded with structured logging and fail-safe protections
 
 import os
 import pandas as pd
@@ -9,8 +9,11 @@ from price_data import get_price_data
 import warnings
 from sklearn.exceptions import DataConversionWarning
 
+from modules.log_utils import log, fail_safe
+
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=DataConversionWarning)
+
 EMA_WINDOW = 20
 FEATURE_COLUMNS = [
     "MA20", "STD20", "UpperBB", "LowerBB", "bb_width",
@@ -18,20 +21,23 @@ FEATURE_COLUMNS = [
     "atr", "rsi", "vwap", "volatility"
 ]
 
+@fail_safe(module="ModelUtils")
 def save_model(model, filename="stock_selector_model.pkl"):
     os.makedirs("exports", exist_ok=True)
     path = os.path.join("exports", filename)
     joblib.dump(model, path)
-    print(f"✅ Model saved to {path}")
+    #log(f"Model saved to {path}", "INFO", "ModelUtils")
 
+@fail_safe(module="ModelUtils")
 def load_model(filename="stock_selector_model.pkl"):
     path = os.path.join("exports", filename)
     if os.path.exists(path):
-        print(f"✅ Model loaded from {path}")
+        #log(f"Model loaded from {path}", "INFO", "ModelUtils")
         return joblib.load(path)
-    print("⚠️ Model file not found.")
+    log("Model file not found.", "WARNING", "ModelUtils")
     return None
 
+@fail_safe(module="ModelUtils")
 def get_recent_daily_data(symbol_id, days=90):
     end = datetime.now()
     start = end - timedelta(days=days)
@@ -40,60 +46,66 @@ def get_recent_daily_data(symbol_id, days=90):
 def set_ema_window(value):
     global EMA_WINDOW
     EMA_WINDOW = value
+    #log(f"EMA_WINDOW set to {value}.", "INFO", "ModelUtils")
 
+@fail_safe(module="ModelUtils")
 def add_technical_indicators(df):
-    # Fix timestamp column detection
     for time_col in ["datetime", "start", "timestamp", "time"]:
         if time_col in df.columns:
             df["datetime"] = pd.to_datetime(df[time_col], errors="coerce", utc=True)
             break
+    else:
+        log("'datetime' column missing from DataFrame before technical indicators.", "WARNING", "ModelUtils")
 
     if "datetime" in df.columns:
         df["datetime"] = pd.to_datetime(df["datetime"], errors="coerce", utc=True)
         if df["datetime"].notna().sum() > 0:
-            df = df.set_index("datetime")
-            df = df.sort_index()
+            df = df.set_index("datetime").sort_index()
         else:
-            print("⚠️ datetime column exists but is all NaT, skipping index set.")
+            log("Datetime column exists but is all NaT; skipping index set.", "WARNING", "ModelUtils")
     else:
-        print("⚠️ 'datetime' column missing from DataFrame before technical indicators.")
-        
-    df["MA_fast"] = df["close"].rolling(window=9).mean()
-    df["MA_slow"] = df["close"].rolling(window=21).mean()
-    df["high20"] = df["high"].rolling(window=20).max()
-    df["low20"] = df["low"].rolling(window=20).min()
-    df["MA20"] = df["close"].rolling(window=20).mean()
-    df["STD20"] = df["close"].rolling(window=20).std()
-    df["UpperBB"] = df["MA20"] + 2 * df["STD20"]
-    df["LowerBB"] = df["MA20"] - 2 * df["STD20"]
-    df["bb_width"] = df["UpperBB"] - df["LowerBB"]
-    df["EMA12"] = df["close"].ewm(span=12, adjust=False).mean()
-    df["EMA26"] = df["close"].ewm(span=26, adjust=False).mean()
-    df["MACD"] = df["EMA12"] - df["EMA26"]
-    df["Signal"] = df["MACD"].ewm(span=9, adjust=False).mean()
-    df["macd_hist"] = df["MACD"] - df["Signal"]
+        log("'datetime' column missing from DataFrame after column detection.", "WARNING", "ModelUtils")
 
-    delta = df["close"].diff()
-    gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
-    loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
-    rs = gain / loss
-    df["rsi"] = 100 - (100 / (1 + rs))
+    try:
+        df["MA_fast"] = df["close"].rolling(window=9).mean()
+        df["MA_slow"] = df["close"].rolling(window=21).mean()
+        df["high20"] = df["high"].rolling(window=20).max()
+        df["low20"] = df["low"].rolling(window=20).min()
+        df["MA20"] = df["close"].rolling(window=20).mean()
+        df["STD20"] = df["close"].rolling(window=20).std()
+        df["UpperBB"] = df["MA20"] + 2 * df["STD20"]
+        df["LowerBB"] = df["MA20"] - 2 * df["STD20"]
+        df["bb_width"] = df["UpperBB"] - df["LowerBB"]
+        df["EMA12"] = df["close"].ewm(span=12, adjust=False).mean()
+        df["EMA26"] = df["close"].ewm(span=26, adjust=False).mean()
+        df["MACD"] = df["EMA12"] - df["EMA26"]
+        df["Signal"] = df["MACD"].ewm(span=9, adjust=False).mean()
+        df["macd_hist"] = df["MACD"] - df["Signal"]
 
-    df["high_low"] = df["high"] - df["low"]
-    df["high_close"] = (df["high"] - df["close"].shift()).abs()
-    df["low_close"] = (df["low"] - df["close"].shift()).abs()
-    df["tr"] = df[["high_low", "high_close", "low_close"]].max(axis=1)
-    df["atr"] = df["tr"].rolling(window=14).mean()
+        delta = df["close"].diff()
+        gain = delta.where(delta > 0, 0).rolling(window=14).mean()
+        loss = -delta.where(delta < 0, 0).rolling(window=14).mean()
+        rs = gain / loss
+        df["rsi"] = 100 - (100 / (1 + rs))
 
-    df["vwap"] = (df["close"] * df["volume"]).cumsum() / df["volume"].cumsum()
-    df["log_return"] = np.log(df["close"] / df["close"].shift(1))
-    df["volatility"] = df["log_return"].rolling(window=14).std()
+        df["high_low"] = df["high"] - df["low"]
+        df["high_close"] = (df["high"] - df["close"].shift()).abs()
+        df["low_close"] = (df["low"] - df["close"].shift()).abs()
+        df["tr"] = df[["high_low", "high_close", "low_close"]].max(axis=1)
+        df["atr"] = df["tr"].rolling(window=14).mean()
 
-    ema_window = EMA_WINDOW
-    df[f"ema{ema_window}"] = df["close"].ewm(span=ema_window).mean()
-    # keep the column also accessible as "ema20" for compatibility:
-    if ema_window == 20:
-        df["ema20"] = df[f"ema{ema_window}"]
+        df["vwap"] = (df["close"] * df["volume"]).cumsum() / df["volume"].cumsum()
+        df["log_return"] = np.log(df["close"] / df["close"].shift(1))
+        df["volatility"] = df["log_return"].rolling(window=14).std()
+
+        ema_window = EMA_WINDOW
+        df[f"ema{ema_window}"] = df["close"].ewm(span=ema_window).mean()
+        if ema_window == 20:
+            df["ema20"] = df[f"ema{ema_window}"]
+
+    except Exception as e:
+        log(f"Error calculating technical indicators: {e}", "ERROR", "ModelUtils")
+
     return df
 
 def apply_context_penalty(strategy, rsi, volatility, macd_hist, confidence):
@@ -104,7 +116,6 @@ def apply_context_penalty(strategy, rsi, volatility, macd_hist, confidence):
         penalty += 0.05
     if strategy == "Breakout" and macd_hist < 0:
         penalty += 0.1
-
     return max(confidence - penalty, 0.0)
 
 def compute_signal_quality(trades_df):
@@ -119,24 +130,28 @@ def compute_signal_quality(trades_df):
 
     return quality_map
 
+@fail_safe(module="ModelUtils")
 def generate_training_data(df, forward_days=4, return_threshold=0.01):
     df = add_technical_indicators(df)
     try:
         df["future_return"] = df["close"].shift(-forward_days) / df["close"] - 1
         df["label"] = (df["future_return"] > return_threshold).astype(int)
     except Exception as e:
-        print(f"❌ Label generation failed: {e}")
+        log(f"Label generation failed: {e}", "ERROR", "ModelUtils")
     return df.dropna().copy()
 
+@fail_safe(module="ModelUtils")
 def extract_features(df):
     try:
         if isinstance(df, list):
             df = pd.DataFrame(df)
         if df is None or df.empty or len(df) < 10:
-            raise ValueError(f"Not enough data to extract features: got {len(df)} rows")
-        
+            raise ValueError(f"Not enough data to extract features: {len(df)} rows")
+
+        # ✅ Ensure all required technical indicators for your model
         df = add_technical_indicators(df)
 
+        # ✅ Advanced rolling and derived features
         df["avg_close"] = df["close"].rolling(window=10).mean()
         df["volatility"] = df["close"].rolling(window=10).std()
         df["momentum"] = df["close"] - df["close"].shift(10)
@@ -144,11 +159,10 @@ def extract_features(df):
         df["delta_1d"] = df["close"].pct_change(periods=1)
         df["delta_5d"] = df["close"].pct_change(periods=5)
 
-        # Debug preview
-        # print(f"🧮 Feature input preview: close={df['close'].tail(10).tolist()}")
+        df = df.fillna(0)  # ✅ Ensure no NaNs during prediction
 
         return df
 
     except Exception as e:
-        print(f"❌ Feature extraction failed: {e}")
-        return None
+        log(f"Feature extraction failed: {e}", "ERROR", "ModelUtils")
+        return pd.DataFrame()  # Return empty DataFrame to avoid crashing pipeline
