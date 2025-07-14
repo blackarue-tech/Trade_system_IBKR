@@ -98,18 +98,21 @@ def execute_exits():
 
         for date_key, day_trades in trades.items():
             for trade in day_trades.get("trades", []):
-                if trade.get("status") == "open" and trade.get("symbol") == symbol:
-                    entry_price = trade["entry_price"]
-                    
-                    # ✅ Positive PnL enforcement before executing SELL
-                    pnl_value_check = (executed_price - entry_price) * trade["shares"]
-                    if pnl_value_check <= 0:
-                        log(f"🚫 Skipping SELL {symbol}: PnL would be negative (${pnl_value_check:.2f}), keeping trade open.", "WARNING", "ExitExecutor")
-                        continue  # skip execution, do not re-add to remaining_orders
-                    
-                    shares = trade["shares"]
-                    pnl_value = round((executed_price - entry_price) * shares, 2)
+                if isinstance(trade, dict) and trade.get("status") == "open" and trade.get("symbol") == symbol:
+                    entry_price = trade.get("entry_price")
+                    if entry_price is None:
+                        log(f"⚠️ No entry_price for {symbol}, skipping.", "WARNING", "ExitExecutor")
+                        continue
 
+                    pnl_value_check = (executed_price - entry_price) * trade["shares"]
+                    slippage_pct = ((executed_price - triggered_price) / triggered_price) * 100
+
+                    if pnl_value_check < 0:
+                        log(f"🚫 Skipping SELL {symbol}: PnL negative (${pnl_value_check:.2f}). Slippage: {slippage_pct:.2f}%. Holding position.", "WARNING", "ExitExecutor")
+                        continue  # Do not execute
+
+                    # Proceed with execution if positive PnL
+                    pnl_value = round(pnl_value_check, 2)
                     trade["exit_price"] = executed_price
                     trade["exit_price_triggered"] = triggered_price
                     trade["exit_price_executed"] = executed_price
@@ -119,19 +122,17 @@ def execute_exits():
                     trade["status"] = "closed"
                     trade["exit_reasons"] = order.get("exit_reasons", [])
 
-                    credit_wallet_balance(WALLET_PATH, round(executed_price * shares, 2))
+                    credit_wallet_balance(WALLET_PATH, round(executed_price * trade["shares"], 2))
 
-                    # Update last exit tracker
                     last_exit_tracker = load_json(LAST_EXIT_TRACKER_PATH)
                     last_exit_tracker[symbol] = {
                         "time": now.isoformat(),
                         "pnl": pnl_value
                     }
                     atomic_save_json(last_exit_tracker, LAST_EXIT_TRACKER_PATH)
-
-                    log(f"✅ Executed SELL {symbol} @ {executed_price:.2f} (triggered {triggered_price:.2f}) | Slippage {slippage_pct:.2f}% | PnL: {pnl_value:.2f}", "INFO", "ExitExecutor")
+                    log(f"✅ Executed SELL {symbol} @ {executed_price:.2f} | Triggered {triggered_price:.2f} | PnL: {pnl_value:.2f} | Slippage: {slippage_pct:.2f}%", "INFO", "ExitExecutor")
                     updated = True
-
+                 
     if updated:
         atomic_save_json(trades, LIVE_TRADES_PATH)
 

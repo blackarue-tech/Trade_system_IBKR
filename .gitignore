@@ -22,6 +22,25 @@ Thumbs.db
 # Logs
 *.log
 
+#large files
+*.csv
+*.log
+*.xlsx
+*.xls
+
+# Configuration files
+*.cfg
+*.ini
+*.toml
+*.yaml
+*.yml
+
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+
+
 # Secrets
 secrets.toml
 questrade_token.json

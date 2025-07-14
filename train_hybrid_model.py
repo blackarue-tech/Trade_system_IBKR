@@ -118,18 +118,10 @@ try:
     importance_df["date_tag"] = date_tag
     master_df = pd.concat([master_df, importance_df], ignore_index=True)
     master_df.to_csv(master_log_path, index=False)
-    log(f"Appended feature importances to {master_log_path}", "INFO", "TrainHybrid")
-
-    plt.figure(figsize=(10, 6))
-    plt.barh(importance_df["feature"], importance_df["importance"], color="skyblue")
-    plt.gca().invert_yaxis()
-    plt.xlabel("Importance")
-    plt.title(f"Feature Importances - {date_tag}")
-    plt.tight_layout()
-    plot_path = f"exports/feature_importances_{date_tag}.png"
-    plt.savefig(plot_path, dpi=300)
-    plt.show()
-    log(f"Feature importances plot saved to {plot_path}", "INFO", "TrainHybrid")
+    log(f"Appended feature importances to {master_log_path}", "INFO", "TrainHybrid")    
 
 except Exception as e:
     log(f"❌ Training pipeline failed: {e}", "ERROR", "TrainHybrid")
+
+if __name__ == "__main__":
+    main()

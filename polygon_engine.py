@@ -7,7 +7,9 @@ from pytz import timezone
 
 from polygon_utils import get_top_gainers_polygon, filter_gainers_for_momentum
 from modules.log_utils import log
+from train_hybrid_model import load_training_symbols
 
+TOP_GAINERS_JSON = "exports/top_gainers.json"
 LOCAL_TZ = timezone("America/Toronto")
 
 def job_get_top_gainers():
@@ -26,6 +28,14 @@ def job_filter_momentum():
         filter_gainers_for_momentum()
     except Exception as e:
         log(f"Error in filter_gainers_for_momentum: {e}", "ERROR", "PolygonEngine")
+        
+def job_training_model():
+    now = datetime.now(LOCAL_TZ).strftime("%Y-%m-%d %H:%M:%S")
+    log(f"⚡ Running train_hybrid_model() at {now}", "INFO", "PolygonEngine")
+    try:
+        load_training_symbols(TOP_GAINERS_JSON)
+    except Exception as e:
+        log(f"Error in ftrain_hybrid_model.py: {e}", "ERROR", "PolygonEngine")
 
 def main():
     log("✅ Polygon Engine Started.", "INFO", "PolygonEngine")
@@ -33,12 +43,14 @@ def main():
     log(" - Filters for momentum every 2 minutes.", "INFO", "PolygonEngine")
 
     # Schedule jobs
-    schedule.every(30).minutes.do(job_get_top_gainers)
+    schedule.every(10).minutes.do(job_get_top_gainers)
+    schedule.every(11).minutes.do(job_training_model)
     schedule.every(2).minutes.do(job_filter_momentum)
 
     # Run immediately on start for initialization
     job_get_top_gainers()
     job_filter_momentum()
+    job_training_model()
 
     while True:
         schedule.run_pending()

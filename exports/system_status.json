@@ -1,7 +1,7 @@
 {
   "live_executor": {
-    "timestamp": "2025-07-11T11:24:29.789921",
-    "last_execution": "2025-07-11T11:24:29.728260-04:00"
+    "timestamp": "2025-07-14T13:37:28.186450",
+    "last_execution": "2025-07-14T13:37:28.122988-04:00"
   },
   "ai_daemon": {
     "timestamp": "2025-06-30T10:00:44.881059",
@@ -10,8 +10,8 @@
     "drawdown": 105.13
   },
   "exit_executor": {
-    "timestamp": "2025-07-11T11:24:30.247296",
-    "last_execution": "2025-07-11T11:24:30.180416-04:00"
+    "timestamp": "2025-07-14T11:25:51.669007",
+    "last_execution": "2025-07-14T11:25:51.593744-04:00"
   },
   "signal_engine": {
     "timestamp": "2025-06-26T11:59:47.100900",
@@ -35,7 +35,7 @@
     ]
   },
   "backtest_engine": {
-    "timestamp": "2025-07-11T11:21:28.929287-04:00",
+    "timestamp": "2025-07-14T13:37:26.641203-04:00",
     "status": "Orders processing complete"
   }
 }

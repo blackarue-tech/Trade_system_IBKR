@@ -132,7 +132,8 @@ def filter_gainers_for_momentum(json_path="exports/top_gainers.json",
                                 slope_threshold=0.005,
                                 rolling_return_threshold=0.01,
                                 volatility_max=0.04,
-                                rvol_threshold=1.5):
+                                rvol_threshold=1.5,
+                                min_score=4):
     if not os.path.exists(json_path):
         log(f"Momentum Scanner: {json_path} not found.", "ERROR", "PolygonUtils")
         return
@@ -164,18 +165,36 @@ def filter_gainers_for_momentum(json_path="exports/top_gainers.json",
         vwap = (df["close"] * df["volume"]).cumsum() / df["volume"].cumsum()
         price = closes.iloc[-1]
 
-        if (slope > slope_threshold and
-            rolling_return > rolling_return_threshold and
-            volatility < volatility_max and
-            rvol > rvol_threshold and
-            price > vwap.iloc[-1]):
-            
+        last_open = df["open"].iloc[-1]
+        last_close = df["close"].iloc[-1]
+        prev_high = df["high"].iloc[-2]
+        last_high = df["high"].iloc[-1]
+
+        score = 0
+        if slope > slope_threshold:
+            score += 1
+        if rolling_return > rolling_return_threshold:
+            score += 1
+        if volatility < volatility_max:
+            score += 1
+        if rvol > rvol_threshold:
+            score += 1
+        if price > vwap.iloc[-1]:
+            score += 1
+        if last_close > last_open:
+            score += 1
+        if last_high > prev_high:
+            score += 1
+
+        if score >= min_score:
             symbol_obj["in_momentum"] = True
+            symbol_obj["momentum_score"] = score
             symbol_obj["momentum_detected_at"] = datetime.now(LOCAL_TZ).isoformat()
-            log(f"{symbol} IN MOMENTUM: slope={slope:.4f}, rolling_return={rolling_return:.4f}, volatility={volatility:.4f}, RVOL={rvol:.2f}", "INFO", "PolygonUtils")
+            log(f"{symbol} IN MOMENTUM (score={score}): slope={slope:.4f}, return={rolling_return:.4f}, vol={volatility:.4f}, RVOL={rvol:.2f}", "INFO", "PolygonUtils")
         else:
             symbol_obj["in_momentum"] = False
-            log(f"{symbol} NOT in momentum: slope={slope:.4f}, rolling_return={rolling_return:.4f}, volatility={volatility:.4f}, RVOL={rvol:.2f}", "INFO", "PolygonUtils")
+            symbol_obj["momentum_score"] = score
+            log(f"{symbol} NOT in momentum (score={score}): slope={slope:.4f}, return={rolling_return:.4f}, vol={volatility:.4f}, RVOL={rvol:.2f}", "INFO", "PolygonUtils")
 
         updated_symbols.append(symbol_obj)
 
@@ -185,6 +204,46 @@ def filter_gainers_for_momentum(json_path="exports/top_gainers.json",
     }
     with open(json_path, "w") as f:
         json.dump(output_data, f, indent=2)
+
+def filter_gainers_for_momentum_score(df,
+                                      slope_threshold=0.005,
+                                      rolling_return_threshold=0.01,
+                                      volatility_max=0.04,
+                                      rvol_threshold=1.5):
+    closes = df["close"]
+    slope = (closes.iloc[-1] - closes.iloc[-15]) / closes.iloc[-15]
+    rolling_return = closes.pct_change(15).iloc[-1]
+    volatility = closes.tail(15).std() / closes.tail(15).mean()
+
+    avg_vol = df["volume"].rolling(20).mean().iloc[-1]
+    current_vol = df["volume"].iloc[-1]
+    rvol = current_vol / avg_vol if avg_vol else 0
+
+    vwap = (df["close"] * df["volume"]).cumsum() / df["volume"].cumsum()
+    price = closes.iloc[-1]
+
+    last_open = df["open"].iloc[-1]
+    last_close = df["close"].iloc[-1]
+    prev_high = df["high"].iloc[-2]
+    last_high = df["high"].iloc[-1]
+
+    score = 0
+    if slope > slope_threshold:
+        score += 1
+    if rolling_return > rolling_return_threshold:
+        score += 1
+    if volatility < volatility_max:
+        score += 1
+    if rvol > rvol_threshold:
+        score += 1
+    if price > vwap.iloc[-1]:
+        score += 1
+    if last_close > last_open:
+        score += 1
+    if last_high > prev_high:
+        score += 1
+
+    return score
 
 def load_gainers_symbols(json_path="exports/top_gainers.json"):
     """

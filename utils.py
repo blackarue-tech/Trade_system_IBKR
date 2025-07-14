@@ -81,3 +81,11 @@ def load_json(path):
     except Exception as e:
         log(f"Error loading JSON from {path}: {e}", "ERROR", "IO")
     return {}
+
+def save_json(data, path):
+    try:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w") as f:
+            json.dump(data, f, indent=2)
+    except Exception as e:
+        log(f"Error saving JSON to {path}: {e}", "ERROR", "IO")

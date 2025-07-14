@@ -1,11 +1,11 @@
 {
-  "min_confidence": 0.75,
+  "min_confidence": 0.6,
   "late_entry_cutoff": "15:30",
   "strategy_weights": {
-    "Momentum": 1.1,
-    "Breakout": 0.5,
-    "VWAP_Bounce": 1.0,
-    "MACD": 1.0
+    "Momentum": 1.15,
+    "Breakout": 0.55,
+    "VWAP_Bounce": 1.05,
+    "MACD": 0.95
   },
   "capital_allocation": {
     "base_pct": 0.1,
@@ -21,11 +21,5 @@
     "min_volume": 500000,
     "max_spread": 0.01
   },
-  "penalized_symbols": [
-    "AMZN",
-    "GOOG",
-    "MA",
-    "NVDA",
-    "V"
-  ]
+  "penalized_symbols": []
 }

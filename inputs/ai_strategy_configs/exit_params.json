@@ -2,37 +2,37 @@
   "loop_interval_sec": 30,
   "default_target_gain": 0.015,
   "default_stop_loss": -0.015,
-  "default_hold_minutes": 240,
+  "default_hold_minutes": 1,
   "early_exit_rules": {
     "ORB": {
       "profit_pct": 0.003,
-      "min_secs": 300,
+      "min_secs": 60,
       "loss_pct": -0.002,
       "loss_wait_secs": 600
     },
     "Breakout": {
       "profit_pct": 0.0025,
-      "min_secs": 180,
-      "loss_pct": 0.01345,
+      "min_secs": 60,
+      "loss_pct": -0.01345,
       "loss_wait_secs": 300
     },
     "Momentum": {
       "profit_pct": 0.002,
-      "min_secs": 120,
-      "loss_pct": 0.01345,
+      "min_secs": 60,
+      "loss_pct": -0.01345,
       "loss_wait_secs": 300
     },
     "VWAP_Bounce": {
       "profit_pct": 0.002,
-      "min_secs": 300,
+      "min_secs": 60,
       "loss_pct": -0.001,
       "loss_wait_secs": 600
     },
     "MACD": {
       "profit_pct": 0.0015,
-      "min_secs": 120,
+      "min_secs": 60,
       "loss_pct": -0.00903,
-      "loss_wait_secs": 318
+      "loss_wait_secs": 20
     }
   },
   "Breakout": {
@@ -42,7 +42,7 @@
       "ma_breakdown"
     ],
     "trailing_pct": 0.005,
-    "adaptive_hold_minutes": 180,
+    "adaptive_hold_minutes": 30,
     "target_gain": 0.02,
     "stop_loss": -0.01
   },
@@ -53,10 +53,10 @@
       "breakout_fail"
     ],
     "trailing_pct": 0.005,
-    "adaptive_hold_minutes": 90,
+    "adaptive_hold_minutes": 30,
     "target_gain": 0.015,
     "stop_loss": -0.015,
-    "min_hold_secs": 216
+    "min_hold_secs": 30
   },
   "VWAP_Bounce": {
     "exit_signals": [
@@ -64,7 +64,7 @@
       "rsi_drop"
     ],
     "trailing_pct": 0.008,
-    "adaptive_hold_minutes": 60,
+    "adaptive_hold_minutes": 30,
     "target_gain": 0.012,
     "stop_loss": -0.012
   },
@@ -75,10 +75,10 @@
       "vwap_reversion"
     ],
     "trailing_pct": 0.005,
-    "adaptive_hold_minutes": 108,
+    "adaptive_hold_minutes": 20,
     "target_gain": 0.01,
     "stop_loss": -0.01,
-    "min_hold_secs": 298
+    "min_hold_secs": 45
   },
   "ORB": {
     "exit_signals": [
@@ -86,7 +86,7 @@
       "vwap_reversion"
     ],
     "trailing_pct": 0.015,
-    "adaptive_hold_minutes": 150,
+    "adaptive_hold_minutes": 30,
     "target_gain": 0.018,
     "stop_loss": -0.012
   }
