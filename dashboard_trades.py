@@ -27,7 +27,7 @@ LOCAL_TZ = pytz.timezone("America/Toronto")
 
 
 st.set_page_config(page_title="📈 Live Trade Dashboard", layout="wide")
-st.title("📈 Live Trade Monitoring Dashboard")
+st.title("📈 Live Trade Monitoring Dashboard test_env4")
 live_prices = load_json(LIVE_PRICES_PATH)
 is_healthy, msg = check_api_health()
 st.markdown(
@@ -154,7 +154,7 @@ with tabs[1]:
 
 # --- Live Open Trades Status Tab ---
 with tabs[2]:
-    st.subheader("🔄 Live Open Trades Status")
+    st.subheader("🔄 Live Open Trades Monitor")
     df_open = df[df["status"] == "open"].copy()
 
     if not df_open.empty:
@@ -163,29 +163,44 @@ with tabs[2]:
         df_open["current_price"] = df_open["symbol"].apply(
             lambda sym: live_prices.get(sym, df_open.loc[df_open["symbol"] == sym, "entry_price"].values[0])
         )
-
         df_open["pnl_pct_live"] = (
             (df_open["current_price"] - df_open["entry_price"]) / df_open["entry_price"]
         ) * 100
+        df_open["pnl_amount_live"] = (
+            (df_open["current_price"] - df_open["entry_price"]) * df_open["shares"]
+        )
 
         df_open["pnl_pct_live"] = df_open["pnl_pct_live"].round(2)
+        df_open["pnl_amount_live"] = df_open["pnl_amount_live"].round(2)
 
-        display_cols = ["symbol", "time_held_min", "pnl_pct_live", "current_price", "shares", "entry_price"]
-        df_display = df_open[display_cols].sort_values("time_held_min", ascending=False)
-        df_display = df_display.rename(columns={
+        display_cols = [
+            "symbol",
+            "time_held_min",
+            "pnl_pct_live",
+            "pnl_amount_live",
+            "current_price",
+            "shares",
+            "entry_price"
+        ]
+        df_display = df_open[display_cols].sort_values("time_held_min", ascending=False).rename(columns={
             "symbol": "Symbol",
             "time_held_min": "Time Held (min)",
             "pnl_pct_live": "PnL %",
+            "pnl_amount_live": "PnL ($)",
             "current_price": "Current Price",
             "shares": "Shares",
             "entry_price": "Entry Price"
         })
 
-        st.dataframe(df_display.style.format({
-            "Time Held (min)": "{:.1f}",
-            "PnL %": "{:.2f}%",
-            "Current Price": "${:.2f}",
-            "Entry Price": "${:.2f}"
-        }), use_container_width=True)
+        st.dataframe(
+            df_display.style.format({
+                "Time Held (min)": "{:.1f}",
+                "PnL %": "{:.2f}%",
+                "PnL ($)": "${:.2f}",
+                "Current Price": "${:.2f}",
+                "Entry Price": "${:.2f}"
+            }),
+            use_container_width=True
+        )
     else:
         st.info("✅ No open trades currently.")

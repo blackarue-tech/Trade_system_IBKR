@@ -8,14 +8,16 @@ from pytz import timezone as pytz_timezone
 import holidays
 import pandas as pd
 
+from modules.questrade import get_symbol_id, get_quote
 from modules.price_data import get_price_data
 from modules.ai_signals_pro import get_strategy_signals
 from modules.model_utils import extract_features, load_model, add_technical_indicators
 from utils import atomic_save_json, update_system_status
 from modules.log_utils import log, fail_safe
-from modules.Wallet_Utils import credit_wallet_balance
+from modules.Wallet_Utils import credit_wallet_balance, debit_wallet_balance
 from polygon_utils import load_gainers_symbols, ensure_gainers_symbols, get_cached_5d_high
 from polygon_utils import filter_gainers_for_momentum_score  # New helper to call scoring logic
+
 
 LOCAL_TZ = pytz_timezone("America/Toronto")
 us_holidays = holidays.US()
@@ -29,6 +31,7 @@ WALLET_PATH = "exports/wallet.json"
 LAST_EXIT_TRACKER_PATH = "exports/last_exit_tracker.json"
 LIVE_PARAMS_PATH = "inputs/ai_strategy_configs/live_params.json"
 EXIT_PARAMS_PATH = "inputs/ai_strategy_configs/exit_params.json"
+SYMBOL_ID_CACHE_PATH = "exports/symbol_id_cache.json"
 MODEL = load_model()
 LOOP_INTERVAL = 30
 MIN_CONFIDENCE = 0.5
@@ -43,6 +46,29 @@ def market_is_open():
     if now.date() in us_holidays:
         return False
     return now.weekday() < 5 and dtime(9, 30) <= now.time() <= dtime(16, 0)
+
+def load_symbol_id_cache():
+    if os.path.exists(SYMBOL_ID_CACHE_PATH):
+        with open(SYMBOL_ID_CACHE_PATH) as f:
+            return json.load(f)
+    return {}
+
+def save_symbol_id_cache(cache):
+    with open(SYMBOL_ID_CACHE_PATH, "w") as f:
+        json.dump(cache, f, indent=2)
+
+symbol_id_cache = load_symbol_id_cache()
+
+def get_cached_symbol_id(symbol):
+    if symbol in symbol_id_cache:
+        return symbol_id_cache[symbol]
+    else:
+        symbol_id = get_symbol_id(symbol)
+        if symbol_id:
+            symbol_id_cache[symbol] = symbol_id
+            save_symbol_id_cache(symbol_id_cache)
+        return symbol_id
+
 
 def load_json(path):
     try:
@@ -160,6 +186,7 @@ def generate_sell_orders():
                 continue
 
             symbol = trade.get("symbol")
+            symbol_id = get_cached_symbol_id(symbol)
             entry_price = trade.get("entry_price")
             shares = trade.get("shares")
             trade_entry_time_str = trade.get("datetime")
@@ -169,13 +196,20 @@ def generate_sell_orders():
             if not entry_price or not shares or not trade_entry_time_str:
                 log(f"⚠️ Incomplete trade data for {symbol}, skipping.", "WARNING", "BacktestEngine")
                 continue
-
+            quote = get_quote(symbol_id)    
             df = get_price_data(symbol, days=2, interval="minute")
             if df is None or df.empty:
                 log(f"⚠️ No price data for {symbol}, skipping SELL check.", "WARNING", "BacktestEngine")
                 continue
-
-            price = df["close"].iloc[-1]
+            
+            if quote and quote.get("bidPrice"):
+                price = quote["bidPrice"]
+                log(f"📈 Using LIVE quote price for {symbol}: {price:.2f}", "DEBUG", "BacktestEngine")
+            else:
+                price = df["close"].iloc[-1]
+                log(f"📊 Using candle close price for {symbol}: {price:.2f}", "DEBUG", "BacktestEngine")
+                
+            
             pnl_value = (price - entry_price) * shares
             pnl_pct = ((price - entry_price) / entry_price) * 100
             live_prices[symbol] = price
@@ -229,12 +263,22 @@ def generate_sell_orders():
                     exit_reasons.append("bollinger_breakdown")
                 if "atr_spike" in exit_signals_enabled and last.get("atr", 0) > df["atr"].rolling(20).mean().iloc[-1] * 1.5:
                     exit_reasons.append("atr_spike")
-
-            if elapsed_secs > 1800 and pnl_pct >= 0.5:
+            if pnl_value >= 100:
+                exit_reasons.append("quick_win_100_plus")
+            # Adaptive stop-loss scaling based on holding time
+            if 30 <= elapsed_minutes <= 60 and pnl_pct <= -1.99:
+                exit_reasons.append("adaptive_stop_loss_60_120")
+            elif 61 <= elapsed_minutes <= 120 and pnl_pct <= -3.5:
+                exit_reasons.append("adaptive_stop_loss_121_180")
+            elif 121 <= elapsed_minutes <= 240 and pnl_pct <= -5.0:
+                exit_reasons.append("adaptive_stop_loss_181_240")
+            elif elapsed_minutes > 241:
+                exit_reasons.append("max_hold_exit")
+            if elapsed_minutes > 30 and pnl_pct >= 0.0:
                 exit_reasons.append("time_exit_after_30min_small_pnl")
             log(f"🔎 Checking {symbol}: PnL {pnl_pct:.2f}%, target {target_gain}%, hold {elapsed_minutes:.1f}min / {adaptive_hold}min, exit_reasons: {exit_reasons}", "DEBUG", "BacktestEngine")
             if exit_reasons:
-                if pnl_value < 0:
+                if pnl_value < 0 and not any(reason.startswith("adaptive_stop_loss") for reason in exit_reasons):
                     exit_failures.append({
                         "symbol": symbol,
                         "strategy": strategy,
@@ -280,7 +324,7 @@ def generate_buy_orders():
 
     now = datetime.now(LOCAL_TZ)
     if now.time() >= dtime(16, 0):
-        log("🛑 Market closed at 16:00, skipping BUY generation.", "INFO", "BacktestEngine")
+        log("\U0001F6D1 Market closed at 16:00, skipping BUY generation.", "INFO", "BacktestEngine")
         return
 
     live_params = load_json(LIVE_PARAMS_PATH)
@@ -328,25 +372,44 @@ def generate_buy_orders():
             log(f"⚠️ No slots available for non-momentum symbols.", "WARNING", "BacktestEngine")
             return
 
-    log("✅ Starting BUY checks and order generation.", "INFO", "BacktestEngine")
+    log("✅ Starting BUY checks and execution.", "INFO", "BacktestEngine")
+
+    today_key = now.strftime("%Y-%m-%d")
+    if today_key not in live_trades:
+        live_trades[today_key] = {"trades": []}
 
     for symbol in symbols_to_trade:
         is_momentum = symbol in momentum_symbols
 
         now = datetime.now(LOCAL_TZ)
         if now.time() >= dtime(15, 30):
-            log(f"🛑 Skipping BUY for {symbol} after 15:30 cutoff.", "INFO", "BacktestEngine")
+            log(f"\U0001F6D1 Skipping BUY for {symbol} after 15:30 cutoff.", "INFO", "BacktestEngine")
             continue
-        if not is_momentum and not simulate_sandbox(symbol):
-            log(f"🚫 Skipping {symbol}, sandbox pre-buy check failed (non-momentum).", "WARNING", "BacktestEngine")
+        #if not is_momentum and not simulate_sandbox(symbol):
+            #log(f"🚫 Skipping {symbol}, sandbox pre-buy check failed (non-momentum).", "WARNING", "BacktestEngine")
+            #continue
+        #if is_momentum and not passes_momentum_sandbox(symbol):
+            #log(f"⛔ {symbol} failed sandbox momentum check — skipping.", "WARNING", "BacktestEngine")
+            #continue
+        if any(
+            trade.get("symbol") == symbol and trade.get("status") == "open"
+            for day in live_trades.values()
+            for trade in day.get("trades", [])
+        ):
             continue
-        if is_momentum and not passes_momentum_sandbox(symbol):
-            log(f"⛔ {symbol} failed sandbox momentum check — skipping.", "WARNING", "BacktestEngine")
-            continue
-
+        symbol_id = get_cached_symbol_id(symbol)
+        quote = get_quote(symbol_id)
         df = get_price_data(symbol, days=2, interval="minute")
         if df is None or df.empty:
+            log(f"⚠️ No price data for {symbol}, skipping BUY check.", "WARNING", "BacktestEngine")
             continue
+
+        if quote and quote.get("bidPrice"):
+            price = quote["bidPrice"]
+            log(f"📈 Using LIVE quote price for {symbol}: {price:.2f}", "DEBUG", "BacktestEngine")
+        else:
+            price = df["close"].iloc[-1]
+            log(f"📊 Using candle close price for {symbol}: {price:.2f}", "DEBUG", "BacktestEngine")
 
         signals_df = get_strategy_signals(symbol, df, min_confidence=0.0)
         if signals_df.empty:
@@ -374,51 +437,59 @@ def generate_buy_orders():
             continue
 
         price = best.get("close") or df["close"].iloc[-1]
-
         allocation_pct = min(base_pct + bonus_pct * confidence, max_allocation_pct)
         max_capital = min(available_capital - total_pending_allocation, CAPITAL_LIMIT * allocation_pct)
         shares = max(int(max_capital // price), 0)
         capital_allocated = round(shares * price, 2)
 
-        if shares < 1 or capital_allocated <= 0:
+        if price is None or  price  <= 1:
+            log(f"⚠️ Skipping {symbol}, price { price } is <= 1.", "WARNING", "BacktestEngine")
+            continue        
+        
+        if shares < 10 or capital_allocated <= 0:
             log(f"⚠️ Skipping {symbol}, insufficient capital for allocation.", "WARNING", "BacktestEngine")
             continue
 
-        total_pending_allocation += capital_allocated
-
-        if not is_momentum and not simulate_sandbox(symbol):
-            log(f"🚫 Skipping {symbol}, sandbox pre-check failed.", "WARNING", "BacktestEngine")
+        if not debit_wallet_balance(WALLET_PATH, capital_allocated):
+            log(f"❌ Wallet debit failed for {symbol}.", "WARNING", "BacktestEngine")
             continue
 
-        buy_order = {
+        trade = {
             "symbol": symbol,
-            "action": "BUY",
-            "confidence": round(confidence, 3),
-            "price": price,
+            "symbolId": get_cached_symbol_id(symbol),
+            "datetime": now.isoformat(),
+            "entry_price": price,
             "entry_price_triggered": price,
+            "entry_price_executed": price,
             "shares": shares,
-            "capital_allocated": capital_allocated,
-            "timestamp": datetime.now(LOCAL_TZ).isoformat(),
-            "strategies_used": [strategy],  # << 🔥 Add this line
-            "allocation_notes": "Momentum" if is_momentum else ("Strong" if confidence >= 0.7 else "Weak")
+            "capital_used": capital_allocated,
+            "status": "open",
+            "confidence": round(confidence, 3),
+            "allocation_notes": "Momentum" if is_momentum else ("Strong" if confidence >= 0.7 else "Weak"),
+            "strategies_used": [strategy]
         }
 
-        atomic_save_json(buy_order, BUY_ORDERS_PATH)
+        live_trades[today_key]["trades"].append(trade)
+        total_pending_allocation += capital_allocated
+
         log(f"{'📈 Momentum BUY' if is_momentum else '✅ BUY'} {symbol} @ {price:.2f} | {shares} shares", "INFO", "BacktestEngine")
 
+    save_json(live_trades, LIVE_TRADES_PATH)
     save_json(control, CONTROL_PATH)
     save_json(recovery, RECOVERY_TRACK_FILE)
     update_system_status("backtest_engine", {
-        "status": "Orders processing complete",
+        "status": "BUY execution complete",
         "timestamp": datetime.now(LOCAL_TZ).isoformat()
     })
-    log(f"Completed BUY checks.", "INFO", "BacktestEngine")
+    log(f"Completed BUY execution.", "INFO", "BacktestEngine")
+
     
 # === LOOP ===
 def run_loop():
     while True:
+        generate_buy_orders() 
         generate_sell_orders()
-        generate_buy_orders()        
+               
         log(f"Sleeping {LOOP_INTERVAL}s before next cycle.", "INFO", "BacktestEngine")        
         time.sleep(LOOP_INTERVAL)
 
