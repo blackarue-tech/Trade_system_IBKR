@@ -1,0 +1,9 @@
+{
+  "equities": {
+    "exchange": "SMART",
+    "currency": "USD",
+    "tif": "DAY",
+    "default_order_type": "MKT",
+    "outsideRth": false
+  }
+}

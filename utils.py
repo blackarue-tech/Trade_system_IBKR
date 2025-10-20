@@ -9,9 +9,13 @@ from filelock import FileLock, Timeout
 from modules.log_utils import log
 
 def atomic_save_json(data, path, retries=5, delay=1):
-    lock_path = path + ".lock"
+    #lock_path = path + ".lock"
     tmp_path = path + ".tmp"
 
+    if isinstance(data, str) and not isinstance(path, str):
+        data, path = path, data
+    lock_path = path + ".lock"
+    
     for attempt in range(1, retries + 1):
         try:
             with FileLock(lock_path, timeout=10):

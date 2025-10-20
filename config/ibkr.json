@@ -1,0 +1,12 @@
+{
+  "host": "127.0.0.1",
+  "port": 4002,
+  "preferred": "tws",            
+  "client_ids": {
+    "orders": 31,
+    "status_daemon": 32,
+    "data_feed": 33
+  },
+  "connect_timeout_secs": 8,
+  "reconnect_backoff_secs": 5
+}

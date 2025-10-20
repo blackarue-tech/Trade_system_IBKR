@@ -1,0 +1,119 @@
+{
+  "PSTG": {
+    "symbol": "PSTG",
+    "bid": null,
+    "ask": null,
+    "last": 75.6252,
+    "volume": 2,
+    "timestamp": "2025-08-28T09:39:05.193370-04:00",
+    "delayed": false
+  },
+  "SNOU": {
+    "symbol": "SNOU",
+    "bid": null,
+    "ask": null,
+    "last": 53.74,
+    "volume": 100,
+    "timestamp": "2025-08-28T09:39:03.880958-04:00",
+    "delayed": true
+  },
+  "AGFY": {
+    "symbol": "AGFY",
+    "bid": null,
+    "ask": null,
+    "last": 41.7,
+    "volume": 3,
+    "timestamp": "2025-08-28T09:39:04.696199-04:00",
+    "delayed": false
+  },
+  "MB": {
+    "symbol": "MB",
+    "bid": null,
+    "ask": null,
+    "last": 10.6927,
+    "volume": 50,
+    "timestamp": "2025-08-28T09:39:04.490467-04:00",
+    "delayed": true
+  },
+  "THAR": {
+    "symbol": "THAR",
+    "bid": null,
+    "ask": null,
+    "last": 5.9499,
+    "volume": 100,
+    "timestamp": "2025-08-28T09:39:05.994544-04:00",
+    "delayed": false
+  },
+  "SOGP": {
+    "symbol": "SOGP",
+    "bid": null,
+    "ask": null,
+    "last": 5.32,
+    "volume": 250,
+    "timestamp": "2025-08-28T09:39:06.088269-04:00",
+    "delayed": false
+  },
+  "LTRX": {
+    "symbol": "LTRX",
+    "bid": null,
+    "ask": null,
+    "last": 4.352,
+    "volume": 100,
+    "timestamp": "2025-08-28T09:39:04.935840-04:00",
+    "delayed": true
+  },
+  "CWD": {
+    "symbol": "CWD",
+    "bid": null,
+    "ask": null,
+    "last": 3.06,
+    "volume": 1000,
+    "timestamp": "2025-08-28T09:39:06.433241-04:00",
+    "delayed": false
+  },
+  "LGHL": {
+    "symbol": "LGHL",
+    "bid": null,
+    "ask": null,
+    "last": 2.195,
+    "volume": 10,
+    "timestamp": "2025-08-28T09:39:06.686933-04:00",
+    "delayed": false
+  },
+  "PTNM": {
+    "symbol": "PTNM",
+    "bid": null,
+    "ask": null,
+    "last": 1.9362,
+    "volume": 1000,
+    "timestamp": "2025-08-28T09:39:05.605795-04:00",
+    "delayed": true
+  },
+  "YORKW": {
+    "symbol": "YORKW",
+    "bid": null,
+    "ask": null,
+    "last": 1.99,
+    "volume": 1,
+    "timestamp": "2025-08-28T09:38:36.821190-04:00",
+    "delayed": true
+  },
+  "PW": {
+    "symbol": "PW",
+    "bid": null,
+    "ask": null,
+    "last": 1.915,
+    "volume": 50,
+    "timestamp": "2025-08-28T09:39:00.329608-04:00",
+    "delayed": true
+  },
+  "TELO": {
+    "symbol": "TELO",
+    "bid": null,
+    "ask": null,
+    "last": 1.835,
+    "volume": 200,
+    "timestamp": "2025-08-28T09:39:07.271331-04:00",
+    "delayed": false
+  }
+}

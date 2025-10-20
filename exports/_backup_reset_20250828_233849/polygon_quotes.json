@@ -1,0 +1,119 @@
+{
+  "PSTG": {
+    "symbol": "PSTG",
+    "bid": null,
+    "ask": null,
+    "last": 80.58,
+    "volume": 195,
+    "timestamp": "2025-08-28T19:59:49.210304-04:00",
+    "delayed": true
+  },
+  "SNOU": {
+    "symbol": "SNOU",
+    "bid": null,
+    "ask": null,
+    "last": 58.8301,
+    "volume": 0,
+    "timestamp": "2025-08-28T20:00:05.688910-04:00",
+    "delayed": true
+  },
+  "AGFY": {
+    "symbol": "AGFY",
+    "bid": null,
+    "ask": null,
+    "last": 44,
+    "volume": 10,
+    "timestamp": "2025-08-28T19:57:20.653484-04:00",
+    "delayed": true
+  },
+  "SOGP": {
+    "symbol": "SOGP",
+    "bid": null,
+    "ask": null,
+    "last": 16.5,
+    "volume": 50,
+    "timestamp": "2025-08-28T19:59:59.862072-04:00",
+    "delayed": true
+  },
+  "MB": {
+    "symbol": "MB",
+    "bid": null,
+    "ask": null,
+    "last": 11.89,
+    "volume": 7,
+    "timestamp": "2025-08-28T19:56:30.090166-04:00",
+    "delayed": true
+  },
+  "OPAD": {
+    "symbol": "OPAD",
+    "bid": null,
+    "ask": null,
+    "last": 4.57,
+    "volume": 550,
+    "timestamp": "2025-08-28T19:59:59.904909-04:00",
+    "delayed": true
+  },
+  "CWD": {
+    "symbol": "CWD",
+    "bid": null,
+    "ask": null,
+    "last": 3.2199,
+    "volume": 30,
+    "timestamp": "2025-08-28T19:59:57.717153-04:00",
+    "delayed": true
+  },
+  "FTHM": {
+    "symbol": "FTHM",
+    "bid": null,
+    "ask": null,
+    "last": 2.27,
+    "volume": 100,
+    "timestamp": "2025-08-28T19:58:40.013346-04:00",
+    "delayed": true
+  },
+  "PTNM": {
+    "symbol": "PTNM",
+    "bid": null,
+    "ask": null,
+    "last": 2.1,
+    "volume": 165,
+    "timestamp": "2025-08-28T19:59:41.985358-04:00",
+    "delayed": true
+  },
+  "RMTI": {
+    "symbol": "RMTI",
+    "bid": null,
+    "ask": null,
+    "last": 2,
+    "volume": 100,
+    "timestamp": "2025-08-28T19:59:55.521767-04:00",
+    "delayed": true
+  },
+  "YORKW": {
+    "symbol": "YORKW",
+    "bid": null,
+    "ask": null,
+    "last": 1.93,
+    "volume": 2,
+    "timestamp": "2025-08-28T19:59:36.639529-04:00",
+    "delayed": true
+  },
+  "GRYP": {
+    "symbol": "GRYP",
+    "bid": null,
+    "ask": null,
+    "last": 1.72,
+    "volume": 72,
+    "timestamp": "2025-08-28T19:59:51.068959-04:00",
+    "delayed": true
+  },
+  "AQB": {
+    "symbol": "AQB",
+    "bid": null,
+    "ask": null,
+    "last": 1.18,
+    "volume": 777,
+    "timestamp": "2025-08-28T19:59:41.625393-04:00",
+    "delayed": true
+  }
+}

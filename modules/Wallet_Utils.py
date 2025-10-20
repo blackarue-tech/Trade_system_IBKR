@@ -5,6 +5,7 @@ import json
 import pytz
 from datetime import datetime
 from pytz import timezone
+import math
 
 from modules.log_utils import log, fail_safe
 
@@ -117,6 +118,10 @@ def audit_wallet():
     trades = load_json(TRADE_LOG_PATH)
 
     initial_balance = infer_starting_balance_from_today(trades)
+    if isinstance(initial_balance, float) and math.isnan(initial_balance):
+        initial_balance = 10000.0
+    realized_pnl = 0
+    locked_capital = 0
     realized_pnl = 0
     locked_capital = 0
 

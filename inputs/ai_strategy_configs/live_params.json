@@ -1,5 +1,6 @@
 {
   "min_confidence": 0.6,
+  "min_buy_shares": 10,
   "late_entry_cutoff": "15:30",
   "strategy_weights": {
     "Momentum": 1.15,
@@ -21,5 +22,21 @@
     "min_volume": 500000,
     "max_spread": 0.01
   },
-  "penalized_symbols": []
+  "penalized_symbols": [],
+  "pending_policy": {
+    "enabled": true,
+
+    "buy": {
+      "reprice_after_s": 20,
+      "convert_to_market_after_s": 60,
+      "reprice_offset_bps": 5,
+      "max_slippage_bps": 20
+    },
+    "sell": {
+      "reprice_after_s": 15,
+      "convert_to_market_after_s": 45,
+      "reprice_offset_bps": 5,
+      "max_slippage_bps": 20
+    }
+    }
 }

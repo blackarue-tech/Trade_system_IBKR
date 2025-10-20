@@ -1,0 +1,119 @@
+{
+  "AFRM": {
+    "symbol": "AFRM",
+    "bid": null,
+    "ask": null,
+    "last": 98.7465,
+    "volume": 300,
+    "timestamp": "2025-08-29T09:35:34.602761-04:00",
+    "delayed": false
+  },
+  "AMBA": {
+    "symbol": "AMBA",
+    "bid": null,
+    "ask": null,
+    "last": 89.73,
+    "volume": 100,
+    "timestamp": "2025-08-29T09:35:33.521570-04:00",
+    "delayed": false
+  },
+  "BABX": {
+    "symbol": "BABX",
+    "bid": null,
+    "ask": null,
+    "last": 31.32,
+    "volume": 30,
+    "timestamp": "2025-08-29T09:35:34.677810-04:00",
+    "delayed": false
+  },
+  "IREN": {
+    "symbol": "IREN",
+    "bid": null,
+    "ask": null,
+    "last": 28.83,
+    "volume": 67,
+    "timestamp": "2025-08-29T09:35:35.068779-04:00",
+    "delayed": false
+  },
+  "KBAB": {
+    "symbol": "KBAB",
+    "bid": null,
+    "ask": null,
+    "last": 19.54,
+    "volume": 10,
+    "timestamp": "2025-08-29T09:35:07.233493-04:00",
+    "delayed": true
+  },
+  "BBBY": {
+    "symbol": "BBBY",
+    "bid": null,
+    "ask": null,
+    "last": 9.66,
+    "volume": 8,
+    "timestamp": "2025-08-29T09:35:31.951683-04:00",
+    "delayed": true
+  },
+  "NEO": {
+    "symbol": "NEO",
+    "bid": null,
+    "ask": null,
+    "last": 8.96724,
+    "volume": 3,
+    "timestamp": "2025-08-29T09:35:35.421547-04:00",
+    "delayed": false
+  },
+  "ZONE": {
+    "symbol": "ZONE",
+    "bid": null,
+    "ask": null,
+    "last": 7.6726,
+    "volume": 10,
+    "timestamp": "2025-08-29T09:35:29.112973-04:00",
+    "delayed": true
+  },
+  "NUKK": {
+    "symbol": "NUKK",
+    "bid": null,
+    "ask": null,
+    "last": 5.5591,
+    "volume": 400,
+    "timestamp": "2025-08-29T09:35:35.771982-04:00",
+    "delayed": false
+  },
+  "ANTE": {
+    "symbol": "ANTE",
+    "bid": null,
+    "ask": null,
+    "last": 4.945,
+    "volume": 50,
+    "timestamp": "2025-08-29T09:35:32.860820-04:00",
+    "delayed": true
+  },
+  "WOOF": {
+    "symbol": "WOOF",
+    "bid": null,
+    "ask": null,
+    "last": 3.885,
+    "volume": 38,
+    "timestamp": "2025-08-29T09:35:36.148644-04:00",
+    "delayed": false
+  },
+  "IPDN": {
+    "symbol": "IPDN",
+    "bid": null,
+    "ask": null,
+    "last": 3.2506,
+    "volume": 25,
+    "timestamp": "2025-08-29T09:35:36.339726-04:00",
+    "delayed": false
+  },
+  "GMHS": {
+    "symbol": "GMHS",
+    "bid": null,
+    "ask": null,
+    "last": 2.41,
+    "volume": 50,
+    "timestamp": "2025-08-29T09:35:36.446496-04:00",
+    "delayed": false
+  }
+}

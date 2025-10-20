@@ -1,0 +1,41 @@
+{
+  "live_executor": {
+    "timestamp": "2025-07-14T13:37:28.186450",
+    "last_execution": "2025-07-14T13:37:28.122988-04:00"
+  },
+  "ai_daemon": {
+    "timestamp": "2025-06-30T10:00:44.881059",
+    "top_strategy": "Breakout",
+    "sharpe": -0.01,
+    "drawdown": 105.13
+  },
+  "exit_executor": {
+    "timestamp": "2025-07-14T11:25:51.669007",
+    "last_execution": "2025-07-14T11:25:51.593744-04:00"
+  },
+  "signal_engine": {
+    "timestamp": "2025-06-26T11:59:47.100900",
+    "top_symbols": [
+      "MSFT",
+      "NFLX",
+      "COST",
+      "HD"
+    ],
+    "count": 4
+  },
+  "signal_engine_monitor": {
+    "timestamp": "2025-06-30T10:00:54.605926",
+    "count": 155
+  },
+  "signal_engine_top": {
+    "timestamp": "2025-06-30T09:52:53.446991",
+    "symbols": [
+      "AMZN",
+      "NVDA"
+    ]
+  },
+  "backtest_engine": {
+    "timestamp": "2025-08-21T15:59:51.854133-04:00",
+    "status": "BUY execution complete"
+  }
+}

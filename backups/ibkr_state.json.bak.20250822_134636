@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-08-22T12:07:43.075392",
+  "orders_open": [],
+  "positions": [
+    {
+      "symbol": "DHX",
+      "position": -9115.0,
+      "avgCost": 2.5675931
+    },
+    {
+      "symbol": "KYIV",
+      "position": -118.0,
+      "avgCost": 15.2713373
+    },
+    {
+      "symbol": "CSBR",
+      "position": -3804.0,
+      "avgCost": 7.4373145
+    },
+    {
+      "symbol": "ANTE",
+      "position": -41594.0,
+      "avgCost": 2.7907311
+    },
+    {
+      "symbol": "RMSG",
+      "position": -2495.0,
+      "avgCost": 3.9896791
+    },
+    {
+      "symbol": "SNAL",
+      "position": -54472.0,
+      "avgCost": 1.05384745
+    },
+    {
+      "symbol": "INTW",
+      "position": -1595.0,
+      "avgCost": 23.99849735
+    },
+    {
+      "symbol": "HIND",
+      "position": -0.25,
+      "avgCost": 15.4192
+    },
+    {
+      "symbol": "VWAV",
+      "position": -9120.0,
+      "avgCost": 9.05720225
+    },
+    {
+      "symbol": "SDM",
+      "position": -1974.0,
+      "avgCost": 10.11883965
+    }
+  ],
+  "fills": [
+    {
+      "orderId": 4,
+      "symbol": "AAPL",
+      "side": "BOT",
+      "shares": 4.0,
+      "price": 228.36,
+      "time": "2025-08-22T14:47:40+00:00"
+    },
+    {
+      "orderId": 8,
+      "symbol": "AAPL",
+      "side": "SLD",
+      "shares": 4.0,
+      "price": 228.26,
+      "time": "2025-08-22T15:19:27+00:00"
+    }
+  ]
+}

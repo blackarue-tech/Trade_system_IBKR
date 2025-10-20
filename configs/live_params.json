@@ -1,0 +1,14 @@
+{
+  "live_trading": true,
+  "min_confidence": 0.55,
+  "capital_allocation": {
+    "per_trade_cap_usd": 1000,
+    "max_concurrent_positions": 10
+  },
+  "guards": {
+    "avoid_fading": true,
+    "require_farming": true,
+    "spike_guard_pct": 1.0,
+    "block_duplicate_symbol": true
+  }
+}
